@@ -88,7 +88,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#what-is-a-widget" class="md-skip">
+        <a href="#how-to-create-a-widget" class="md-skip">
           Skip to content
         </a>
       
@@ -102,7 +102,7 @@
 
   
 
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../../.." title="Qtile" class="md-header__button md-logo" aria-label="Qtile" data-md-component="logo">
       
@@ -226,13 +226,131 @@
     
   </nav>
   
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../install/" class="md-tabs__link">
+          
+  
+  Getting Started
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../commands/" class="md-tabs__link">
+          
+  
+  Scripting
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../config/default/" class="md-tabs__link">
+          
+  
+  Configuration
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../hacking/" class="md-tabs__link">
+          
+  
+  Hacking
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../faq/" class="md-tabs__link">
+          
+  
+  Miscellaneous
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
-        
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -246,8 +364,10 @@
                     
 
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../../.." title="Qtile" class="md-nav__button md-logo" aria-label="Qtile" data-md-component="logo">
       
@@ -278,6 +398,32 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
     
     
     
@@ -291,10 +437,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
-          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -311,8 +457,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_1">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -333,12 +479,15 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
         
           
           
@@ -360,14 +509,14 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_1_1" id="__nav_1_1_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_2_1" id="__nav_2_1_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_1_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_1_1">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -580,6 +729,110 @@
   
   
   
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    
+  
+    Running Qtile
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Running Qtile
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/gnome/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Gnome
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/without-dm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    systemd
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../wayland/" class="md-nav__link">
         
@@ -628,15 +881,40 @@
 
               
             
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
               
                 
   
   
   
   
-    <li class="md-nav__item">
-      <a href="../../commands/shell/" class="md-nav__link">
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
         
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../commands/shell/" class="md-nav__link ">
+              
   
   <span class="md-ellipsis">
     
@@ -649,7 +927,245 @@
   
   
 
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Entry points
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../commands/shell/qtile-start/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile start
+  
+
+    
+  </span>
+  
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../commands/shell/qtile-shell/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile shell
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../commands/shell/qtile-migrate/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile migrate
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../commands/shell/qtile-cmd/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile cmd-obj
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../commands/shell/qtile-run/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile run-cmd
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../commands/shell/qtile-top/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile top
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../commands/shell/dqtile-cmd/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    dqtile-cmd
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../commands/shell/iqshell/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    iqshell
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -681,10 +1197,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -701,8 +1217,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -718,9 +1234,26 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../commands/" class="md-nav__link">
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
         
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../commands/" class="md-nav__link ">
+              
   
   <span class="md-ellipsis">
     
@@ -733,7 +1266,110 @@
   
   
 
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_1" id="__nav_3_1_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Architecture
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../commands/command_graph/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    The Command Graph
+  
+
+    
+  </span>
+  
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../commands/navigation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Navigating the Command Graph
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../commands/advanced/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Command Graph development
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -777,12 +1413,15 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
         
           
           
@@ -804,14 +1443,14 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_3_3" id="__nav_3_3_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_3">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1071,10 +1710,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1091,8 +1730,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1135,9 +1774,26 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../config/" class="md-nav__link">
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
         
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../config/" class="md-nav__link ">
+              
   
   <span class="md-ellipsis">
     
@@ -1150,7 +1806,273 @@
   
   
 
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2" id="__nav_4_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    The configuration file
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2_1" id="__nav_4_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuration variables
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Configuration variables
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../config/lazy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Lazy objects
+  
+
+    
+  </span>
+  
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../config/groups/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Groups
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../config/keys/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Keys
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../config/layouts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Layouts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../config/mouse/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Mouse
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../config/screens/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Screens
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../config/hooks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Hooks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1344,10 +2266,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1364,8 +2286,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1429,6 +2351,33 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-migrate/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Migrations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1457,10 +2406,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1477,8 +2426,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_5">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1531,6 +2480,23 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    
+  
+    How to create a widget
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1546,6 +2512,419 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-a-widget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is a widget?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#widget-base-classes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Widget base classes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Widget base classes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_widget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        _Widget
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_textbox" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        _TextBox
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inlooppolltext" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        InLoopPollText
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#threadpooltext" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ThreadPoolText
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mixins" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mixins
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mixins">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#paddingmixin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PaddingMixin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#marginmixin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MarginMixin
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuration
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#defining-parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Defining Parameters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-__init__-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The __init__ method
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-_configure-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The _configure method
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#displaying-output" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Displaying output
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Displaying output">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-draw-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The "draw" method
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#displaying-text" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Displaying text
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#displaying-icons-and-images" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Displaying icons and images
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#drawing-shapes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Drawing shapes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#background" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Background
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#updating-the-widget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Updating the widget
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Updating the widget">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#timers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Timers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hooks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-dbus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Using dbus
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mouse-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mouse events
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exposing-commands-to-the-ipc-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exposing commands to the IPC interface
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debugging" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debugging
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#submitting-the-widget-to-the-official-repo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Submitting the widget to the official repo
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Submitting the widget to the official repo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#including-the-widget-in-libqtilewidget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Including the widget in libqtile.widget
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Testing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Documentation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Documentation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#screenshots" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Screenshots
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-help" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting help
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1660,6 +3039,408 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-a-widget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is a widget?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#widget-base-classes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Widget base classes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Widget base classes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_widget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        _Widget
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_textbox" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        _TextBox
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inlooppolltext" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        InLoopPollText
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#threadpooltext" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ThreadPoolText
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mixins" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mixins
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mixins">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#paddingmixin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PaddingMixin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#marginmixin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MarginMixin
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuration
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#defining-parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Defining Parameters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-__init__-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The __init__ method
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-_configure-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The _configure method
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#displaying-output" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Displaying output
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Displaying output">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-draw-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The "draw" method
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#displaying-text" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Displaying text
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#displaying-icons-and-images" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Displaying icons and images
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#drawing-shapes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Drawing shapes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#background" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Background
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#updating-the-widget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Updating the widget
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Updating the widget">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#timers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Timers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hooks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-dbus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Using dbus
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mouse-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mouse events
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exposing-commands-to-the-ipc-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exposing commands to the IPC interface
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debugging" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debugging
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#submitting-the-widget-to-the-official-repo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Submitting the widget to the official repo
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Submitting the widget to the official repo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#including-the-widget-in-libqtilewidget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Including the widget in libqtile.widget
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Testing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Documentation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Documentation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#screenshots" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Screenshots
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-help" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting help
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1690,50 +3471,47 @@
   
 
 
-<p>.. _widget-creation:</p>
-<p>======================
-How to create a widget
-======================</p>
+<h1 id="how-to-create-a-widget">How to create a widget<a class="headerlink" href="#how-to-create-a-widget" title="Permanent link">&para;</a></h1>
 <p>The aim of this page is to explain the main components of qtile widgets, how
 they work, and how you can use them to create your own widgets.</p>
-<p>.. note::
-    This page is not meant to be an exhaustive summary of everything needed to
-    make a widget.</p>
-<pre><code>It is highly recommended that users wishing to create their own widget refer
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>
+This page is not meant to be an exhaustive summary of everything needed to
+make a widget.</p>
+<p>It is highly recommended that users wishing to create their own widget refer
 to the source documentation of existing widgets to familiarise themselves with
-the code.
-
-However, the detail below may prove helpful when read in conjunction with the
-source code.
-</code></pre>
-<h1 id="what-is-a-widget">What is a widget?<a class="headerlink" href="#what-is-a-widget" title="Permanent link">&para;</a></h1>
+the code.</p>
+<p>However, the detail below may prove helpful when read in conjunction with the
+source code.</p>
+</div>
+<h2 id="what-is-a-widget">What is a widget?<a class="headerlink" href="#what-is-a-widget" title="Permanent link">&para;</a></h2>
 <p>In Qtile, a widget is a small drawing that is displayed on the user's bar. The
 widget can display text, images and drawings. In addition, the widget can be
 configured to update based on timers, hooks, dbus_events etc. and can also
 respond to mouse events (clicks, scrolls and hover).</p>
-<h1 id="widget-base-classes">Widget base classes<a class="headerlink" href="#widget-base-classes" title="Permanent link">&para;</a></h1>
+<h2 id="widget-base-classes">Widget base classes<a class="headerlink" href="#widget-base-classes" title="Permanent link">&para;</a></h2>
 <p>Qtile provides a number of base classes for widgets than can be used to implement
 commonly required features (e.g. display text).</p>
 <p>Your widget should inherit one of these classes. Whichever base class you inherit
 for your widget, if you override either the <code>__init__</code> and/or <code>_configure</code>
 methods, you should make sure that your widget calls the equivalent method from
 the superclass.</p>
-<p>.. code:: python</p>
-<pre><code>class MyCustomWidget(base._TextBox):
+<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">MyCustomWidget</span><span class="p">(</span><span class="n">base</span><span class="o">.</span><span class="n">_TextBox</span><span class="p">):</span>
 
-    def __init__(self, **config):
-        super().__init__("", **config)
-        # My widget's initialisation code here
-</code></pre>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">**</span><span class="n">config</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="o">**</span><span class="n">config</span><span class="p">)</span>
+        <span class="c1"># My widget&#39;s initialisation code here</span>
+</code></pre></div>
 <p>The functions of the various base classes are explained further below.</p>
-<h2 id="_widget">_Widget<a class="headerlink" href="#_widget" title="Permanent link">&para;</a></h2>
+<h3 id="_widget">_Widget<a class="headerlink" href="#_widget" title="Permanent link">&para;</a></h3>
 <p>This is the base widget class that defines the core components required for a widget.
 All other base classes are based off this class.</p>
 <p>This is like a blank canvas so you're free to do what you want but you don't have any
 of the extra functionality provided by the other base classes.</p>
 <p>The <code>base._Widget</code> class is therefore typically used for widgets that want to draw
 graphics on the widget as opposed to displaying text.</p>
-<h2 id="_textbox">_TextBox<a class="headerlink" href="#_textbox" title="Permanent link">&para;</a></h2>
+<h3 id="_textbox">_TextBox<a class="headerlink" href="#_textbox" title="Permanent link">&para;</a></h3>
 <p>The <code>base._TextBox</code> class builds on the bare widget and adds a <code>drawer.TextLayout</code>
 which is accessible via the <code>self.layout</code> property. The widget will adjust its size
 to fit the amount of text to be displayed.</p>
@@ -1742,67 +3520,66 @@ a redrawing of the widget.</p>
 <p>Parameters including <code>font</code>, <code>fontsize</code>, <code>fontshadow</code>, <code>padding</code> and
 <code>foreground</code> (font colour) can be configured. It is recommended not to hard-code
 these parameters as users may wish to have consistency across units.</p>
-<h2 id="inlooppolltext">InLoopPollText<a class="headerlink" href="#inlooppolltext" title="Permanent link">&para;</a></h2>
+<h3 id="inlooppolltext">InLoopPollText<a class="headerlink" href="#inlooppolltext" title="Permanent link">&para;</a></h3>
 <p>The <code>base.InLoopPollText</code> class builds on the <code>base._TextBox</code> by adding a timer to
 periodically refresh the displayed text.</p>
 <p>Widgets using this class should override the <code>poll</code> method to include a function that
 returns the required text.</p>
-<p>.. note::
-    This loop runs in the event loop so it is important that the poll method does not
-    call some blocking function. If this is required, widgets should inherit the
-    <code>base.ThreadPoolText</code> class (see below).</p>
-<h2 id="threadpooltext">ThreadPoolText<a class="headerlink" href="#threadpooltext" title="Permanent link">&para;</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>
+This loop runs in the event loop so it is important that the poll method does not
+call some blocking function. If this is required, widgets should inherit the
+<code>base.ThreadPoolText</code> class (see below).</p>
+</div>
+<h3 id="threadpooltext">ThreadPoolText<a class="headerlink" href="#threadpooltext" title="Permanent link">&para;</a></h3>
 <p>The <code>base.ThreadPoolText</code> class is very similar to the <code>base.InLoopPollText</code> class.
 The key difference is that the <code>poll</code> method is run asynchronously and triggers a
 callback once the function completes. This allows widgets to get text from
 long-running functions without blocking Qtile.</p>
-<h1 id="mixins">Mixins<a class="headerlink" href="#mixins" title="Permanent link">&para;</a></h1>
+<h2 id="mixins">Mixins<a class="headerlink" href="#mixins" title="Permanent link">&para;</a></h2>
 <p>As well as inheriting from one of the base classes above, widgets can also inherit one
 or more mixins to provide some additional functionality to the widget.</p>
-<h2 id="paddingmixin">PaddingMixin<a class="headerlink" href="#paddingmixin" title="Permanent link">&para;</a></h2>
+<h3 id="paddingmixin">PaddingMixin<a class="headerlink" href="#paddingmixin" title="Permanent link">&para;</a></h3>
 <p>This provides the <code>padding(_x|_y|)</code> attributes which can be used to change the appearance
 of the widget.</p>
 <p>If you use this mixin in your widget, you need to add the following line to your <code>__init__</code>
 method:</p>
-<p>.. code:: python</p>
-<pre><code>self.add_defaults(base.PaddingMixin.defaults)
-</code></pre>
-<h2 id="marginmixin">MarginMixin<a class="headerlink" href="#marginmixin" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="bp">self</span><span class="o">.</span><span class="n">add_defaults</span><span class="p">(</span><span class="n">base</span><span class="o">.</span><span class="n">PaddingMixin</span><span class="o">.</span><span class="n">defaults</span><span class="p">)</span>
+</code></pre></div>
+<h3 id="marginmixin">MarginMixin<a class="headerlink" href="#marginmixin" title="Permanent link">&para;</a></h3>
 <p>The <code>MarginMixin</code> is essentially effectively exactly the same as the <code>PaddingMixin</code> but,
 instead, it provides the <code>margin(_x|_y|)</code> attributes.</p>
 <p>As above, if you use this mixin in your widget, you need to add the following line to your
 <code>__init__</code> method:</p>
-<p>.. code:: python</p>
-<pre><code>self.add_defaults(base.MarginMixin.defaults)
-</code></pre>
-<h1 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code><span class="bp">self</span><span class="o">.</span><span class="n">add_defaults</span><span class="p">(</span><span class="n">base</span><span class="o">.</span><span class="n">MarginMixin</span><span class="o">.</span><span class="n">defaults</span><span class="p">)</span>
+</code></pre></div>
+<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h2>
 <p>Now you know which class to base your widget on, you need to know how the widget
 gets configured.</p>
-<h2 id="defining-parameters">Defining Parameters<a class="headerlink" href="#defining-parameters" title="Permanent link">&para;</a></h2>
+<h3 id="defining-parameters">Defining Parameters<a class="headerlink" href="#defining-parameters" title="Permanent link">&para;</a></h3>
 <p>Each widget will likely have a number of parameters that users can change to
 customise the look and feel and/or behaviour of the widget for their own needs.</p>
 <p>The widget should therefore provide the default values of these parameters as a
 class attribute called <code>defaults</code>. The format of this attribute is a list of
 tuples.</p>
-<p>.. code:: python</p>
-<pre><code>defaults = [
-    ("parameter_name",
-     default_parameter_value,
-     "Short text explaining what parameter does")
-]
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="n">defaults</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">(</span><span class="s2">&quot;parameter_name&quot;</span><span class="p">,</span>
+        <span class="n">default_parameter_value</span><span class="p">,</span>
+        <span class="s2">&quot;Short text explaining what parameter does&quot;</span><span class="p">)</span>
+<span class="p">]</span>
+</code></pre></div>
 <p>Users can override the default value when creating their <code>config.py</code> file.</p>
-<p>.. code:: python</p>
-<pre><code>MyCustomWidget(parameter_name=updated_value)
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="n">MyCustomWidget</span><span class="p">(</span><span class="n">parameter_name</span><span class="o">=</span><span class="n">updated_value</span><span class="p">)</span>
+</code></pre></div>
 <p>Once the widget is initialised, these parameters are available at
 <code>self.parameter_name</code>.</p>
-<h2 id="the-init-method">The <strong>init</strong> method<a class="headerlink" href="#the-init-method" title="Permanent link">&para;</a></h2>
+<h3 id="the-__init__-method">The <code>__init__</code> method<a class="headerlink" href="#the-__init__-method" title="Permanent link">&para;</a></h3>
 <p>Parameters that should not be changed by users can be defined in the <code>__init__</code>
 method.</p>
 <p>This method is run when the widgets are initially created. This happens before
 the <code>qtile</code> object is available.</p>
-<h2 id="the-_configure-method">The _configure method<a class="headerlink" href="#the-_configure-method" title="Permanent link">&para;</a></h2>
+<h3 id="the-_configure-method">The _configure method<a class="headerlink" href="#the-_configure-method" title="Permanent link">&para;</a></h3>
 <p>The <code>_configure</code> method is called by the <code>bar</code> object and sets the
 <code>self.bar</code> and <code>self.qtile</code> attributes of the widget. It also creates the
 <code>self.drawer</code> attribute which is necessary for displaying any content.</p>
@@ -1810,11 +3587,11 @@ the <code>qtile</code> object is available.</p>
 the bar will draw once it has finished its configuration.</p>
 <p>Calls to methods required to prepare the content for your widget should therefore
 be made from this method rather than <code>__init__</code>.</p>
-<h1 id="displaying-output">Displaying output<a class="headerlink" href="#displaying-output" title="Permanent link">&para;</a></h1>
+<h2 id="displaying-output">Displaying output<a class="headerlink" href="#displaying-output" title="Permanent link">&para;</a></h2>
 <p>A Qtile widget is just a drawing that is displayed at a certain location the
 user's bar. The widget's job is therefore to create a small drawing surface that
 can be placed in the appropriate location on the bar.</p>
-<h2 id="the-draw-method">The "draw" method<a class="headerlink" href="#the-draw-method" title="Permanent link">&para;</a></h2>
+<h3 id="the-draw-method">The "draw" method<a class="headerlink" href="#the-draw-method" title="Permanent link">&para;</a></h3>
 <p>The <code>draw</code> method is called when the widget needs to update its appearance.
 This can be triggered by the widget itself (e.g. if the content has changed) or
 by the bar (e.g. if the bar needs to redraw its entire contents).</p>
@@ -1826,16 +3603,17 @@ assigning the <code>offsetx</code> value (for horizontal positioning) and <code>
 value (for vertical positioning). Widgets should use this at the end of the
 <code>draw</code> method. Both <code>offsetx</code> and <code>offsety</code> are required as both values will
 be set if the bar is drawing a border.</p>
-<p>.. code:: python</p>
-<pre><code>self.drawer.draw(offsetx=self.offsetx, offsety=self.offsety, width=self.width)
-</code></pre>
-<p>.. note::</p>
-<pre><code>If you need to trigger a redrawing of your widget, you should call
-`self.draw()` if the width of your widget is unchanged. Otherwise you
-need to call `self.bar.draw()` as this method means the bar recalculates
-the position of all widgets.
-</code></pre>
-<h2 id="displaying-text">Displaying text<a class="headerlink" href="#displaying-text" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="bp">self</span><span class="o">.</span><span class="n">drawer</span><span class="o">.</span><span class="n">draw</span><span class="p">(</span><span class="n">offsetx</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">offsetx</span><span class="p">,</span> <span class="n">offsety</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">offsety</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">width</span><span class="p">)</span>
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>
+If you need to trigger a redrawing of your widget, you should call
+<code>self.draw()</code> if the width of your widget is unchanged. Otherwise you
+need to call <code>self.bar.draw()</code> as this method means the bar recalculates
+the position of all widgets.</p>
+</div>
+<h3 id="displaying-text">Displaying text<a class="headerlink" href="#displaying-text" title="Permanent link">&para;</a></h3>
 <p>Text is displayed by using a <code>drawer.TextLayout</code> object. If all you are doing is
 displaying text then it's highly recommended that you use the <code>`base._TextBox</code>
 superclass as this simplifies adding and updating text.</p>
@@ -1844,166 +3622,160 @@ by using the <code>self.drawer.textlayout</code> method of the widget (only avai
 the <code>_configure</code> method has been run). object to include in your widget.</p>
 <p>Some additional formatting of Text can be displayed using pango markup and ensuring
 the <code>markup</code> parameter is set to <code>True</code>.</p>
-<p>.. code:: python</p>
-<pre><code>self.textlayout = self.drawer.textlayout(
-                     "Text",
-                     "fffff",       # Font colour
-                     "sans",        # Font family
-                     12,            # Font size
-                     None,          # Font shadow
-                     markup=False,  # Pango markup (False by default)
-                     wrap=True      # Wrap long lines (True by default)
-                     )
-</code></pre>
-<h2 id="displaying-icons-and-images">Displaying icons and images<a class="headerlink" href="#displaying-icons-and-images" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="bp">self</span><span class="o">.</span><span class="n">textlayout</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">drawer</span><span class="o">.</span><span class="n">textlayout</span><span class="p">(</span>
+    <span class="s2">&quot;Text&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;fffff&quot;</span><span class="p">,</span>       <span class="c1"># Font colour</span>
+    <span class="s2">&quot;sans&quot;</span><span class="p">,</span>        <span class="c1"># Font family</span>
+    <span class="mi">12</span><span class="p">,</span>            <span class="c1"># Font size</span>
+    <span class="kc">None</span><span class="p">,</span>          <span class="c1"># Font shadow</span>
+    <span class="n">markup</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>  <span class="c1"># Pango markup (False by default)</span>
+    <span class="n">wrap</span><span class="o">=</span><span class="kc">True</span>      <span class="c1"># Wrap long lines (True by default)</span>
+<span class="p">)</span>
+</code></pre></div>
+<h3 id="displaying-icons-and-images">Displaying icons and images<a class="headerlink" href="#displaying-icons-and-images" title="Permanent link">&para;</a></h3>
 <p>Qtile provides a helper library to convert images to a <code>surface</code> that can be
 drawn by the widget. If the images are static then you should only load them
 once when the widget is configured. Given the small size of the bar, this is
 most commonly used to draw icons but the same method applies to other images.</p>
-<p>.. code:: python</p>
-<pre><code>from libqtile import images
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">libqtile</span> <span class="kn">import</span> <span class="n">images</span>
 
-def setup_images(self):
+<span class="k">def</span> <span class="nf">setup_images</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">surfaces</span> <span class="o">=</span> <span class="p">{}</span>
 
-    self.surfaces = {}
+    <span class="c1"># File names to load (will become keys to the `surfaces` dictionary)</span>
+    <span class="n">names</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="s2">&quot;audio-volume-muted&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;audio-volume-low&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;audio-volume-medium&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;audio-volume-high&quot;</span>
+    <span class="p">)</span>
 
-    # File names to load (will become keys to the `surfaces` dictionary)
-    names = (
-        "audio-volume-muted",
-        "audio-volume-low",
-        "audio-volume-medium",
-        "audio-volume-high"
-    )
+    <span class="n">d_images</span> <span class="o">=</span> <span class="n">images</span><span class="o">.</span><span class="n">Loader</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">imagefolder</span><span class="p">)(</span><span class="o">*</span><span class="n">names</span><span class="p">)</span>  <span class="c1"># images.Loader can take more than one folder as an argument</span>
 
-    d_images = images.Loader(self.imagefolder)(*names)  # images.Loader can take more than one folder as an argument
-
-    for name, img in d_images.items():
-        new_height = self.bar.height - 1
-        img.resize(height=new_height)   # Resize images to fit widget
-        self.surfaces[name] = img.pattern  # Images added to the `surfaces` dictionary
-</code></pre>
+    <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">img</span> <span class="ow">in</span> <span class="n">d_images</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="n">new_height</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">bar</span><span class="o">.</span><span class="n">height</span> <span class="o">-</span> <span class="mi">1</span>
+        <span class="n">img</span><span class="o">.</span><span class="n">resize</span><span class="p">(</span><span class="n">height</span><span class="o">=</span><span class="n">new_height</span><span class="p">)</span>   <span class="c1"># Resize images to fit widget</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">surfaces</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="n">img</span><span class="o">.</span><span class="n">pattern</span>  <span class="c1"># Images added to the `surfaces` dictionary</span>
+</code></pre></div>
 <p>Drawing the image is then just a matter of painting it to the relevant surface:</p>
-<p>.. code:: python</p>
-<pre><code>def draw(self):
-    self.drawer.ctx.set_source(self.surfaces[img_name])  # Use correct key here for your image
-    self.drawer.ctx.paint()
-    self.drawer.draw(offsetx=self.offset, width=self.length)
-</code></pre>
-<h2 id="drawing-shapes">Drawing shapes<a class="headerlink" href="#drawing-shapes" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">draw</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">drawer</span><span class="o">.</span><span class="n">ctx</span><span class="o">.</span><span class="n">set_source</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">surfaces</span><span class="p">[</span><span class="n">img_name</span><span class="p">])</span>  <span class="c1"># Use correct key here for your image</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">drawer</span><span class="o">.</span><span class="n">ctx</span><span class="o">.</span><span class="n">paint</span><span class="p">()</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">drawer</span><span class="o">.</span><span class="n">draw</span><span class="p">(</span><span class="n">offsetx</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">offset</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">length</span><span class="p">)</span>
+</code></pre></div>
+<h3 id="drawing-shapes">Drawing shapes<a class="headerlink" href="#drawing-shapes" title="Permanent link">&para;</a></h3>
 <p>It is possible to draw shapes directly to the widget. The <code>Drawer</code> class
 (available in your widget after configuration as <code>self.drawer</code>) provides some
 basic functions <code>rounded_rectangle</code>, <code>rounded_fillrect</code>, <code>rectangle</code> and
 <code>fillrect</code>.</p>
-<p>In addition, you can access the <code>Cairo</code>_ context drawing functions via <code>self.drawer.ctx</code>.</p>
-<p>.. _Cairo: <a href="https://pycairo.readthedocs.io/en/latest/reference/context.html">https://pycairo.readthedocs.io/en/latest/reference/context.html</a></p>
+<p>In addition, you can access the <a href="https://pycairo.readthedocs.io/en/latest/reference/context.html">Cairo</a> context drawing functions via <code>self.drawer.ctx</code>.</p>
 <p>For example, the following code can draw a wifi icon showing signal strength:</p>
-<p>.. code:: python</p>
-<pre><code>import math
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">math</span>
 
-...
+<span class="o">...</span>
 
-def to_rads(self, degrees):
-    return degrees * math.pi / 180.0
+<span class="k">def</span> <span class="nf">to_rads</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">degrees</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">degrees</span> <span class="o">*</span> <span class="n">math</span><span class="o">.</span><span class="n">pi</span> <span class="o">/</span> <span class="mf">180.0</span>
 
-def draw_wifi(self, percentage):
+<span class="k">def</span> <span class="nf">draw_wifi</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">percentage</span><span class="p">):</span>
 
-    WIFI_HEIGHT = 12
-    WIFI_ARC_DEGREES = 90
+    <span class="n">WIFI_HEIGHT</span> <span class="o">=</span> <span class="mi">12</span>
+    <span class="n">WIFI_ARC_DEGREES</span> <span class="o">=</span> <span class="mi">90</span>
 
-    y_margin = (self.bar.height - WIFI_HEIGHT) / 2
-    half_arc = WIFI_ARC_DEGREES / 2
+    <span class="n">y_margin</span> <span class="o">=</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">bar</span><span class="o">.</span><span class="n">height</span> <span class="o">-</span> <span class="n">WIFI_HEIGHT</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span>
+    <span class="n">half_arc</span> <span class="o">=</span> <span class="n">WIFI_ARC_DEGREES</span> <span class="o">/</span> <span class="mi">2</span>
 
-    # Draw grey background
-    self.drawer.ctx.new_sub_path()
-    self.drawer.ctx.move_to(WIFI_HEIGHT, y_margin + WIFI_HEIGHT)
-    self.drawer.ctx.arc(WIFI_HEIGHT,
-                        y_margin + WIFI_HEIGHT,
-                        WIFI_HEIGHT,
-                        self.to_rads(270 - half_arc),
-                        self.to_rads(270 + half_arc))
-    self.drawer.set_source_rgb("666666")
-    self.drawer.ctx.fill()
+    <span class="c1"># Draw grey background</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">drawer</span><span class="o">.</span><span class="n">ctx</span><span class="o">.</span><span class="n">new_sub_path</span><span class="p">()</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">drawer</span><span class="o">.</span><span class="n">ctx</span><span class="o">.</span><span class="n">move_to</span><span class="p">(</span><span class="n">WIFI_HEIGHT</span><span class="p">,</span> <span class="n">y_margin</span> <span class="o">+</span> <span class="n">WIFI_HEIGHT</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">drawer</span><span class="o">.</span><span class="n">ctx</span><span class="o">.</span><span class="n">arc</span><span class="p">(</span><span class="n">WIFI_HEIGHT</span><span class="p">,</span>
+                        <span class="n">y_margin</span> <span class="o">+</span> <span class="n">WIFI_HEIGHT</span><span class="p">,</span>
+                        <span class="n">WIFI_HEIGHT</span><span class="p">,</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">to_rads</span><span class="p">(</span><span class="mi">270</span> <span class="o">-</span> <span class="n">half_arc</span><span class="p">),</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">to_rads</span><span class="p">(</span><span class="mi">270</span> <span class="o">+</span> <span class="n">half_arc</span><span class="p">))</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">drawer</span><span class="o">.</span><span class="n">set_source_rgb</span><span class="p">(</span><span class="s2">&quot;666666&quot;</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">drawer</span><span class="o">.</span><span class="n">ctx</span><span class="o">.</span><span class="n">fill</span><span class="p">()</span>
 
-    # Draw white section to represent signal strength
-    self.drawer.ctx.new_sub_path()
-    self.drawer.ctx.move_to(WIFI_HEIGHT, y_margin + WIFI_HEIGHT)
-    self.drawer.ctx.arc(WIFI_HEIGHT
-                        y_margin + WIFI_HEIGHT,
-                        WIFI_HEIGHT * percentage,
-                        self.to_rads(270 - half_arc),
-                        self.to_rads(270 + half_arc))
-    self.drawer.set_source_rgb("ffffff")
-    self.drawer.ctx.fill()
-</code></pre>
-<p>This creates something looking like this: |wifi_image|.</p>
-<p>.. |wifi_image| image:: ../../_static/widgets/widget_tutorial_wifi.png</p>
-<h2 id="background">Background<a class="headerlink" href="#background" title="Permanent link">&para;</a></h2>
+    <span class="c1"># Draw white section to represent signal strength</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">drawer</span><span class="o">.</span><span class="n">ctx</span><span class="o">.</span><span class="n">new_sub_path</span><span class="p">()</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">drawer</span><span class="o">.</span><span class="n">ctx</span><span class="o">.</span><span class="n">move_to</span><span class="p">(</span><span class="n">WIFI_HEIGHT</span><span class="p">,</span> <span class="n">y_margin</span> <span class="o">+</span> <span class="n">WIFI_HEIGHT</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">drawer</span><span class="o">.</span><span class="n">ctx</span><span class="o">.</span><span class="n">arc</span><span class="p">(</span><span class="n">WIFI_HEIGHT</span>
+                        <span class="n">y_margin</span> <span class="o">+</span> <span class="n">WIFI_HEIGHT</span><span class="p">,</span>
+                        <span class="n">WIFI_HEIGHT</span> <span class="o">*</span> <span class="n">percentage</span><span class="p">,</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">to_rads</span><span class="p">(</span><span class="mi">270</span> <span class="o">-</span> <span class="n">half_arc</span><span class="p">),</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">to_rads</span><span class="p">(</span><span class="mi">270</span> <span class="o">+</span> <span class="n">half_arc</span><span class="p">))</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">drawer</span><span class="o">.</span><span class="n">set_source_rgb</span><span class="p">(</span><span class="s2">&quot;ffffff&quot;</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">drawer</span><span class="o">.</span><span class="n">ctx</span><span class="o">.</span><span class="n">fill</span><span class="p">()</span>
+</code></pre></div>
+<p>This creates something looking like this: <img alt="wifi_image" src="../../../_static/widgets/widget_tutorial_wifi.png" />.</p>
+<h3 id="background">Background<a class="headerlink" href="#background" title="Permanent link">&para;</a></h3>
 <p>At the start of the <code>draw</code> method, the widget should clear the drawer by drawing the
 background. Usually this is done by including the following line at the start of the method:</p>
-<p>.. code:: python</p>
-<pre><code>self.drawer.clear(self.background or self.bar.background)
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="bp">self</span><span class="o">.</span><span class="n">drawer</span><span class="o">.</span><span class="n">clear</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">background</span> <span class="ow">or</span> <span class="bp">self</span><span class="o">.</span><span class="n">bar</span><span class="o">.</span><span class="n">background</span><span class="p">)</span>
+</code></pre></div>
 <p>The background can be a single colour or a list of colours which will result in a linear gradient
 from top to bottom.</p>
-<h1 id="updating-the-widget">Updating the widget<a class="headerlink" href="#updating-the-widget" title="Permanent link">&para;</a></h1>
+<h2 id="updating-the-widget">Updating the widget<a class="headerlink" href="#updating-the-widget" title="Permanent link">&para;</a></h2>
 <p>Widgets will usually need to update their content periodically. There are numerous ways
 that this can be done. Some of the most common ones are summarised below.</p>
-<h2 id="timers">Timers<a class="headerlink" href="#timers" title="Permanent link">&para;</a></h2>
+<h3 id="timers">Timers<a class="headerlink" href="#timers" title="Permanent link">&para;</a></h3>
 <p>A non-blocking timer can be called by using the <code>self.timeout_add</code> method.</p>
-<p>.. code:: python</p>
-<pre><code>self.timeout_add(delay_in_seconds, method_to_call, (method_args))
-</code></pre>
-<p>.. note::</p>
-<pre><code>Consider using the `ThreadPoolText` superclass where you are calling a function
-repeatedly and displaying its output as text.
-</code></pre>
-<h2 id="hooks">Hooks<a class="headerlink" href="#hooks" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="bp">self</span><span class="o">.</span><span class="n">timeout_add</span><span class="p">(</span><span class="n">delay_in_seconds</span><span class="p">,</span> <span class="n">method_to_call</span><span class="p">,</span> <span class="p">(</span><span class="n">method_args</span><span class="p">))</span>
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>
+Consider using the <code>ThreadPoolText</code> superclass where you are calling a function
+repeatedly and displaying its output as text.</p>
+</div>
+<h3 id="hooks">Hooks<a class="headerlink" href="#hooks" title="Permanent link">&para;</a></h3>
 <p>Qtile has a number of hooks built in which are triggered on certain events.</p>
 <p>The <code>WindowCount</code> widget is a good example of using hooks to trigger updates. It
 includes the following method which is run when the widget is configured:</p>
-<p>.. code:: python</p>
-<pre><code>from libqtile import hook
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">libqtile</span> <span class="kn">import</span> <span class="n">hook</span>
 
-...
+<span class="o">...</span>
 
-def _setup_hooks(self):
-    hook.subscribe.client_killed(self._win_killed)
-    hook.subscribe.client_managed(self._wincount)
-    hook.subscribe.current_screen_change(self._wincount)
-    hook.subscribe.setgroup(self._wincount)
-</code></pre>
-<p>Read the :ref:<code>ref-hooks</code> page for details of which hooks are available and which arguments
+<span class="k">def</span> <span class="nf">_setup_hooks</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="n">hook</span><span class="o">.</span><span class="n">subscribe</span><span class="o">.</span><span class="n">client_killed</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_win_killed</span><span class="p">)</span>
+    <span class="n">hook</span><span class="o">.</span><span class="n">subscribe</span><span class="o">.</span><span class="n">client_managed</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wincount</span><span class="p">)</span>
+    <span class="n">hook</span><span class="o">.</span><span class="n">subscribe</span><span class="o">.</span><span class="n">current_screen_change</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wincount</span><span class="p">)</span>
+    <span class="n">hook</span><span class="o">.</span><span class="n">subscribe</span><span class="o">.</span><span class="n">setgroup</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wincount</span><span class="p">)</span>
+</code></pre></div>
+<p>Read the <a class="autorefs autorefs-internal" href="../../ref/hooks/#built-in-hooks">built-in hooks</a> page for details of which hooks are available and which arguments
 are passed to the callback function.</p>
-<h2 id="using-dbus">Using dbus<a class="headerlink" href="#using-dbus" title="Permanent link">&para;</a></h2>
+<h3 id="using-dbus">Using dbus<a class="headerlink" href="#using-dbus" title="Permanent link">&para;</a></h3>
 <p>Qtile uses <code>dbus-next</code> for interacting with dbus.</p>
 <p>If you just want to listen for signals then Qtile provides a helper method called
 <code>add_signal_receiver</code> which can subscribe to a signal and trigger a callback
 whenever that signal is broadcast.</p>
-<p>.. note::
-    Qtile uses the <code>asyncio</code> based functions of <code>dbus-next</code> so your widget
-    must make sure, where necessary, calls to dbus are made via coroutines.</p>
-<pre><code>There is a `_config_async` coroutine in the base widget class which can
-be overridden to provide an entry point for asyncio calls in your widget.
-</code></pre>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>
+Qtile uses the <code>asyncio</code> based functions of <code>dbus-next</code> so your widget
+must make sure, where necessary, calls to dbus are made via coroutines.</p>
+<p>There is a <code>_config_async</code> coroutine in the base widget class which can
+be overridden to provide an entry point for asyncio calls in your widget.</p>
+</div>
 <p>For example, the Mpris2 widget uses the following code:</p>
-<p>.. code:: python</p>
-<pre><code>from libqtile.utils import add_signal_receiver
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">libqtile.utils</span> <span class="kn">import</span> <span class="n">add_signal_receiver</span>
 
-...
+<span class="o">...</span>
 
-async def _config_async(self):
-    subscribe = await add_signal_receiver(
-                    self.message,  # Callback function
-                    session_bus=True,
-                    signal_name="PropertiesChanged",
-                    bus_name=self.objname,
-                    path="/org/mpris/MediaPlayer2",
-                    dbus_interface="org.freedesktop.DBus.Properties")
-</code></pre>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">_config_async</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="n">subscribe</span> <span class="o">=</span> <span class="k">await</span> <span class="n">add_signal_receiver</span><span class="p">(</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">,</span>  <span class="c1"># Callback function</span>
+        <span class="n">session_bus</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+        <span class="n">signal_name</span><span class="o">=</span><span class="s2">&quot;PropertiesChanged&quot;</span><span class="p">,</span>
+        <span class="n">bus_name</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">objname</span><span class="p">,</span>
+        <span class="n">path</span><span class="o">=</span><span class="s2">&quot;/org/mpris/MediaPlayer2&quot;</span><span class="p">,</span>
+        <span class="n">dbus_interface</span><span class="o">=</span><span class="s2">&quot;org.freedesktop.DBus.Properties&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+</code></pre></div>
 <p><code>dbus-next</code> can also be used to query properties, call methods etc. on dbus
-interfaces. Refer to the <code>dbus-next documentation &lt;https://python-dbus-next.readthedocs.io/en/latest/&gt;</code>_
+interfaces. Refer to the <a href="https://python-dbus-next.readthedocs.io/en/latest/">dbus-next documentation</a>
 for more information on how to use the module.</p>
-<h1 id="mouse-events">Mouse events<a class="headerlink" href="#mouse-events" title="Permanent link">&para;</a></h1>
+<h2 id="mouse-events">Mouse events<a class="headerlink" href="#mouse-events" title="Permanent link">&para;</a></h2>
 <p>By default, widgets handle button presses and will call any function that is bound to the button in the
 <code>mouse_callbacks</code> dictionary. The dictionary keys are as follows:</p>
 <ul>
@@ -2016,102 +3788,96 @@ for more information on how to use the module.</p>
 <li><code>Button7</code>: Scroll right</li>
 </ul>
 <p>You can then define your button bindings in your widget (e.g. in <code>__init__</code>):</p>
-<p>.. code:: python</p>
-<pre><code>class MyWidget(widget.TextBox)
-
-    def __init__(self, *args, **config):
-        widget.TextBox.__init__(self, *args, **kwargs)
-        self.add_callbacks(
-            {
-                "Button1": self.left_click_method,
-                "Button3": self.right_click_method
-            }
-        )
-</code></pre>
-<p>.. note::</p>
-<pre><code>As well as functions, you can also bind `LazyCall` objects to button presses.
-For example:
-
-.. code:: python
-
-    self.add_callbacks(
-        {
-            "Button1": lazy.spawn("xterm"),
-        }
-    )
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">MyWidget</span><span class="p">(</span><span class="n">widget</span><span class="o">.</span><span class="n">TextBox</span><span class="p">)</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">config</span><span class="p">):</span>
+        <span class="n">widget</span><span class="o">.</span><span class="n">TextBox</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">add_callbacks</span><span class="p">(</span>
+            <span class="p">{</span>
+                <span class="s2">&quot;Button1&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">left_click_method</span><span class="p">,</span>
+                <span class="s2">&quot;Button3&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">right_click_method</span>
+            <span class="p">}</span>
+        <span class="p">)</span>
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>
+As well as functions, you can also bind <code>LazyCall</code> objects to button presses.
+For example:</p>
+<div class="highlight"><pre><span></span><code><span class="bp">self</span><span class="o">.</span><span class="n">add_callbacks</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;Button1&quot;</span><span class="p">:</span> <span class="n">lazy</span><span class="o">.</span><span class="n">spawn</span><span class="p">(</span><span class="s2">&quot;xterm&quot;</span><span class="p">),</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+</code></pre></div>
+</div>
 <p>In addition to button presses, you can also respond to mouse enter and leave events.
 For example, to make a clock show a longer date when you put your mouse over it, you
 can do the following:</p>
-<p>.. code:: python</p>
-<pre><code>class MouseOverClock(widget.Clock):
-    defaults = [
-        (
-            "long_format",
-            "%A %d %B %Y | %H:%M",
-            "Format to show when mouse is over widget."
-        )
-    ]
+<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">MouseOverClock</span><span class="p">(</span><span class="n">widget</span><span class="o">.</span><span class="n">Clock</span><span class="p">):</span>
+    <span class="n">defaults</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="p">(</span>
+            <span class="s2">&quot;long_format&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;%A </span><span class="si">%d</span><span class="s2"> %B %Y | %H:%M&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;Format to show when mouse is over widget.&quot;</span>
+        <span class="p">)</span>
+    <span class="p">]</span>
 
-    def __init__(self, **config):
-        widget.Clock.__init__(self, **config)
-        self.add_defaults(MouseOverClock.defaults)
-        self.short_format = self.format
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">**</span><span class="n">config</span><span class="p">):</span>
+        <span class="n">widget</span><span class="o">.</span><span class="n">Clock</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">**</span><span class="n">config</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">add_defaults</span><span class="p">(</span><span class="n">MouseOverClock</span><span class="o">.</span><span class="n">defaults</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">short_format</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">format</span>
 
-    def mouse_enter(self, *args, **kwargs):
-        self.format = self.long_format
-        self.bar.draw()
+    <span class="k">def</span> <span class="nf">mouse_enter</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">format</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">long_format</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">bar</span><span class="o">.</span><span class="n">draw</span><span class="p">()</span>
 
-    def mouse_leave(self, *args, **kwargs):
-        self.format = self.short_format
-        self.bar.draw()
-</code></pre>
-<h1 id="exposing-commands-to-the-ipc-interface">Exposing commands to the IPC interface<a class="headerlink" href="#exposing-commands-to-the-ipc-interface" title="Permanent link">&para;</a></h1>
+    <span class="k">def</span> <span class="nf">mouse_leave</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">format</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">short_format</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">bar</span><span class="o">.</span><span class="n">draw</span><span class="p">()</span>
+</code></pre></div>
+<h2 id="exposing-commands-to-the-ipc-interface">Exposing commands to the IPC interface<a class="headerlink" href="#exposing-commands-to-the-ipc-interface" title="Permanent link">&para;</a></h2>
 <p>If you want to control your widget via <code>lazy</code> or scripting commands (such as <code>qtile cmd-obj</code>), you
 will need to expose the relevant methods in your widget. Exposing commands is done by adding the
 <code>@expose_command()</code> decorator to your method. For example:</p>
-<p>.. code:: python</p>
-<pre><code>from libqtile.command.base import expose_command
-from libqtile.widget import TextBox
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">libqtile.command.base</span> <span class="kn">import</span> <span class="n">expose_command</span>
+<span class="kn">from</span> <span class="nn">libqtile.widget</span> <span class="kn">import</span> <span class="n">TextBox</span>
 
 
-class ExposedWidget(TextBox):
-
-    @expose_command()
-    def uppercase(self):
-        self.update(self.text.upper())
-</code></pre>
+<span class="k">class</span> <span class="nc">ExposedWidget</span><span class="p">(</span><span class="n">TextBox</span><span class="p">):</span>
+    <span class="nd">@expose_command</span><span class="p">()</span>
+    <span class="k">def</span> <span class="nf">uppercase</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">upper</span><span class="p">())</span>
+</code></pre></div>
 <p>Text in the <code>ExposedWidget</code> can now be made into upper case by calling <code>lazy.widget["exposedwidget"].uppercase()</code>
 or <code>qtile cmd-onj -o widget exposedwidget -f uppercase</code>.</p>
 <p>If you want to expose a method under multiple names, you can pass these additional names to the decorator. For
 example, decorating a method with:</p>
-<p>.. code:: python</p>
-<pre><code>@expose_command(["extra", "additional"])
-def mymethod(self):
-    ...
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="nd">@expose_command</span><span class="p">([</span><span class="s2">&quot;extra&quot;</span><span class="p">,</span> <span class="s2">&quot;additional&quot;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">mymethod</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="o">...</span>
+</code></pre></div>
 <p>will make make the method visible under <code>mymethod</code>, <code>extra</code> and <code>additional</code>.</p>
-<h1 id="debugging">Debugging<a class="headerlink" href="#debugging" title="Permanent link">&para;</a></h1>
+<h2 id="debugging">Debugging<a class="headerlink" href="#debugging" title="Permanent link">&para;</a></h2>
 <p>You can use the <code>logger</code> object to record messages in the Qtile log file to help debug your
 development.</p>
-<p>.. code:: python</p>
-<pre><code>from libqtile.log_utils import logger
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">libqtile.log_utils</span> <span class="kn">import</span> <span class="n">logger</span>
 
-...
+<span class="o">...</span>
 
-logger.debug("Callback function triggered")
-</code></pre>
-<p>.. note::</p>
-<pre><code>The default log level for the Qtile log is `INFO` so you may either want to
-change this when debugging or use `logger.info` instead.
-
-Debugging messages should be removed from your code before submitting pull
-requests.
-</code></pre>
-<h1 id="submitting-the-widget-to-the-official-repo">Submitting the widget to the official repo<a class="headerlink" href="#submitting-the-widget-to-the-official-repo" title="Permanent link">&para;</a></h1>
+<span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Callback function triggered&quot;</span><span class="p">)</span>
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>
+The default log level for the Qtile log is <code>INFO</code> so you may either want to
+change this when debugging or use <code>logger.info</code> instead.</p>
+<p>Debugging messages should be removed from your code before submitting pull
+requests.</p>
+</div>
+<h2 id="submitting-the-widget-to-the-official-repo">Submitting the widget to the official repo<a class="headerlink" href="#submitting-the-widget-to-the-official-repo" title="Permanent link">&para;</a></h2>
 <p>The following sections are only relevant for users who wish for their widgets to
 be submitted as a PR for inclusion in the main Qtile repo.</p>
-<h2 id="including-the-widget-in-libqtilewidget">Including the widget in libqtile.widget<a class="headerlink" href="#including-the-widget-in-libqtilewidget" title="Permanent link">&para;</a></h2>
+<h3 id="including-the-widget-in-libqtilewidget">Including the widget in libqtile.widget<a class="headerlink" href="#including-the-widget-in-libqtilewidget" title="Permanent link">&para;</a></h3>
 <p>You should include your widget in the <code>widgets</code> dict in <code>libqtile.widget.__init__.py</code>.
 The relevant format is <code>{"ClassName": "modulename"}</code>.</p>
 <p>This has a number of benefits:</p>
@@ -2120,15 +3886,15 @@ The relevant format is <code>{"ClassName": "modulename"}</code>.</p>
 <li>Graceful handling of import errors (useful where widget relies on third party modules)</li>
 <li>Inclusion in basic unit testing (see below)</li>
 </ul>
-<h2 id="testing">Testing<a class="headerlink" href="#testing" title="Permanent link">&para;</a></h2>
+<h3 id="testing">Testing<a class="headerlink" href="#testing" title="Permanent link">&para;</a></h3>
 <p>Any new widgets should include an accompanying unit test.</p>
 <p>Basic initialisation and configurations (using defaults) will automatically be tested by
 <code>test/widgets/test_widget_init_configure.py</code> if the widget has been included in
 <code>libqtile.widget.__init__.py</code> (see above).</p>
 <p>However, where possible, it is strongly encouraged that widgets include additional unit
 tests that test specific functionality of the widget (e.g. reaction to hooks).</p>
-<p>See :ref:<code>unit-testing</code> for more.</p>
-<h2 id="documentation">Documentation<a class="headerlink" href="#documentation" title="Permanent link">&para;</a></h2>
+<p>See <a class="autorefs autorefs-internal" href="../../contributing/#unit-testing">Unit testing</a> for more.</p>
+<h3 id="documentation">Documentation<a class="headerlink" href="#documentation" title="Permanent link">&para;</a></h3>
 <p>It is really important that we maintain good documentation for Qtile. Any new widgets must
 therefore include sufficient documentation in order for users to understand how to
 use/configure the widget.</p>
@@ -2136,8 +3902,7 @@ use/configure the widget.</p>
 docstring will be used as the description of the widget. Any parameters defined in the
 widget's <code>defaults</code> attribute will also be displayed. It is essential that there is a
 clear explanation of each new parameter defined by the widget.</p>
-<p>Screenshots
-~~~~~~~~~~~</p>
+<h4 id="screenshots">Screenshots<a class="headerlink" href="#screenshots" title="Permanent link">&para;</a></h4>
 <p>While not essential, it is strongly recommended that the documentation includes one or more
 screenshots.</p>
 <p>Screenshots can be generated automatically with a minimal amount of coding by using the fixtures
@@ -2149,33 +3914,32 @@ created by Qtile's test suite.</p>
 <li>Define a pytest fixture named <code>widget</code></li>
 </ul>
 <p>An example screenshot file is below:</p>
-<p>.. code:: python</p>
-<pre><code>import pytest
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">pytest</span>
 
-from libqtile.widget import wttr
+<span class="kn">from</span> <span class="nn">libqtile.widget</span> <span class="kn">import</span> <span class="n">wttr</span>
 
-RESPONSE = "London: +17°C"
-
-
-@pytest.fixture
-def widget(monkeypatch):
-    def result(self):
-        return RESPONSE
-
-    monkeypatch.setattr("libqtile.widget.wttr.Wttr.fetch", result)
-    yield wttr.Wttr
+<span class="n">RESPONSE</span> <span class="o">=</span> <span class="s2">&quot;London: +17°C&quot;</span>
 
 
-@pytest.mark.parametrize(
-    "screenshot_manager",
-    [
-        {"location": {"London": "Home"}}
-    ],
-    indirect=True
-)
-def ss_wttr(screenshot_manager):
-    screenshot_manager.take_screenshot()
-</code></pre>
+<span class="nd">@pytest</span><span class="o">.</span><span class="n">fixture</span>
+<span class="k">def</span> <span class="nf">widget</span><span class="p">(</span><span class="n">monkeypatch</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">result</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">RESPONSE</span>
+
+    <span class="n">monkeypatch</span><span class="o">.</span><span class="n">setattr</span><span class="p">(</span><span class="s2">&quot;libqtile.widget.wttr.Wttr.fetch&quot;</span><span class="p">,</span> <span class="n">result</span><span class="p">)</span>
+    <span class="k">yield</span> <span class="n">wttr</span><span class="o">.</span><span class="n">Wttr</span>
+
+
+<span class="nd">@pytest</span><span class="o">.</span><span class="n">mark</span><span class="o">.</span><span class="n">parametrize</span><span class="p">(</span>
+    <span class="s2">&quot;screenshot_manager&quot;</span><span class="p">,</span>
+    <span class="p">[</span>
+        <span class="p">{</span><span class="s2">&quot;location&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;London&quot;</span><span class="p">:</span> <span class="s2">&quot;Home&quot;</span><span class="p">}}</span>
+    <span class="p">],</span>
+    <span class="n">indirect</span><span class="o">=</span><span class="kc">True</span>
+<span class="p">)</span>
+<span class="k">def</span> <span class="nf">ss_wttr</span><span class="p">(</span><span class="n">screenshot_manager</span><span class="p">):</span>
+    <span class="n">screenshot_manager</span><span class="o">.</span><span class="n">take_screenshot</span><span class="p">()</span>
+</code></pre></div>
 <p>The <code>widget</code> fixture returns the widget class (not an instance of the widget). Any monkeypatching
 of the widget should be included in this fixture.</p>
 <p>The screenshot function (here, called <code>ss_wttr</code>) must take an argument called <code>screenshot_manager</code>. 
@@ -2187,21 +3951,20 @@ an empty dict (<code>{}</code>) as the first object in the list.</p>
 can be called multiple times in the same function.</p>
 <p><code>screenshot_manager.take_screenshot()</code> only takes a picture of the widget. If you need to take a screenshot
 of the bar then you need a few extra steps:</p>
-<p>.. code:: python</p>
-<pre><code>def ss_bar_screenshot(screenshot_manager):
-    # Generate a filename for the screenshot
-    target = screenshot_manager.target()
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">ss_bar_screenshot</span><span class="p">(</span><span class="n">screenshot_manager</span><span class="p">):</span>
+    <span class="c1"># Generate a filename for the screenshot</span>
+    <span class="n">target</span> <span class="o">=</span> <span class="n">screenshot_manager</span><span class="o">.</span><span class="n">target</span><span class="p">()</span>
 
-    # Get the bar object
-    bar = screenshot_manager.c.bar["top"]
+    <span class="c1"># Get the bar object</span>
+    <span class="n">bar</span> <span class="o">=</span> <span class="n">screenshot_manager</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">bar</span><span class="p">[</span><span class="s2">&quot;top&quot;</span><span class="p">]</span>
 
-    # Take a screenshot. Will take screenshot of whole bar unless
-    # a `width` parameter is set.
-    bar.take_screenshot(target, width=width)
-</code></pre>
-<h1 id="getting-help">Getting help<a class="headerlink" href="#getting-help" title="Permanent link">&para;</a></h1>
+    <span class="c1"># Take a screenshot. Will take screenshot of whole bar unless</span>
+    <span class="c1"># a `width` parameter is set.</span>
+    <span class="n">bar</span><span class="o">.</span><span class="n">take_screenshot</span><span class="p">(</span><span class="n">target</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="n">width</span><span class="p">)</span>
+</code></pre></div>
+<h2 id="getting-help">Getting help<a class="headerlink" href="#getting-help" title="Permanent link">&para;</a></h2>
 <p>If you still need help with developing your widget then please submit a question in the
-<code>qtile-dev group &lt;https://groups.google.com/forum/#!forum/qtile-dev&gt;</code>_ or submit an issue
+<a href="https://groups.google.com/forum/#!forum/qtile-dev">qtile-dev group</a> or submit an issue
 on the github page if you believe there's an error in the codebase.</p>
 
 
@@ -2336,7 +4099,7 @@ on the github page if you believe there's an error in the codebase.</p>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.sections", "navigation.top", "search.highlight", "search.suggest", "toc.follow"], "search": "../../../assets/javascripts/workers/search.1e90e0fb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "search.highlight", "search.suggest", "toc.follow"], "search": "../../../assets/javascripts/workers/search.1e90e0fb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../../assets/javascripts/bundle.2b189340.min.js"></script>

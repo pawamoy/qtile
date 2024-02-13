@@ -13,6 +13,10 @@
         <link rel="canonical" href="https://pawamoy.github.io/qtile/manual/commands/shell/qtile-cmd/">
       
       
+        <link rel="prev" href="../qtile-migrate/">
+      
+      
+        <link rel="next" href="../qtile-run/">
       
       
         
@@ -98,7 +102,7 @@
 
   
 
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../../../.." title="Qtile" class="md-header__button md-logo" aria-label="Qtile" data-md-component="logo">
       
@@ -222,13 +226,131 @@
     
   </nav>
   
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../../install/" class="md-tabs__link">
+          
+  
+  Getting Started
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  Scripting
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../config/default/" class="md-tabs__link">
+          
+  
+  Configuration
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../hacking/" class="md-tabs__link">
+          
+  
+  Hacking
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../faq/" class="md-tabs__link">
+          
+  
+  Miscellaneous
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
-        
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -242,8 +364,10 @@
                     
 
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../../../.." title="Qtile" class="md-nav__button md-logo" aria-label="Qtile" data-md-component="logo">
       
@@ -274,6 +398,34 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
     
     
     
@@ -282,15 +434,15 @@
       
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -307,8 +459,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_1">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -329,12 +481,15 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
         
           
           
@@ -356,14 +511,14 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_1_1" id="__nav_1_1_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_2_1" id="__nav_2_1_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_1_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_1_1">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -576,6 +731,110 @@
   
   
   
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    
+  
+    Running Qtile
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Running Qtile
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../install/gnome/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Gnome
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../install/without-dm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    systemd
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../wayland/" class="md-nav__link">
         
@@ -624,15 +883,42 @@
 
               
             
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
               
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
         
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
   
   <span class="md-ellipsis">
     
@@ -645,7 +931,391 @@
   
   
 
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Entry points
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../qtile-start/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile start
+  
+
+    
+  </span>
+  
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../qtile-shell/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile shell
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../qtile-migrate/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile migrate
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile cmd-obj
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile cmd-obj
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How it works
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How it works">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#selecting-an-object" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selecting an object
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#information-on-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Information on functions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passing-arguments-to-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passing arguments to functions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#output-of-qtile-cmd-obj-h" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Output of qtile cmd-obj -h
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#output-of-qtile-cmd-obj-o-group-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Output of qtile cmd-obj -o group 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#output-of-qtile-cmd-obj-o-cmd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Output of qtile cmd-obj -o cmd
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../qtile-run/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile run-cmd
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../qtile-top/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile top
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dqtile-cmd/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    dqtile-cmd
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iqshell/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    iqshell
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -677,10 +1347,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -697,8 +1367,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -714,9 +1384,26 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../" class="md-nav__link">
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
         
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
   
   <span class="md-ellipsis">
     
@@ -729,7 +1416,110 @@
   
   
 
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_1" id="__nav_3_1_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Architecture
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../command_graph/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    The Command Graph
+  
+
+    
+  </span>
+  
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../navigation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Navigating the Command Graph
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../advanced/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Command Graph development
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -773,12 +1563,15 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
         
           
           
@@ -800,14 +1593,14 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_3_3" id="__nav_3_3_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_3">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1067,10 +1860,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1087,8 +1880,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1131,9 +1924,26 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../../config/" class="md-nav__link">
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
         
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../config/" class="md-nav__link ">
+              
   
   <span class="md-ellipsis">
     
@@ -1146,7 +1956,273 @@
   
   
 
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2" id="__nav_4_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    The configuration file
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2_1" id="__nav_4_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuration variables
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Configuration variables
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../config/lazy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Lazy objects
+  
+
+    
+  </span>
+  
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../config/groups/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Groups
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../config/keys/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Keys
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../config/layouts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Layouts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../config/mouse/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Mouse
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../config/screens/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Screens
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../config/hooks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Hooks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1340,10 +2416,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1360,8 +2436,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1425,6 +2501,33 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../how-to-migrate/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Migrations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1451,10 +2554,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1471,8 +2574,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1659,16 +2762,94 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="How it works">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#selecting-an-object" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selecting an object
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#information-on-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Information on functions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passing-arguments-to-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passing arguments to functions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
   <a href="#examples" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Examples:
+        Examples
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#output-of-qtile-cmd-obj-h" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Output of qtile cmd-obj -h
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#output-of-qtile-cmd-obj-o-group-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Output of qtile cmd-obj -o group 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#output-of-qtile-cmd-obj-o-cmd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Output of qtile cmd-obj -o cmd
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1709,138 +2890,134 @@
 This can be used standalone or in other shell scripts.</p>
 <h2 id="how-it-works">How it works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
 <p><code>qtile cmd-obj</code> works by selecting a command object and calling a specified function of that object.</p>
-<p>As per :ref:<code>commands-api</code>, Qtile's command graph has seven nodes: <code>layout</code>, <code>window</code>, <code>group</code>,
+<p>As per <a class="autorefs autorefs-internal" href="../../#architecture">Architecture</a>, Qtile's command graph has seven nodes: <code>layout</code>, <code>window</code>, <code>group</code>,
 <code>bar</code>, <code>widget</code>, <code>screen</code>, and a special <code>root</code> node. These are the objects that can be accessed
 via <code>qtile cmd-obj</code> (NB the root node is called <code>cmd</code> when using the <code>cmd-obj</code> script to give it
 an addressable name).</p>
 <p>Running the command against a selected object without a function (<code>-f</code>) will run the <code>help</code>
 command and list the commands available to the object. Commands shown with an asterisk ("*") require
 arguments to be passed via the <code>-a</code> flag.</p>
-<p>Selecting an object
-~~~~~~~~~~~~~~~~~~~</p>
+<h3 id="selecting-an-object">Selecting an object<a class="headerlink" href="#selecting-an-object" title="Permanent link">&para;</a></h3>
 <p>With the exception of <code>cmd</code>, all objects need an identifier so the correct object can be selected. Refer to
-:ref:<code>object_graph_selectors</code> for more information.</p>
-<p>.. note::</p>
-<pre><code>You will see from the graph on :ref:`commands-api` that certain objects can be accessed from other objects.
-For example, `qtile cmd-obj -o group term layout` will list the commands for the current layout on the
-`term` group.
-</code></pre>
-<p>Information on functions
-~~~~~~~~~~~~~~~~~~~~~~~~</p>
+<a class="autorefs autorefs-internal" href="../../navigation/#navigating-the-command-graph">Navigating the command graph</a> for more information.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You will see from the graph on <a class="autorefs autorefs-internal" href="../../#architecture">Architecture</a> that certain objects can be accessed from other objects.
+For example, <code>qtile cmd-obj -o group term layout</code> will list the commands for the current layout on the
+<code>term</code> group.</p>
+</div>
+<h3 id="information-on-functions">Information on functions<a class="headerlink" href="#information-on-functions" title="Permanent link">&para;</a></h3>
 <p>Running a function with the <code>-i</code> flag will provide additional detail about that function (i.e. what it does and what
 arguments it expects).</p>
-<p>Passing arguments to functions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+<h3 id="passing-arguments-to-functions">Passing arguments to functions<a class="headerlink" href="#passing-arguments-to-functions" title="Permanent link">&para;</a></h3>
 <p>Arguments can be passed to a function by using the <code>-a</code> flag. For example, to change the label for the group named "1"
 to "A", you would run <code>qtile cmd-obj -o group 1 -f set_label -a A</code>.</p>
-<p>.. warning::</p>
-<pre><code>It is not currently possible to pass non-string arguments to functions via `qtile cmd-obj`. Doing so will
-result in an error.
-</code></pre>
-<h2 id="examples">Examples:<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h2>
-<p>Output of <code>qtile cmd-obj -h</code>
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
-<p>.. code:: text</p>
-<pre><code>usage: qtile cmd-obj [-h] [--object OBJ_SPEC [OBJ_SPEC ...]]
-                 [--function FUNCTION] [--args ARGS [ARGS ...]] [--info]
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>It is not currently possible to pass non-string arguments to functions via <code>qtile cmd-obj</code>. Doing so will
+result in an error.</p>
+</div>
+<h2 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h2>
+<h3 id="output-of-qtile-cmd-obj-h">Output of <code>qtile cmd-obj -h</code><a class="headerlink" href="#output-of-qtile-cmd-obj-h" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="gp">$ </span>qtile<span class="w"> </span>cmd-obj<span class="w"> </span>-h
+<span class="go">usage: qtile cmd-obj [-h] [--object OBJ_SPEC [OBJ_SPEC ...]]</span>
+<span class="go">                    [--function FUNCTION] [--args ARGS [ARGS ...]] [--info]</span>
 
-Simple tool to expose qtile.command functionality to shell.
+<span class="go">Simple tool to expose qtile.command functionality to shell.</span>
 
-optional arguments:
-  -h, --help            show this help message and exit
-  --object OBJ_SPEC [OBJ_SPEC ...], -o OBJ_SPEC [OBJ_SPEC ...]
-                        Specify path to object (space separated). If no
-                        --function flag display available commands.
-  --function FUNCTION, -f FUNCTION
-                        Select function to execute.
-  --args ARGS [ARGS ...], -a ARGS [ARGS ...]
-                        Set arguments supplied to function.
-  --info, -i            With both --object and --function args prints
-                        documentation for function.
+<span class="go">optional arguments:</span>
+<span class="go">    -h, --help            show this help message and exit</span>
+<span class="go">    --object OBJ_SPEC [OBJ_SPEC ...], -o OBJ_SPEC [OBJ_SPEC ...]</span>
+<span class="go">                          Specify path to object (space separated). If no</span>
+<span class="go">                          --function flag display available commands.</span>
+<span class="go">    --function FUNCTION, -f FUNCTION</span>
+<span class="go">                          Select function to execute.</span>
+<span class="go">    --args ARGS [ARGS ...], -a ARGS [ARGS ...]</span>
+<span class="go">                          Set arguments supplied to function.</span>
+<span class="go">    --info, -i            With both --object and --function args prints</span>
+<span class="go">                          documentation for function.</span>
 
-Examples:
- qtile cmd-obj
- qtile cmd-obj -o cmd
- qtile cmd-obj -o cmd -f prev_layout -i
- qtile cmd-obj -o cmd -f prev_layout -a 3 # prev_layout on group 3
- qtile cmd-obj -o group 3 -f focus_back
- qtile cmd-obj -o widget textbox -f update -a "New text"
- qtile cmd-obj -o cmd -f restart # restart qtile
-</code></pre>
-<p>Output of <code>qtile cmd-obj -o group 3</code>
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
-<p>.. code:: text</p>
-<pre><code>-o group 3 -f commands            Returns a list of possible commands for this object
--o group 3 -f doc               * Returns the documentation for a specified command name
--o group 3 -f eval              * Evaluates code in the same context as this function
--o group 3 -f focus_back          Focus the window that had focus before the current one got it.
--o group 3 -f focus_by_name     * Focus the first window with the given name. Do nothing if the name is
--o group 3 -f function          * Call a function with current object as argument
--o group 3 -f info                Returns a dictionary of info for this group
--o group 3 -f info_by_name      * Get the info for the first window with the given name without giving it
--o group 3 -f items             * Returns a list of contained items for the specified name
--o group 3 -f next_window         Focus the next window in group.
--o group 3 -f prev_window         Focus the previous window in group.
--o group 3 -f set_label         * Set the display name of current group to be used in GroupBox widget.
--o group 3 -f setlayout
--o group 3 -f switch_groups     * Switch position of current group with name
--o group 3 -f toscreen          * Pull a group to a specified screen.
--o group 3 -f unminimize_all      Unminimise all windows in this group
-</code></pre>
-<p>Output of <code>qtile cmd-obj -o cmd</code>
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
-<p>.. code:: text</p>
-<pre><code>-o cmd -f add_rule              * Add a dgroup rule, returns rule_id needed to remove it
--o cmd -f addgroup              * Add a group with the given name
--o cmd -f commands                Returns a list of possible commands for this object
--o cmd -f critical                Set log level to CRITICAL
--o cmd -f debug                   Set log level to DEBUG
--o cmd -f delgroup              * Delete a group with the given name
--o cmd -f display_kb            * Display table of key bindings
--o cmd -f doc                   * Returns the documentation for a specified command name
--o cmd -f error                   Set log level to ERROR
--o cmd -f eval                  * Evaluates code in the same context as this function
--o cmd -f findwindow            * Launch prompt widget to find a window of the given name
--o cmd -f focus_by_click        * Bring a window to the front
--o cmd -f function              * Call a function with current object as argument
--o cmd -f get_info                Prints info for all groups
--o cmd -f get_state               Get pickled state for restarting qtile
--o cmd -f get_test_data           Returns any content arbitrarily set in the self.test_data attribute.
--o cmd -f groups                  Return a dictionary containing information for all groups
--o cmd -f hide_show_bar         * Toggle visibility of a given bar
--o cmd -f info                    Set log level to INFO
--o cmd -f internal_windows        Return info for each internal window (bars, for example)
--o cmd -f items                 * Returns a list of contained items for the specified name
--o cmd -f list_widgets            List of all addressible widget names
--o cmd -f next_layout           * Switch to the next layout.
--o cmd -f next_screen             Move to next screen
--o cmd -f next_urgent             Focus next window with urgent hint
--o cmd -f pause                   Drops into pdb
--o cmd -f prev_layout           * Switch to the previous layout.
--o cmd -f prev_screen             Move to the previous screen
--o cmd -f qtile_info              Returns a dictionary of info on the Qtile instance
--o cmd -f qtilecmd              * Execute a Qtile command using the client syntax
--o cmd -f remove_rule           * Remove a dgroup rule by rule_id
--o cmd -f restart                 Restart qtile
--o cmd -f run_extension         * Run extensions
--o cmd -f run_external          * Run external Python script
--o cmd -f screens                 Return a list of dictionaries providing information on all screens
--o cmd -f shutdown                Quit Qtile
--o cmd -f simulate_keypress     * Simulates a keypress on the focused window.
--o cmd -f spawn                 * Run cmd in a shell.
--o cmd -f spawncmd              * Spawn a command using a prompt widget, with tab-completion.
--o cmd -f status                  Return "OK" if Qtile is running
--o cmd -f switch_groups         * Switch position of groupa to groupb
--o cmd -f switchgroup           * Launch prompt widget to switch to a given group to the current screen
--o cmd -f sync                    Sync the X display. Should only be used for development
--o cmd -f to_layout_index       * Switch to the layout with the given index in self.layouts.
--o cmd -f to_screen             * Warp focus to screen n, where n is a 0-based screen number
--o cmd -f togroup               * Launch prompt widget to move current window to a given group
--o cmd -f tracemalloc_dump        Dump tracemalloc snapshot
--o cmd -f tracemalloc_toggle      Toggle tracemalloc status
--o cmd -f warning                 Set log level to WARNING
--o cmd -f windows                 Return info for each client window
-</code></pre>
+<span class="go">Examples:</span>
+<span class="go">    qtile cmd-obj</span>
+<span class="go">    qtile cmd-obj -o cmd</span>
+<span class="go">    qtile cmd-obj -o cmd -f prev_layout -i</span>
+<span class="go">    qtile cmd-obj -o cmd -f prev_layout -a 3 # prev_layout on group 3</span>
+<span class="go">    qtile cmd-obj -o group 3 -f focus_back</span>
+<span class="go">    qtile cmd-obj -o widget textbox -f update -a &quot;New text&quot;</span>
+<span class="go">    qtile cmd-obj -o cmd -f restart # restart qtile</span>
+</code></pre></div>
+<h3 id="output-of-qtile-cmd-obj-o-group-3">Output of <code>qtile cmd-obj -o group 3</code><a class="headerlink" href="#output-of-qtile-cmd-obj-o-group-3" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="gp">$ </span>qtile<span class="w"> </span>cmd-obj<span class="w"> </span>-o<span class="w"> </span>group<span class="w"> </span><span class="m">3</span>
+<span class="go">-o group 3 -f commands            Returns a list of possible commands for this object</span>
+<span class="go">-o group 3 -f doc               * Returns the documentation for a specified command name</span>
+<span class="go">-o group 3 -f eval              * Evaluates code in the same context as this function</span>
+<span class="go">-o group 3 -f focus_back          Focus the window that had focus before the current one got it.</span>
+<span class="go">-o group 3 -f focus_by_name     * Focus the first window with the given name. Do nothing if the name is</span>
+<span class="go">-o group 3 -f function          * Call a function with current object as argument</span>
+<span class="go">-o group 3 -f info                Returns a dictionary of info for this group</span>
+<span class="go">-o group 3 -f info_by_name      * Get the info for the first window with the given name without giving it</span>
+<span class="go">-o group 3 -f items             * Returns a list of contained items for the specified name</span>
+<span class="go">-o group 3 -f next_window         Focus the next window in group.</span>
+<span class="go">-o group 3 -f prev_window         Focus the previous window in group.</span>
+<span class="go">-o group 3 -f set_label         * Set the display name of current group to be used in GroupBox widget.</span>
+<span class="go">-o group 3 -f setlayout</span>
+<span class="go">-o group 3 -f switch_groups     * Switch position of current group with name</span>
+<span class="go">-o group 3 -f toscreen          * Pull a group to a specified screen.</span>
+<span class="go">-o group 3 -f unminimize_all      Unminimise all windows in this group</span>
+</code></pre></div>
+<h3 id="output-of-qtile-cmd-obj-o-cmd">Output of <code>qtile cmd-obj -o cmd</code><a class="headerlink" href="#output-of-qtile-cmd-obj-o-cmd" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="gp">$ </span>qtile<span class="w"> </span>cmd-obj<span class="w"> </span>-o<span class="w"> </span>cmd
+<span class="go">-o cmd -f add_rule              * Add a dgroup rule, returns rule_id needed to remove it</span>
+<span class="go">-o cmd -f addgroup              * Add a group with the given name</span>
+<span class="go">-o cmd -f commands                Returns a list of possible commands for this object</span>
+<span class="go">-o cmd -f critical                Set log level to CRITICAL</span>
+<span class="go">-o cmd -f debug                   Set log level to DEBUG</span>
+<span class="go">-o cmd -f delgroup              * Delete a group with the given name</span>
+<span class="go">-o cmd -f display_kb            * Display table of key bindings</span>
+<span class="go">-o cmd -f doc                   * Returns the documentation for a specified command name</span>
+<span class="go">-o cmd -f error                   Set log level to ERROR</span>
+<span class="go">-o cmd -f eval                  * Evaluates code in the same context as this function</span>
+<span class="go">-o cmd -f findwindow            * Launch prompt widget to find a window of the given name</span>
+<span class="go">-o cmd -f focus_by_click        * Bring a window to the front</span>
+<span class="go">-o cmd -f function              * Call a function with current object as argument</span>
+<span class="go">-o cmd -f get_info                Prints info for all groups</span>
+<span class="go">-o cmd -f get_state               Get pickled state for restarting qtile</span>
+<span class="go">-o cmd -f get_test_data           Returns any content arbitrarily set in the self.test_data attribute.</span>
+<span class="go">-o cmd -f groups                  Return a dictionary containing information for all groups</span>
+<span class="go">-o cmd -f hide_show_bar         * Toggle visibility of a given bar</span>
+<span class="go">-o cmd -f info                    Set log level to INFO</span>
+<span class="go">-o cmd -f internal_windows        Return info for each internal window (bars, for example)</span>
+<span class="go">-o cmd -f items                 * Returns a list of contained items for the specified name</span>
+<span class="go">-o cmd -f list_widgets            List of all addressible widget names</span>
+<span class="go">-o cmd -f next_layout           * Switch to the next layout.</span>
+<span class="go">-o cmd -f next_screen             Move to next screen</span>
+<span class="go">-o cmd -f next_urgent             Focus next window with urgent hint</span>
+<span class="go">-o cmd -f pause                   Drops into pdb</span>
+<span class="go">-o cmd -f prev_layout           * Switch to the previous layout.</span>
+<span class="go">-o cmd -f prev_screen             Move to the previous screen</span>
+<span class="go">-o cmd -f qtile_info              Returns a dictionary of info on the Qtile instance</span>
+<span class="go">-o cmd -f qtilecmd              * Execute a Qtile command using the client syntax</span>
+<span class="go">-o cmd -f remove_rule           * Remove a dgroup rule by rule_id</span>
+<span class="go">-o cmd -f restart                 Restart qtile</span>
+<span class="go">-o cmd -f run_extension         * Run extensions</span>
+<span class="go">-o cmd -f run_external          * Run external Python script</span>
+<span class="go">-o cmd -f screens                 Return a list of dictionaries providing information on all screens</span>
+<span class="go">-o cmd -f shutdown                Quit Qtile</span>
+<span class="go">-o cmd -f simulate_keypress     * Simulates a keypress on the focused window.</span>
+<span class="go">-o cmd -f spawn                 * Run cmd in a shell.</span>
+<span class="go">-o cmd -f spawncmd              * Spawn a command using a prompt widget, with tab-completion.</span>
+<span class="go">-o cmd -f status                  Return &quot;OK&quot; if Qtile is running</span>
+<span class="go">-o cmd -f switch_groups         * Switch position of groupa to groupb</span>
+<span class="go">-o cmd -f switchgroup           * Launch prompt widget to switch to a given group to the current screen</span>
+<span class="go">-o cmd -f sync                    Sync the X display. Should only be used for development</span>
+<span class="go">-o cmd -f to_layout_index       * Switch to the layout with the given index in self.layouts.</span>
+<span class="go">-o cmd -f to_screen             * Warp focus to screen n, where n is a 0-based screen number</span>
+<span class="go">-o cmd -f togroup               * Launch prompt widget to move current window to a given group</span>
+<span class="go">-o cmd -f tracemalloc_dump        Dump tracemalloc snapshot</span>
+<span class="go">-o cmd -f tracemalloc_toggle      Toggle tracemalloc status</span>
+<span class="go">-o cmd -f warning                 Set log level to WARNING</span>
+<span class="go">-o cmd -f windows                 Return info for each client window</span>
+</code></pre></div>
 
 
 
@@ -1871,6 +3048,44 @@ Examples:
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../qtile-migrate/" class="md-footer__link md-footer__link--prev" aria-label="Previous: qtile migrate">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                qtile migrate
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../qtile-run/" class="md-footer__link md-footer__link--next" aria-label="Next: qtile run-cmd">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                qtile run-cmd
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">
@@ -1936,7 +3151,7 @@ Examples:
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.sections", "navigation.top", "search.highlight", "search.suggest", "toc.follow"], "search": "../../../../assets/javascripts/workers/search.1e90e0fb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "search.highlight", "search.suggest", "toc.follow"], "search": "../../../../assets/javascripts/workers/search.1e90e0fb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../../../assets/javascripts/bundle.2b189340.min.js"></script>

@@ -88,7 +88,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#requirements" class="md-skip">
+        <a href="#hacking-on-qtile" class="md-skip">
           Skip to content
         </a>
       
@@ -102,7 +102,7 @@
 
   
 
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../.." title="Qtile" class="md-header__button md-logo" aria-label="Qtile" data-md-component="logo">
       
@@ -226,13 +226,131 @@
     
   </nav>
   
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../install/" class="md-tabs__link">
+          
+  
+  Getting Started
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../commands/" class="md-tabs__link">
+          
+  
+  Scripting
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../config/default/" class="md-tabs__link">
+          
+  
+  Configuration
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  Hacking
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../faq/" class="md-tabs__link">
+          
+  
+  Miscellaneous
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
-        
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -246,8 +364,10 @@
                     
 
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="Qtile" class="md-nav__button md-logo" aria-label="Qtile" data-md-component="logo">
       
@@ -278,6 +398,32 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
     
     
     
@@ -291,10 +437,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
-          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -311,8 +457,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_1">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -333,12 +479,15 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
         
           
           
@@ -360,14 +509,14 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_1_1" id="__nav_1_1_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_2_1" id="__nav_2_1_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_1_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_1_1">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -580,6 +729,110 @@
   
   
   
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    
+  
+    Running Qtile
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Running Qtile
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../install/gnome/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Gnome
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../install/without-dm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    systemd
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../wayland/" class="md-nav__link">
         
@@ -628,15 +881,40 @@
 
               
             
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
               
                 
   
   
   
   
-    <li class="md-nav__item">
-      <a href="../commands/shell/" class="md-nav__link">
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
         
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../commands/shell/" class="md-nav__link ">
+              
   
   <span class="md-ellipsis">
     
@@ -649,7 +927,245 @@
   
   
 
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Entry points
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commands/shell/qtile-start/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile start
+  
+
+    
+  </span>
+  
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commands/shell/qtile-shell/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile shell
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commands/shell/qtile-migrate/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile migrate
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commands/shell/qtile-cmd/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile cmd-obj
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commands/shell/qtile-run/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile run-cmd
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commands/shell/qtile-top/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile top
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commands/shell/dqtile-cmd/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    dqtile-cmd
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commands/shell/iqshell/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    iqshell
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -681,10 +1197,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -701,8 +1217,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -718,9 +1234,26 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../commands/" class="md-nav__link">
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
         
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../commands/" class="md-nav__link ">
+              
   
   <span class="md-ellipsis">
     
@@ -733,7 +1266,110 @@
   
   
 
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_1" id="__nav_3_1_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Architecture
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commands/command_graph/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    The Command Graph
+  
+
+    
+  </span>
+  
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commands/navigation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Navigating the Command Graph
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commands/advanced/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Command Graph development
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -777,12 +1413,15 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
         
           
           
@@ -804,14 +1443,14 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_3_3" id="__nav_3_3_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_3">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1071,10 +1710,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1091,8 +1730,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1135,9 +1774,26 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../config/" class="md-nav__link">
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
         
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../config/" class="md-nav__link ">
+              
   
   <span class="md-ellipsis">
     
@@ -1150,7 +1806,273 @@
   
   
 
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2" id="__nav_4_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    The configuration file
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2_1" id="__nav_4_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuration variables
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Configuration variables
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../config/lazy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Lazy objects
+  
+
+    
+  </span>
+  
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../config/groups/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Groups
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../config/keys/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Keys
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../config/layouts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Layouts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../config/mouse/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Mouse
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../config/screens/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Screens
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../config/hooks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Hooks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1346,10 +2268,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1366,8 +2288,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_4">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1442,10 +2364,159 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Requirements
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#backends" class="md-nav__link">
     <span class="md-ellipsis">
       
         Backends
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#building-cffi-module" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Building cffi module
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up-the-environment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Setting up the environment
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#building-the-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Building the documentation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#development-and-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Development and testing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#coding-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Coding style
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logging" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Logging
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deprecation-policy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deprecation policy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-xephyr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Using Xephyr
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#second-x-session" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Second X Session
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debugging-in-pycharm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debugging in PyCharm
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debugging-in-vscode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debugging in VSCode
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resources
       
     </span>
   </a>
@@ -1488,6 +2559,33 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../how-to-migrate/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Migrations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1514,10 +2612,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1534,8 +2632,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1714,10 +2812,159 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Requirements
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#backends" class="md-nav__link">
     <span class="md-ellipsis">
       
         Backends
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#building-cffi-module" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Building cffi module
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up-the-environment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Setting up the environment
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#building-the-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Building the documentation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#development-and-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Development and testing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#coding-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Coding style
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logging" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Logging
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deprecation-policy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deprecation policy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-xephyr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Using Xephyr
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#second-x-session" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Second X Session
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debugging-in-pycharm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debugging in PyCharm
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debugging-in-vscode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debugging in VSCode
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resources
       
     </span>
   </a>
@@ -1756,87 +3003,129 @@
   
 
 
-<p>.. _hacking:</p>
-<p>================
-Hacking on Qtile
-================</p>
-<h1 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h1>
+<h1 id="hacking-on-qtile">Hacking on Qtile<a class="headerlink" href="#hacking-on-qtile" title="Permanent link">&para;</a></h1>
+<h2 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h2>
 <p>Here are Qtile's additional dependencies that may be required for tests:</p>
-<p>================= =================== ==================================================
-Dependency        Ubuntu Package      Needed for
-================= =================== ==================================================
-pytest_           python3-pytest      Running tests
-pre-commit_       pre-commit          Running linters
-PyGObject         python3-gi          Running tests (test windows)
-Xephyr_           xserver-xephyr      Testing with X11 backend (optional, see below)
-mypy              python3-mypy        Testing <code>qtile check</code> (optional)
-imagemagick&gt;=6.8  imagemagick         <code>test/test_images*</code> (optional)
-gtk-layer-shell   libgtk-layer-shell0 Testing notification windows in Wayland (optional)
-dbus-launch       dbus-x11            Testing dbus-using widgets (optional)
-notifiy-send      libnotify-bin       Testing <code>Notify</code> widget (optional)
-xvfb              xvfb                Testing with X11 headless (optional)
-================= =================== ==================================================</p>
-<p>.. _pytest: <a href="https://docs.pytest.org">https://docs.pytest.org</a>
-.. _Xephyr: <a href="https://freedesktop.org/wiki/Software/Xephyr">https://freedesktop.org/wiki/Software/Xephyr</a>
-.. _pre-commit: <a href="https://pre-commit.com/">https://pre-commit.com/</a></p>
-<h2 id="backends">Backends<a class="headerlink" href="#backends" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Dependency</th>
+<th>Ubuntu Package</th>
+<th>Needed for</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://docs.pytest.org">pytest</a></td>
+<td>python3-pytest</td>
+<td>Running tests</td>
+</tr>
+<tr>
+<td><a href="https://pre-commit.com/">pre-commit</a></td>
+<td>pre-commit</td>
+<td>Running linters</td>
+</tr>
+<tr>
+<td>PyGObject</td>
+<td>python3-gi</td>
+<td>Running tests (test windows)</td>
+</tr>
+<tr>
+<td><a href="https://freedesktop.org/wiki/Software/Xephyr">Xephyr</a></td>
+<td>xserver-xephyr</td>
+<td>Testing with X11 backend (optional, see below)</td>
+</tr>
+<tr>
+<td>mypy</td>
+<td>python3-mypy</td>
+<td>Testing <code>qtile check</code> (optional)</td>
+</tr>
+<tr>
+<td>imagemagick&gt;=6.8</td>
+<td>imagemagick</td>
+<td><code>test/test_images*</code> (optional)</td>
+</tr>
+<tr>
+<td>gtk-layer-shell</td>
+<td>libgtk-layer-shell0</td>
+<td>Testing notification windows in Wayland (optional)</td>
+</tr>
+<tr>
+<td>dbus-launch</td>
+<td>dbus-x11</td>
+<td>Testing dbus-using widgets (optional)</td>
+</tr>
+<tr>
+<td>notifiy-send</td>
+<td>libnotify-bin</td>
+<td>Testing <code>Notify</code> widget (optional)</td>
+</tr>
+<tr>
+<td>xvfb</td>
+<td>xvfb</td>
+<td>Testing with X11 headless (optional)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="backends">Backends<a class="headerlink" href="#backends" title="Permanent link">&para;</a></h3>
 <p>The test suite can be run using the X11 or Wayland backend, or both.  By
 default, only the X11 backend is used for tests. To test a single backend or
 both backends, specify as arguments to pytest:</p>
-<p>.. code-block:: bash</p>
-<pre><code>pytest --backend wayland  # Test just Wayland backend
-pytest --backend x11 --backend wayland  # Test both
-</code></pre>
-<p>Testing with the X11 backend requires Xephyr_ (and xvfb for headless mode) in addition to the core
+<div class="highlight"><pre><span></span><code>pytest<span class="w"> </span>--backend<span class="w"> </span>wayland<span class="w">  </span><span class="c1"># Test just Wayland backend</span>
+pytest<span class="w"> </span>--backend<span class="w"> </span>x11<span class="w"> </span>--backend<span class="w"> </span>wayland<span class="w">  </span><span class="c1"># Test both</span>
+</code></pre></div>
+<p>Testing with the X11 backend requires <a href="https://freedesktop.org/wiki/Software/Xephyr">Xephyr</a> (and xvfb for headless mode) in addition to the core
 dependencies.</p>
-<h1 id="building-cffi-module">Building cffi module<a class="headerlink" href="#building-cffi-module" title="Permanent link">&para;</a></h1>
+<h2 id="building-cffi-module">Building cffi module<a class="headerlink" href="#building-cffi-module" title="Permanent link">&para;</a></h2>
 <p>Qtile ships with a small in-tree pangocairo binding built using cffi,
 <code>pangocffi.py</code>, and also binds to xcursor with cffi.  The bindings are not
 built at run time and will have to be generated manually when the code is
 downloaded or when any changes are made to the cffi library.  This can be done
 by calling:</p>
-<p>.. code-block:: bash</p>
-<pre><code>./scripts/ffibuild
-</code></pre>
-<h1 id="setting-up-the-environment">Setting up the environment<a class="headerlink" href="#setting-up-the-environment" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code>./scripts/ffibuild
+</code></pre></div>
+<h2 id="setting-up-the-environment">Setting up the environment<a class="headerlink" href="#setting-up-the-environment" title="Permanent link">&para;</a></h2>
 <p>In the root of the project, run <code>./dev.sh</code>.
 It will create a virtualenv called <code>venv</code>.</p>
 <p>Activate this virtualenv with <code>. venv/bin/activate</code>.
 Deactivate it with the <code>deactivate</code> command.</p>
-<h1 id="building-the-documentation">Building the documentation<a class="headerlink" href="#building-the-documentation" title="Permanent link">&para;</a></h1>
-<p>To build the documentation, you will also need to install <code>graphviz
-&lt;https://www.graphviz.org/download/&gt;</code>_.</p>
+<h2 id="building-the-documentation">Building the documentation<a class="headerlink" href="#building-the-documentation" title="Permanent link">&para;</a></h2>
+<p>To build the documentation, you will also need to install
+<a href="https://www.graphviz.org/download/">graphviz</a>.</p>
 <p>Go into the <code>docs/</code> directory and run <code>pip install -r requirements.txt</code>.</p>
 <p>Build the documentation with <code>make html</code>.</p>
 <p>Check the result by opening <code>_build/html/index.html</code> in your browser.</p>
-<p>.. note::</p>
-<p>To speed up local testing, screenshots are not generated each time the documentation
-  is built.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>
+To speed up local testing, screenshots are not generated each time the documentation
+is built.</p>
 <p>You can enable screenshots by setting the <code>QTILE_BUILD_SCREENSHOTS</code> environmental
-  variable at build time e.g. <code>QTILE_BUILD_SCREENSHOTS=1 make html</code>. You can also
-  export the variable so it will apply to all local builds <code>export QTILE_BUILD_SCREENSHOTS=1</code>
-  (but remember to unset it if you want to skip building screenshots).</p>
-<h1 id="development-and-testing">Development and testing<a class="headerlink" href="#development-and-testing" title="Permanent link">&para;</a></h1>
+variable at build time e.g. <code>QTILE_BUILD_SCREENSHOTS=1 make html</code>. You can also
+export the variable so it will apply to all local builds <code>export QTILE_BUILD_SCREENSHOTS=1</code>
+(but remember to unset it if you want to skip building screenshots).</p>
+</div>
+<h2 id="development-and-testing">Development and testing<a class="headerlink" href="#development-and-testing" title="Permanent link">&para;</a></h2>
 <p>In practice, the development cycle looks something like this:</p>
 <ol>
 <li>make minor code change</li>
+<li>run appropriate test: <code>pytest tests/test_module.py</code> or <code>pytest -k PATTERN</code></li>
+<li>GOTO 1, until hackage is complete</li>
+<li>run entire test suite to make sure you didn't break anything else: <code>pytest</code></li>
+<li>try to commit, get changes and feedback from the pre-commit hooks</li>
+<li>GOTO 5, until your changes actually get committed</li>
 </ol>
-<h1 id="run-appropriate-test-pytest-teststest_modulepy-or-pytest-k-pattern">. run appropriate test: <code>pytest tests/test_module.py</code> or <code>pytest -k PATTERN</code><a class="headerlink" href="#run-appropriate-test-pytest-teststest_modulepy-or-pytest-k-pattern" title="Permanent link">&para;</a></h1>
-<h1 id="goto-1-until-hackage-is-complete">. GOTO 1, until hackage is complete<a class="headerlink" href="#goto-1-until-hackage-is-complete" title="Permanent link">&para;</a></h1>
-<h1 id="run-entire-test-suite-to-make-sure-you-didnt-break-anything-else-pytest">. run entire test suite to make sure you didn't break anything else: <code>pytest</code><a class="headerlink" href="#run-entire-test-suite-to-make-sure-you-didnt-break-anything-else-pytest" title="Permanent link">&para;</a></h1>
-<h1 id="try-to-commit-get-changes-and-feedback-from-the-pre-commit-hooks">. try to commit, get changes and feedback from the pre-commit hooks<a class="headerlink" href="#try-to-commit-get-changes-and-feedback-from-the-pre-commit-hooks" title="Permanent link">&para;</a></h1>
-<h1 id="goto-5-until-your-changes-actually-get-committed">. GOTO 5, until your changes actually get committed<a class="headerlink" href="#goto-5-until-your-changes-actually-get-committed" title="Permanent link">&para;</a></h1>
 <p>Tests and pre-commit hooks will be run by our CI on every pull request
 as well so you can see whether or not your contribution passes.</p>
-<h1 id="coding-style">Coding style<a class="headerlink" href="#coding-style" title="Permanent link">&para;</a></h1>
-<p>While not all of our code follows <code>PEP8 &lt;https://www.python.org/dev/peps/pep-0008/&gt;</code>_,
+<h2 id="coding-style">Coding style<a class="headerlink" href="#coding-style" title="Permanent link">&para;</a></h2>
+<p>While not all of our code follows <a href="https://www.python.org/dev/peps/pep-0008/">PEP8</a>,
 we do try to adhere to it where possible. All new code should be PEP8 compliant.</p>
 <p>The <code>make lint</code> command (or <code>pre-commit run -a</code>) will run our linters and
 formatters with our configuration over the whole libqtile to ensure your patch
 complies with reasonable formatting constraints. We also request that git commit
 messages follow the
-<code>standard format &lt;https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html&gt;</code>_.</p>
-<h1 id="logging">Logging<a class="headerlink" href="#logging" title="Permanent link">&para;</a></h1>
+<a href="https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html">standard format</a>.</p>
+<h2 id="logging">Logging<a class="headerlink" href="#logging" title="Permanent link">&para;</a></h2>
 <p>Logs are important to us because they are our best way to see what Qtile is
 doing when something abnormal happens. However, our goal is not to have as many
 logs as possible, as this hinders readability. What we want are relevant logs.</p>
@@ -1875,12 +3164,12 @@ duplicated between two messages.</p>
 necessarily have advanced programming knowledge; adapt your message
 accordingly. If it can't make sense to your grandma, it's probably meant to be
 a DEBUG message.</p>
-<h1 id="deprecation-policy">Deprecation policy<a class="headerlink" href="#deprecation-policy" title="Permanent link">&para;</a></h1>
+<h2 id="deprecation-policy">Deprecation policy<a class="headerlink" href="#deprecation-policy" title="Permanent link">&para;</a></h2>
 <p>When a widget API is changed, you should deprecate the change using
 <code>libqtile.widget.base.deprecated</code> to warn users, in addition to adding it to
 the appropriate place in the changelog. We will typically remove deprecated
 APIs one tag after they are deprecated.</p>
-<h1 id="using-xephyr">Using Xephyr<a class="headerlink" href="#using-xephyr" title="Permanent link">&para;</a></h1>
+<h2 id="using-xephyr">Using Xephyr<a class="headerlink" href="#using-xephyr" title="Permanent link">&para;</a></h2>
 <p>Qtile has a very extensive test suite, using the Xephyr nested X server. When
 tests are run, a nested X server with a nested instance of Qtile is fired up,
 and then tests interact with the Qtile instance through the client API. The
@@ -1889,17 +3178,21 @@ scriptable Qtile is. In fact, Qtile is designed expressly to be scriptable
 enough to allow unit testing in a nested environment.</p>
 <p>The Qtile repo includes a tiny helper script to let you quickly pull up a
 nested instance of Qtile in Xephyr, using your current configuration.
-Run it from the top-level of the repository, like this::</p>
-<p>./scripts/xephyr</p>
+Run it from the top-level of the repository, like this:</p>
+<div class="highlight"><pre><span></span><code>./scripts/xephyr
+</code></pre></div>
 <p>Change the screen size by setting the <code>SCREEN_SIZE</code> environment variable.
-Default: 800x600. Example::</p>
-<p>SCREEN_SIZE=1920x1080 ./scripts/xephyr</p>
+Default: 800x600. Example:</p>
+<div class="highlight"><pre><span></span><code><span class="nv">SCREEN_SIZE</span><span class="o">=</span>1920x1080<span class="w"> </span>./scripts/xephyr
+</code></pre></div>
 <p>Change the log level by setting the <code>LOG_LEVEL</code> environment variable.
-Default: INFO. Example::</p>
-<p>LOG_LEVEL=DEBUG ./scripts/xephyr</p>
+Default: INFO. Example:</p>
+<div class="highlight"><pre><span></span><code><span class="nv">LOG_LEVEL</span><span class="o">=</span>DEBUG<span class="w"> </span>./scripts/xephyr
+</code></pre></div>
 <p>The script will also pass any additional options to Qtile. For example, you
-can use a specific configuration file like this::</p>
-<p>./scripts/xephyr -c ~/.config/qtile/other_config.py</p>
+can use a specific configuration file like this:</p>
+<div class="highlight"><pre><span></span><code>./scripts/xephyr<span class="w"> </span>-c<span class="w"> </span>~/.config/qtile/other_config.py
+</code></pre></div>
 <p>Once the Xephyr window is running and focused, you can enable capturing the
 keyboard shortcuts by hitting Control+Shift. Hitting them again will disable the
 capture and let you use your personal keyboard shortcuts again.</p>
@@ -1909,23 +3202,23 @@ You can also close the Xephyr window by running <code>qtile cmd-obj -o cmd -f sh
 in a terminal (from inside the Xephyr window of course).</p>
 <p>You don't need to run the Xephyr script in order to run the tests
 as the test runner will launch its own Xephyr instances.</p>
-<h1 id="second-x-session">Second X Session<a class="headerlink" href="#second-x-session" title="Permanent link">&para;</a></h1>
+<h2 id="second-x-session">Second X Session<a class="headerlink" href="#second-x-session" title="Permanent link">&para;</a></h2>
 <p>Some users prefer to test Qtile in a second, completely separate X session:
 Just switch to a new tty and run <code>startx</code> normally to use the <code>~/.xinitrc</code>
 X startup script.</p>
 <p>It's likely though that you want to use a different, customized startup script
 for testing purposes, for example <code>~/.config/qtile/xinitrc</code>. You can do so by
 launching X with:</p>
-<p>.. code-block:: bash</p>
-<p>startx ~/.config/qtile/xinitrc</p>
+<div class="highlight"><pre><span></span><code><span class="w">  </span>startx<span class="w"> </span>~/.config/qtile/xinitrc
+</code></pre></div>
 <p><code>startx</code> deals with multiple X sessions automatically. If you want to use
 <code>xinit</code> instead, you need to first copy <code>/etc/X11/xinit/xserverrc</code> to
 <code>~/.xserverrc</code>; when launching it, you have to specify a new session number:</p>
-<p>.. code-block:: bash</p>
-<p>xinit ~/.config/qtile/xinitrc -- :1</p>
-<p>Examples of custom X startup scripts are available in <code>qtile-examples
-&lt;https://github.com/qtile/qtile-examples&gt;</code>_.</p>
-<h1 id="debugging-in-pycharm">Debugging in PyCharm<a class="headerlink" href="#debugging-in-pycharm" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code>xinit<span class="w"> </span>~/.config/qtile/xinitrc<span class="w"> </span>--<span class="w"> </span>:1
+</code></pre></div>
+<p>Examples of custom X startup scripts are available in
+<a href="https://github.com/qtile/qtile-examples">qtile-examples</a>.</p>
+<h2 id="debugging-in-pycharm">Debugging in PyCharm<a class="headerlink" href="#debugging-in-pycharm" title="Permanent link">&para;</a></h2>
 <p>Make sure to have all the requirements installed and your development environment setup.</p>
 <p>PyCharm should automatically detect the <code>venv</code> virtualenv when opening the project.
 If you are using another viirtualenv, just instruct PyCharm to use it
@@ -1943,48 +3236,48 @@ and click on <code>Mark Directory as -&gt; Sources Root</code>.</p>
 <li>Add source root to PYTHONPATH: yes</li>
 </ul>
 <p>Then, in a terminal, run:</p>
-<pre><code>Xephyr +extension RANDR -screen 1920x1040 :1 -ac &amp;
-</code></pre>
+<div class="highlight"><pre><span></span><code>Xephyr<span class="w"> </span>+extension<span class="w"> </span>RANDR<span class="w"> </span>-screen<span class="w"> </span>1920x1040<span class="w"> </span>:1<span class="w"> </span>-ac<span class="w"> </span><span class="p">&amp;</span>
+</code></pre></div>
 <p>Note that we used the same display, <code>:1</code>, in both the terminal command
 and the PyCharm configuration environment variables.
 Feel free to change the screen size to fit your own screen.</p>
 <p>Finally, place your breakpoints in the code and click on <code>Debug</code>!</p>
 <p>Once you finished debugging, you can close the Xephyr window with <code>kill PID</code>
 (use the <code>jobs</code> builtin to get its PID).</p>
-<h1 id="debugging-in-vscode">Debugging in VSCode<a class="headerlink" href="#debugging-in-vscode" title="Permanent link">&para;</a></h1>
+<h2 id="debugging-in-vscode">Debugging in VSCode<a class="headerlink" href="#debugging-in-vscode" title="Permanent link">&para;</a></h2>
 <p>Make sure to have all the requirements installed and your development
 environment setup.</p>
 <p>Open the root of the repo in VSCode.  If you have created it, VSCode should
 detect the <code>venv</code> virtualenv, if not, select it.</p>
 <p>Create a launch.json file with the following lines.</p>
-<p>.. code-block:: json</p>
-<p>{
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "Python: Qtile",
-            "type": "python",
-            "request": "launch",
-            "program": "${workspaceFolder}/bin/qtile",
-            "cwd": "${workspaceFolder}",
-            "args": ["-c", "libqtile/resources/default_config.py"],
-            "console": "integratedTerminal",
-            "env": {"PYTHONUNBUFFERED":"1", "DISPLAY":":1"}
-        }
-    ]
-  }</p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;0.2.0&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;configurations&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="p">{</span>
+<span class="w">          </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Python: Qtile&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;python&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;request&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;launch&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;program&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;${workspaceFolder}/bin/qtile&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;cwd&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;${workspaceFolder}&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-c&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;libqtile/resources/default_config.py&quot;</span><span class="p">],</span>
+<span class="w">          </span><span class="nt">&quot;console&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;integratedTerminal&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;PYTHONUNBUFFERED&quot;</span><span class="p">:</span><span class="s2">&quot;1&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;DISPLAY&quot;</span><span class="p">:</span><span class="s2">&quot;:1&quot;</span><span class="p">}</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">  </span><span class="p">]</span>
+<span class="p">}</span>
+</code></pre></div>
 <p>Then, in a terminal, run:</p>
-<pre><code>Xephyr +extension RANDR -screen 1920x1040 :1 -ac &amp;
-</code></pre>
+<div class="highlight"><pre><span></span><code>Xephyr<span class="w"> </span>+extension<span class="w"> </span>RANDR<span class="w"> </span>-screen<span class="w"> </span>1920x1040<span class="w"> </span>:1<span class="w"> </span>-ac<span class="w"> </span><span class="p">&amp;</span>
+</code></pre></div>
 <p>Note that we used the same display, <code>:1</code>, in both the terminal command
 and the VSCode configuration environment variables.  Then <code>debug</code> usually
 in VSCode. Feel free to change the screen size to fit your own screen.</p>
-<h1 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">&para;</a></h1>
+<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">&para;</a></h2>
 <p>Here are a number of resources that may come in handy:</p>
 <ul>
-<li><code>Inter-Client Conventions Manual &lt;https://tronche.com/gui/x/icccm/&gt;</code>_</li>
-<li><code>Extended Window Manager Hints &lt;https://specifications.freedesktop.org/wm-spec/wm-spec-latest.html&gt;</code>_</li>
-<li><code>A reasonable basic Xlib Manual &lt;https://tronche.com/gui/x/xlib/&gt;</code>_</li>
+<li><a href="https://tronche.com/gui/x/icccm/">Inter-Client Conventions Manual</a></li>
+<li><a href="https://specifications.freedesktop.org/wm-spec/wm-spec-latest.html">Extended Window Manager Hints</a></li>
+<li><a href="https://tronche.com/gui/x/xlib/">A reasonable basic Xlib Manual</a></li>
 </ul>
 
 
@@ -2119,7 +3412,7 @@ in VSCode. Feel free to change the screen size to fit your own screen.</p>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.sections", "navigation.top", "search.highlight", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.1e90e0fb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "search.highlight", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.1e90e0fb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.2b189340.min.js"></script>

@@ -13,6 +13,10 @@
         <link rel="canonical" href="https://pawamoy.github.io/qtile/manual/how-to-migrate/">
       
       
+        <link rel="prev" href="../contributing/">
+      
+      
+        <link rel="next" href="../faq/">
       
       
         
@@ -23,7 +27,7 @@
     
     
       
-        <title>How to write a migration script - Qtile</title>
+        <title>Migrations - Qtile</title>
       
     
     
@@ -84,7 +88,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#how-to-write-a-migration-script" class="md-skip">
+        <a href="#how-to-migrate" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +102,7 @@
 
   
 
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../.." title="Qtile" class="md-header__button md-logo" aria-label="Qtile" data-md-component="logo">
       
@@ -120,7 +124,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              How to write a migration script
+              Migrations
             
           </span>
         </div>
@@ -222,13 +226,131 @@
     
   </nav>
   
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../install/" class="md-tabs__link">
+          
+  
+  Getting Started
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../commands/" class="md-tabs__link">
+          
+  
+  Scripting
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../config/default/" class="md-tabs__link">
+          
+  
+  Configuration
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../hacking/" class="md-tabs__link">
+          
+  
+  Hacking
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../faq/" class="md-tabs__link">
+          
+  
+  Miscellaneous
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
-        
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -242,8 +364,10 @@
                     
 
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="Qtile" class="md-nav__button md-logo" aria-label="Qtile" data-md-component="logo">
       
@@ -274,6 +398,32 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
     
     
     
@@ -287,10 +437,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
-          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -307,8 +457,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_1">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -329,12 +479,15 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
         
           
           
@@ -356,14 +509,14 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_1_1" id="__nav_1_1_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_2_1" id="__nav_2_1_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_1_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_1_1">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -576,6 +729,110 @@
   
   
   
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    
+  
+    Running Qtile
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Running Qtile
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../install/gnome/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Gnome
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../install/without-dm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    systemd
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../wayland/" class="md-nav__link">
         
@@ -624,15 +881,40 @@
 
               
             
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
               
                 
   
   
   
   
-    <li class="md-nav__item">
-      <a href="../commands/shell/" class="md-nav__link">
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
         
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../commands/shell/" class="md-nav__link ">
+              
   
   <span class="md-ellipsis">
     
@@ -645,7 +927,245 @@
   
   
 
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Entry points
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commands/shell/qtile-start/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile start
+  
+
+    
+  </span>
+  
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commands/shell/qtile-shell/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile shell
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commands/shell/qtile-migrate/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile migrate
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commands/shell/qtile-cmd/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile cmd-obj
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commands/shell/qtile-run/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile run-cmd
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commands/shell/qtile-top/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile top
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commands/shell/dqtile-cmd/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    dqtile-cmd
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commands/shell/iqshell/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    iqshell
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -677,10 +1197,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -697,8 +1217,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -714,9 +1234,26 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../commands/" class="md-nav__link">
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
         
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../commands/" class="md-nav__link ">
+              
   
   <span class="md-ellipsis">
     
@@ -729,7 +1266,110 @@
   
   
 
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_1" id="__nav_3_1_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Architecture
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commands/command_graph/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    The Command Graph
+  
+
+    
+  </span>
+  
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commands/navigation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Navigating the Command Graph
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commands/advanced/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Command Graph development
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -773,12 +1413,15 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
         
           
           
@@ -800,14 +1443,14 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_3_3" id="__nav_3_3_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_3">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1067,10 +1710,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1087,8 +1730,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1131,9 +1774,26 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../config/" class="md-nav__link">
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
         
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../config/" class="md-nav__link ">
+              
   
   <span class="md-ellipsis">
     
@@ -1146,7 +1806,273 @@
   
   
 
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2" id="__nav_4_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    The configuration file
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2_1" id="__nav_4_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuration variables
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Configuration variables
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../config/lazy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Lazy objects
+  
+
+    
+  </span>
+  
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../config/groups/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Groups
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../config/keys/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Keys
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../config/layouts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Layouts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../config/mouse/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Mouse
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../config/screens/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Screens
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../config/hooks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Hooks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1325,8 +2251,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -1335,15 +2263,15 @@
       
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1360,8 +2288,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1425,6 +2353,156 @@
 
               
             
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    
+  
+    Migrations
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Migrations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-write-a-migration-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to write a migration script
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stucture-of-a-migration-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stucture of a migration file
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#providing-details-about-the-migration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Providing details about the migration
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-migrations-are-run" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How migrations are run
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#transforming-the-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transforming the code
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#helper-classes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Helper classes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testing-the-migration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Testing the migration
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1451,10 +2529,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1471,8 +2549,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1651,10 +2729,76 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#how-to-write-a-migration-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to write a migration script
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#stucture-of-a-migration-file" class="md-nav__link">
     <span class="md-ellipsis">
       
         Stucture of a migration file
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#providing-details-about-the-migration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Providing details about the migration
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-migrations-are-run" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How migrations are run
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#transforming-the-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transforming the code
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#helper-classes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Helper classes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testing-the-migration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Testing the migration
       
     </span>
   </a>
@@ -1693,50 +2837,44 @@
   
 
 
-<h1 id="how-to-write-a-migration-script">How to write a migration script<a class="headerlink" href="#how-to-write-a-migration-script" title="Permanent link">&para;</a></h1>
+<h1 id="how-to-migrate">How to migrate<a class="headerlink" href="#how-to-migrate" title="Permanent link">&para;</a></h1>
+<h2 id="how-to-write-a-migration-script">How to write a migration script<a class="headerlink" href="#how-to-write-a-migration-script" title="Permanent link">&para;</a></h2>
 <p>Qtile's migration scripts should provide two functions:</p>
 <ul>
 <li>Update config files to fix any breaking changes introduced by a commit</li>
 <li>Provide linting summary of errors in existing configs</li>
 </ul>
-<p>To do this, we use <code>LibCST &lt;https://libcst.readthedocs.io/en/latest/&gt;</code>_ to
+<p>To do this, we use <a href="https://libcst.readthedocs.io/en/latest/">LibCST</a> to
 parse the config file and make changes as appropriate. Basic tips for using
 <code>LibCST</code> are included below but it is recommended that you read their
 documentation to familiarise yourself with the available functionalities.</p>
 <h2 id="stucture-of-a-migration-file">Stucture of a migration file<a class="headerlink" href="#stucture-of-a-migration-file" title="Permanent link">&para;</a></h2>
 <p>Migrations should be saved as a new file in <code>libqtile/scripts/migrations</code>.</p>
 <p>A basic migration will look like this:</p>
-<p>.. code:: python</p>
-<pre><code>from libqtile.scripts.migrations._base import MigrationTransformer, _QtileMigrator, add_migration
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">libqtile.scripts.migrations._base</span> <span class="kn">import</span> <span class="n">MigrationTransformer</span><span class="p">,</span> <span class="n">_QtileMigrator</span><span class="p">,</span> <span class="n">add_migration</span>
 
 
-class MyMigration(MigrationTransformer):
-    """The class that actually modifies the code."""
-    ...
+<span class="k">class</span> <span class="nc">MyMigration</span><span class="p">(</span><span class="n">MigrationTransformer</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;The class that actually modifies the code.&quot;&quot;&quot;</span>
+    <span class="o">...</span>
 
 
-class Migrator(_QtileMigrator):
-    ID = "MyMigrationName"
+<span class="k">class</span> <span class="nc">Migrator</span><span class="p">(</span><span class="n">_QtileMigrator</span><span class="p">):</span>
+    <span class="n">ID</span> <span class="o">=</span> <span class="s2">&quot;MyMigrationName&quot;</span>
+    <span class="n">SUMMARY</span> <span class="o">=</span> <span class="s2">&quot;Summary of migration.&quot;</span>
+    <span class="n">HELP</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">    Longer text explaining purpose of the migration and, ideally,</span>
+<span class="s2">    giving code examples.</span>
+<span class="s2">    &quot;&quot;&quot;</span>
+    <span class="n">AFTER_VERSION</span> <span class="o">=</span> <span class="s2">&quot;0.22.1&quot;</span>
+    <span class="n">TESTS</span> <span class="o">=</span> <span class="p">[]</span>
 
-    SUMMARY = "Summary of migration."
-
-    HELP = """
-    Longer text explaining purpose of the migration and, ideally,
-    giving code examples.
-
-    """
-
-    AFTER_VERSION = "0.22.1"
-
-    TESTS = []
-
-    visitor = MyMigration
+    <span class="n">visitor</span> <span class="o">=</span> <span class="n">MyMigration</span>
 
 
-add_migration(Migrator)
-</code></pre>
-<p>Providing details about the migration
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+<span class="n">add_migration</span><span class="p">(</span><span class="n">Migrator</span><span class="p">)</span>
+</code></pre></div>
+<h2 id="providing-details-about-the-migration">Providing details about the migration<a class="headerlink" href="#providing-details-about-the-migration" title="Permanent link">&para;</a></h2>
 <p>The purpose of <code>Migrator</code> class in the code above is to provide the information about the migration.</p>
 <p>It is important that the information is as helpful as possible as it is used in multiple places.</p>
 <ul>
@@ -1755,8 +2893,7 @@ add_migration(Migrator)
   available migrations.</li>
 <li>See below for details on <code>TESTS</code>.</li>
 </ul>
-<p>How migrations are run
-~~~~~~~~~~~~~~~~~~~~~~</p>
+<h2 id="how-migrations-are-run">How migrations are run<a class="headerlink" href="#how-migrations-are-run" title="Permanent link">&para;</a></h2>
 <p>You are pretty much free to transform the code as you see fit. By default, the script will run the
 <code>visit</code> method on the parsed code and will pass the <code>visitor</code> attribute of the <code>_QtileMigrator</code> class
 object. Therefore, if all your transformations can be performed in a single visitor, it is not necessary
@@ -1764,55 +2901,53 @@ to do anything further in the <code>Migrator</code> class.</p>
 <p>However, if you want to run mutiple visitors, transformers, codemods, this is possible by overriding the
 <code>run</code> method of the <code>_QtileMigrator</code> class. For example, the <code>RemoveCmdPrefix</code> migrator has the following
 code:</p>
-<p>.. code:: python</p>
-<pre><code>def run(self, original):
-    # Run the base migrations
-    transformer = CmdPrefixTransformer()
-    updated = original.visit(transformer)
-    self.update_lint(transformer)
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">original</span><span class="p">):</span>
+    <span class="c1"># Run the base migrations</span>
+    <span class="n">transformer</span> <span class="o">=</span> <span class="n">CmdPrefixTransformer</span><span class="p">()</span>
+    <span class="n">updated</span> <span class="o">=</span> <span class="n">original</span><span class="o">.</span><span class="n">visit</span><span class="p">(</span><span class="n">transformer</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">update_lint</span><span class="p">(</span><span class="n">transformer</span><span class="p">)</span>
 
-    # Check if we need to add an import line
-    if transformer.needs_import:
-        # We use the built-in visitor to add the import
-        context = codemod.CodemodContext()
-        AddImportsVisitor.add_needed_import(
-            context, "libqtile.command.base", "expose_command"
-        )
-        visitor = AddImportsVisitor(context)
+    <span class="c1"># Check if we need to add an import line</span>
+    <span class="k">if</span> <span class="n">transformer</span><span class="o">.</span><span class="n">needs_import</span><span class="p">:</span>
+        <span class="c1"># We use the built-in visitor to add the import</span>
+        <span class="n">context</span> <span class="o">=</span> <span class="n">codemod</span><span class="o">.</span><span class="n">CodemodContext</span><span class="p">()</span>
+        <span class="n">AddImportsVisitor</span><span class="o">.</span><span class="n">add_needed_import</span><span class="p">(</span>
+            <span class="n">context</span><span class="p">,</span> <span class="s2">&quot;libqtile.command.base&quot;</span><span class="p">,</span> <span class="s2">&quot;expose_command&quot;</span>
+        <span class="p">)</span>
+        <span class="n">visitor</span> <span class="o">=</span> <span class="n">AddImportsVisitor</span><span class="p">(</span><span class="n">context</span><span class="p">)</span>
 
-        # Run the visitor over the updated code
-        updated = updated.visit(visitor)
+        <span class="c1"># Run the visitor over the updated code</span>
+        <span class="n">updated</span> <span class="o">=</span> <span class="n">updated</span><span class="o">.</span><span class="n">visit</span><span class="p">(</span><span class="n">visitor</span><span class="p">)</span>
 
-    return original, updated
-</code></pre>
+    <span class="k">return</span> <span class="n">original</span><span class="p">,</span> <span class="n">updated</span>
+</code></pre></div>
 <p>In this migration, it may be required to add an import statement. <code>LibCST</code> has a built-in
 transformation for doing this so we can run that after our own transformation has been performed.</p>
-<p>.. important::</p>
-<pre><code>The `run` method must return a tuple of the original code and the updated code.
-</code></pre>
-<p>Transforming the code
-~~~~~~~~~~~~~~~~~~~~~</p>
-<p>It is recommended that you use a <code>transformed &lt;https://libcst.readthedocs.io/en/latest/tutorial.html#Build-Visitor-or-Transformer&gt;</code>_
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>The <code>run</code> method must return a tuple of the original code and the updated code.</p>
+</div>
+<h2 id="transforming-the-code">Transforming the code<a class="headerlink" href="#transforming-the-code" title="Permanent link">&para;</a></h2>
+<p>It is recommended that you use a <a href="https://libcst.readthedocs.io/en/latest/tutorial.html#Build-Visitor-or-Transformer">transformed</a>
 to update the code. For convenience, a <code>MigrationTransformer</code> class is defined in <code>libqtile.scripts.migrations._base</code>. This
 class definition includes some metadata information and a <code>lint</code> method for outputting details of errors.</p>
 <p>Let's look at an example transformer to understand how the migration works. The code below shows how to change a positional
 argument to a keyword argument in the <code>WidgetBox</code> widget.</p>
-<p>.. code:: python</p>
-<pre><code>class WidgetboxArgsTransformer(MigrationTransformer):
-    @m.call_if_inside(
-        m.Call(func=m.Name("WidgetBox")) | m.Call(func=m.Attribute(attr=m.Name("WidgetBox")))
-    )
-    @m.leave(m.Arg(keyword=None))
-    def update_widgetbox_args(self, original_node, updated_node) -&gt; cst.Arg:
-        """Changes positional  argumentto 'widgets' kwargs."""
-        self.lint(
-            original_node,
-            "The positional argument should be replaced with a keyword argument named 'widgets'.",
-        )
-        return updated_node.with_changes(keyword=cst.Name("widgets"), equal=EQUALS_NO_SPACE)
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">WidgetboxArgsTransformer</span><span class="p">(</span><span class="n">MigrationTransformer</span><span class="p">):</span>
+    <span class="nd">@m</span><span class="o">.</span><span class="n">call_if_inside</span><span class="p">(</span>
+        <span class="n">m</span><span class="o">.</span><span class="n">Call</span><span class="p">(</span><span class="n">func</span><span class="o">=</span><span class="n">m</span><span class="o">.</span><span class="n">Name</span><span class="p">(</span><span class="s2">&quot;WidgetBox&quot;</span><span class="p">))</span> <span class="o">|</span> <span class="n">m</span><span class="o">.</span><span class="n">Call</span><span class="p">(</span><span class="n">func</span><span class="o">=</span><span class="n">m</span><span class="o">.</span><span class="n">Attribute</span><span class="p">(</span><span class="n">attr</span><span class="o">=</span><span class="n">m</span><span class="o">.</span><span class="n">Name</span><span class="p">(</span><span class="s2">&quot;WidgetBox&quot;</span><span class="p">)))</span>
+    <span class="p">)</span>
+    <span class="nd">@m</span><span class="o">.</span><span class="n">leave</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">Arg</span><span class="p">(</span><span class="n">keyword</span><span class="o">=</span><span class="kc">None</span><span class="p">))</span>
+    <span class="k">def</span> <span class="nf">update_widgetbox_args</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">original_node</span><span class="p">,</span> <span class="n">updated_node</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">cst</span><span class="o">.</span><span class="n">Arg</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Changes positional  argumentto &#39;widgets&#39; kwargs.&quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">lint</span><span class="p">(</span>
+            <span class="n">original_node</span><span class="p">,</span>
+            <span class="s2">&quot;The positional argument should be replaced with a keyword argument named &#39;widgets&#39;.&quot;</span><span class="p">,</span>
+        <span class="p">)</span>
+        <span class="k">return</span> <span class="n">updated_node</span><span class="o">.</span><span class="n">with_changes</span><span class="p">(</span><span class="n">keyword</span><span class="o">=</span><span class="n">cst</span><span class="o">.</span><span class="n">Name</span><span class="p">(</span><span class="s2">&quot;widgets&quot;</span><span class="p">),</span> <span class="n">equal</span><span class="o">=</span><span class="n">EQUALS_NO_SPACE</span><span class="p">)</span>
+</code></pre></div>
 <p>Our class (which inherits from <code>MigrationTransformer</code>) defines a single method to perform the transformation. We take
-advantage of <code>LibCST</code> and its <code>Matchers &lt;https://libcst.readthedocs.io/en/latest/matchers_tutorial.html&gt;</code>_ to narrow the
+advantage of <a href="https://libcst.readthedocs.io/en/latest/matchers_tutorial.html">LibCST<code>and its</code>Matchers</a> to narrow the
 scope of when the transformation is run.</p>
 <p>We are looking to modify an argument so we use the <code>@m.leave(m.Arg())</code> decorator to call the function at end of parsing an
 argument. We can restrict when this is called by specify <code>m.Arg(keyword=None)</code> so that it is only called for positional arguments.
@@ -1826,19 +2961,18 @@ The method should also confirm the return type.</p>
 <p>The above method provides a linting message by calling <code>self.lint</code> and passing the original node and a helpful message.</p>
 <p>Finally, the method updates the code by calling <code>updated_node.with_changes()</code>. In this instance, we add a keyword (<code>"widgets"</code>) to
 the argument. We also remove spaces around the equals sign as these are added by default by <code>LibCST</code>. The updated node is returned.</p>
-<p>Helper classes
-~~~~~~~~~~~~~~</p>
+<h2 id="helper-classes">Helper classes<a class="headerlink" href="#helper-classes" title="Permanent link">&para;</a></h2>
 <p>Helper classes are provided for common transformations.</p>
 <ul>
-<li><code>RenamerTransformer</code> will update all instances of a name, replacing it with another. The class will
-  also handle the necessary linting.</li>
+<li>
+<p><code>RenamerTransformer</code> will update all instances of a name, replacing it with another. The class will
+  also handle the necessary linting.</p>
+<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">RenameHookTransformer</span><span class="p">(</span><span class="n">RenamerTransformer</span><span class="p">):</span>
+    <span class="n">from_to</span> <span class="o">=</span> <span class="p">(</span><span class="s2">&quot;window_name_change&quot;</span><span class="p">,</span> <span class="s2">&quot;client_name_updated&quot;</span><span class="p">)</span>
+</code></pre></div>
+</li>
 </ul>
-<p>.. code:: python</p>
-<pre><code>class RenameHookTransformer(RenamerTransformer):
-    from_to = ("window_name_change", "client_name_updated")
-</code></pre>
-<p>Testing the migration
-~~~~~~~~~~~~~~~~~~~~~</p>
+<h2 id="testing-the-migration">Testing the migration<a class="headerlink" href="#testing-the-migration" title="Permanent link">&para;</a></h2>
 <p>All migrations must be tested, ideally with a number of scenarios to confirm that the migration
 works as expected.</p>
 <p>Unlike other tests, the tests for the migrations are defined within the <code>TESTS</code> attribute.</p>
@@ -1857,90 +2991,91 @@ imports etc.</p>
 <li>Depending on the simplicity of the migration, a single <code>Check</code> may be all that is required</li>
 </ul>
 <p>For example, the <code>RemoveCmdPrefix</code> migration has the following <code>TESTS</code>:</p>
-<p>.. code:: python</p>
-<pre><code>TESTS = [
-    Change("""qtile.cmd_spawn("alacritty")""", """qtile.spawn("alacritty")"""),
-    Change("""qtile.cmd_groups()""", """qtile.get_groups()"""),
-    Change("""qtile.cmd_screens()""", """qtile.get_screens()"""),
-    Change("""qtile.current_window.cmd_hints()""", """qtile.current_window.get_hints()"""),
-    Change(
-        """qtile.current_window.cmd_opacity(0.5)""",
-        """qtile.current_window.set_opacity(0.5)""",
-    ),
-    Change(
-        """
-        class MyWidget(widget.Clock):
-            def cmd_my_command(self):
-                pass
-        """,
-        """
-        from libqtile.command.base import expose_command
+<div class="highlight"><pre><span></span><code><span class="n">TESTS</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="n">Change</span><span class="p">(</span><span class="s2">&quot;&quot;&quot;qtile.cmd_spawn(&quot;alacritty&quot;)&quot;&quot;&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;&quot;qtile.spawn(&quot;alacritty&quot;)&quot;&quot;&quot;</span><span class="p">),</span>
+    <span class="n">Change</span><span class="p">(</span><span class="s2">&quot;&quot;&quot;qtile.cmd_groups()&quot;&quot;&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;&quot;qtile.get_groups()&quot;&quot;&quot;</span><span class="p">),</span>
+    <span class="n">Change</span><span class="p">(</span><span class="s2">&quot;&quot;&quot;qtile.cmd_screens()&quot;&quot;&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;&quot;qtile.get_screens()&quot;&quot;&quot;</span><span class="p">),</span>
+    <span class="n">Change</span><span class="p">(</span><span class="s2">&quot;&quot;&quot;qtile.current_window.cmd_hints()&quot;&quot;&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;&quot;qtile.current_window.get_hints()&quot;&quot;&quot;</span><span class="p">),</span>
+    <span class="n">Change</span><span class="p">(</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;qtile.current_window.cmd_opacity(0.5)&quot;&quot;&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;qtile.current_window.set_opacity(0.5)&quot;&quot;&quot;</span><span class="p">,</span>
+    <span class="p">),</span>
+    <span class="n">Change</span><span class="p">(</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        class MyWidget(widget.Clock):</span>
+<span class="sd">            def cmd_my_command(self):</span>
+<span class="sd">                pass</span>
+<span class="sd">        &quot;&quot;&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        from libqtile.command.base import expose_command</span>
 
-        class MyWidget(widget.Clock):
-            @expose_command
-            def my_command(self):
-                pass
-        """
-    ),
-    NoChange(
-        """
-        def cmd_some_other_func():
-            pass
-        """
-    ),
-    Check(
-        """
-        from libqtile import qtile, widget
+<span class="sd">        class MyWidget(widget.Clock):</span>
+<span class="sd">            @expose_command</span>
+<span class="sd">            def my_command(self):</span>
+<span class="sd">                pass</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+    <span class="p">),</span>
+    <span class="n">NoChange</span><span class="p">(</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        def cmd_some_other_func():</span>
+<span class="sd">            pass</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+    <span class="p">),</span>
+    <span class="n">Check</span><span class="p">(</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        from libqtile import qtile, widget</span>
 
-        class MyClock(widget.Clock):
-            def cmd_my_exposed_command(self):
-                pass
+<span class="sd">        class MyClock(widget.Clock):</span>
+<span class="sd">            def cmd_my_exposed_command(self):</span>
+<span class="sd">                pass</span>
 
-        def my_func(qtile):
-            qtile.cmd_spawn("rickroll")
-            hints = qtile.current_window.cmd_hints()
-            groups = qtile.cmd_groups()
-            screens = qtile.cmd_screens()
-            qtile.current_window.cmd_opacity(0.5)
+<span class="sd">        def my_func(qtile):</span>
+<span class="sd">            qtile.cmd_spawn(&quot;rickroll&quot;)</span>
+<span class="sd">            hints = qtile.current_window.cmd_hints()</span>
+<span class="sd">            groups = qtile.cmd_groups()</span>
+<span class="sd">            screens = qtile.cmd_screens()</span>
+<span class="sd">            qtile.current_window.cmd_opacity(0.5)</span>
 
-        def cmd_some_other_func():
-            pass
-        """,
-        """
-        from libqtile import qtile, widget
-        from libqtile.command.base import expose_command
+<span class="sd">        def cmd_some_other_func():</span>
+<span class="sd">            pass</span>
+<span class="sd">        &quot;&quot;&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        from libqtile import qtile, widget</span>
+<span class="sd">        from libqtile.command.base import expose_command</span>
 
-        class MyClock(widget.Clock):
-            @expose_command
-            def my_exposed_command(self):
-                pass
+<span class="sd">        class MyClock(widget.Clock):</span>
+<span class="sd">            @expose_command</span>
+<span class="sd">            def my_exposed_command(self):</span>
+<span class="sd">                pass</span>
 
-        def my_func(qtile):
-            qtile.spawn("rickroll")
-            hints = qtile.current_window.get_hints()
-            groups = qtile.get_groups()
-            screens = qtile.get_screens()
-            qtile.current_window.set_opacity(0.5)
+<span class="sd">        def my_func(qtile):</span>
+<span class="sd">            qtile.spawn(&quot;rickroll&quot;)</span>
+<span class="sd">            hints = qtile.current_window.get_hints()</span>
+<span class="sd">            groups = qtile.get_groups()</span>
+<span class="sd">            screens = qtile.get_screens()</span>
+<span class="sd">            qtile.current_window.set_opacity(0.5)</span>
 
-        def cmd_some_other_func():
-            pass
-        """
-    )
-]
-</code></pre>
+<span class="sd">        def cmd_some_other_func():</span>
+<span class="sd">            pass</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+    <span class="p">)</span>
+<span class="p">]</span>
+</code></pre></div>
 <p>The tests check:</p>
 <ul>
 <li><code>cmd_</code> prefix is removed on method calls, updating specific changes as required</li>
 <li>Exposed methods in a class should use the <code>expose_command</code> decorator (adding the import if it's not already included)</li>
 <li>No change is made to a function definition (as it's not part of a class definition)</li>
 </ul>
-<p>.. note::</p>
-<pre><code>Tests will fail in the following scenarios:
-
-* If no tests are defined
-* If a `Change` test does not result in linting output
-* If no `Check` test is defined
-</code></pre>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Tests will fail in the following scenarios:</p>
+<ul>
+<li>If no tests are defined</li>
+<li>If a <code>Change</code> test does not result in linting output</li>
+<li>If no <code>Check</code> test is defined</li>
+</ul>
+</div>
 <p>You can check your tests by running <code>pytest -k &lt;YourMigrationID&gt;</code>. Note, <code>mpypy</code> must be installed for the
 <code>Check</code> tests to be run.</p>
 
@@ -1973,6 +3108,44 @@ imports etc.</p>
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../contributing/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Contributing">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Contributing
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../faq/" class="md-footer__link md-footer__link--next" aria-label="Next: Frequently Asked Questions">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Frequently Asked Questions
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">
@@ -2038,7 +3211,7 @@ imports etc.</p>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.sections", "navigation.top", "search.highlight", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.1e90e0fb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "search.highlight", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.1e90e0fb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.2b189340.min.js"></script>

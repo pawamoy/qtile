@@ -13,6 +13,10 @@
         <link rel="canonical" href="https://pawamoy.github.io/qtile/manual/config/lazy/">
       
       
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../groups/">
       
       
         
@@ -23,7 +27,7 @@
     
     
       
-        <title>Lazy - Qtile</title>
+        <title>Lazy objects - Qtile</title>
       
     
     
@@ -84,7 +88,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#example" class="md-skip">
+        <a href="#lazy-objects" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +102,7 @@
 
   
 
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../../.." title="Qtile" class="md-header__button md-logo" aria-label="Qtile" data-md-component="logo">
       
@@ -120,7 +124,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Lazy
+              Lazy objects
             
           </span>
         </div>
@@ -222,13 +226,131 @@
     
   </nav>
   
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../install/" class="md-tabs__link">
+          
+  
+  Getting Started
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../commands/" class="md-tabs__link">
+          
+  
+  Scripting
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../default/" class="md-tabs__link">
+          
+  
+  Configuration
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../hacking/" class="md-tabs__link">
+          
+  
+  Hacking
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../faq/" class="md-tabs__link">
+          
+  
+  Miscellaneous
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
-        
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -242,8 +364,10 @@
                     
 
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../../.." title="Qtile" class="md-nav__button md-logo" aria-label="Qtile" data-md-component="logo">
       
@@ -274,6 +398,32 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
     
     
     
@@ -287,10 +437,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
-          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -307,8 +457,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_1">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -329,12 +479,15 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
         
           
           
@@ -356,14 +509,14 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_1_1" id="__nav_1_1_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_2_1" id="__nav_2_1_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_1_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_1_1">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -576,6 +729,110 @@
   
   
   
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    
+  
+    Running Qtile
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Running Qtile
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/gnome/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Gnome
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/without-dm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    systemd
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../wayland/" class="md-nav__link">
         
@@ -624,15 +881,40 @@
 
               
             
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
               
                 
   
   
   
   
-    <li class="md-nav__item">
-      <a href="../../commands/shell/" class="md-nav__link">
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
         
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../commands/shell/" class="md-nav__link ">
+              
   
   <span class="md-ellipsis">
     
@@ -645,7 +927,245 @@
   
   
 
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Entry points
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../commands/shell/qtile-start/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile start
+  
+
+    
+  </span>
+  
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../commands/shell/qtile-shell/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile shell
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../commands/shell/qtile-migrate/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile migrate
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../commands/shell/qtile-cmd/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile cmd-obj
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../commands/shell/qtile-run/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile run-cmd
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../commands/shell/qtile-top/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    qtile top
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../commands/shell/dqtile-cmd/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    dqtile-cmd
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../commands/shell/iqshell/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    iqshell
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -677,10 +1197,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -697,8 +1217,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -714,9 +1234,26 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../commands/" class="md-nav__link">
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
         
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../commands/" class="md-nav__link ">
+              
   
   <span class="md-ellipsis">
     
@@ -729,7 +1266,110 @@
   
   
 
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_1" id="__nav_3_1_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Architecture
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../commands/command_graph/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    The Command Graph
+  
+
+    
+  </span>
+  
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../commands/navigation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Navigating the Command Graph
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../commands/advanced/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Command Graph development
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -773,12 +1413,15 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
         
           
           
@@ -800,14 +1443,14 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_3_3" id="__nav_3_3_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_3">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1052,8 +1695,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -1062,15 +1707,15 @@
       
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1087,8 +1732,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1129,11 +1774,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
         
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
   
   <span class="md-ellipsis">
     
@@ -1146,7 +1810,426 @@
   
   
 
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2" id="__nav_4_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    The configuration file
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4_2_1" id="__nav_4_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuration variables
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_2_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Configuration variables
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    
+  
+    Lazy objects
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Lazy objects
+  
+
+    
+  </span>
+  
+  
+
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lazy-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lazy functions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lazy functions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General functions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#group-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Group functions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#window-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Window functions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#screen-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Screen functions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scratchpad-dropdown-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ScratchPad DropDown functions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-defined-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User-defined functions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Examples
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../groups/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Groups
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../keys/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Keys
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../layouts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Layouts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mouse/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Mouse
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../screens/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Screens
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hooks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Hooks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1340,10 +2423,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1360,8 +2443,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1425,6 +2508,33 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-migrate/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Migrations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1451,10 +2561,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1471,8 +2581,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1641,6 +2751,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1785,10 +2897,7 @@
   
 
 
-<p>.. _lazy:</p>
-<p>============
-Lazy objects
-============</p>
+<h1 id="lazy-objects">Lazy objects<a class="headerlink" href="#lazy-objects" title="Permanent link">&para;</a></h1>
 <p>Lazy objects are a way of executing any of the commands available in Qtile's
 :doc:<code>commands API &lt;/manual/commands/api/index&gt;</code>. </p>
 <p>The name "lazy" refers to the fact that the commands are not executed at the time of
@@ -1798,200 +2907,289 @@ is only executed when the relevant event is triggered (e.g. on a keypress).</p>
 layouts and groups as well application commands like exiting, restarting,
 reloading the config file etc.</p>
 <h2 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h2>
-<p>::</p>
-<pre><code>from libqtile.config import Key
-from libqtile.lazy import lazy
+<div class="highlight"><pre><span></span><code>  <span class="kn">from</span> <span class="nn">libqtile.config</span> <span class="kn">import</span> <span class="n">Key</span>
+  <span class="kn">from</span> <span class="nn">libqtile.lazy</span> <span class="kn">import</span> <span class="n">lazy</span>
 
-keys = [
-    Key(
-        ["mod1"], "k",
-        lazy.layout.down()
-    ),
-    Key(
-        ["mod1"], "j",
-        lazy.layout.up()
-    )
-]
-</code></pre>
-<p>.. note::</p>
-<p>As noted above, <code>lazy</code> calls do not call the
-  relevant command but only create a reference to it. While this makes it
-  ideal for binding commands to key presses and <code>mouse_callbacks</code> for
-  widgets, it also means that <code>lazy</code> calls cannot be included
-  in user-defined functions.</p>
-<h1 id="lazy-functions">Lazy functions<a class="headerlink" href="#lazy-functions" title="Permanent link">&para;</a></h1>
+  <span class="n">keys</span> <span class="o">=</span> <span class="p">[</span>
+      <span class="n">Key</span><span class="p">(</span>
+          <span class="p">[</span><span class="s2">&quot;mod1&quot;</span><span class="p">],</span> <span class="s2">&quot;k&quot;</span><span class="p">,</span>
+          <span class="n">lazy</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">down</span><span class="p">()</span>
+      <span class="p">),</span>
+      <span class="n">Key</span><span class="p">(</span>
+          <span class="p">[</span><span class="s2">&quot;mod1&quot;</span><span class="p">],</span> <span class="s2">&quot;j&quot;</span><span class="p">,</span>
+          <span class="n">lazy</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">up</span><span class="p">()</span>
+      <span class="p">)</span>
+  <span class="p">]</span>
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>
+As noted above, <code>lazy</code> calls do not call the
+relevant command but only create a reference to it. While this makes it
+ideal for binding commands to key presses and <code>mouse_callbacks</code> for
+widgets, it also means that <code>lazy</code> calls cannot be included
+in user-defined functions.</p>
+</div>
+<h2 id="lazy-functions">Lazy functions<a class="headerlink" href="#lazy-functions" title="Permanent link">&para;</a></h2>
 <p>This is overview of the commonly used functions for the key bindings.  These
 functions can be called from commands on the REPLACE object or on
 another object in the command tree.</p>
 <p>Some examples are given below. For a complete list of available commands, please
 refer to :doc:<code>/manual/commands/api/index</code>.</p>
-<h2 id="general-functions">General functions<a class="headerlink" href="#general-functions" title="Permanent link">&para;</a></h2>
-<p>.. list-table::
-    :widths: 20 80
-    :header-rows: 1</p>
-<pre><code>* - function
-  - description
-* - `lazy.spawn("application")`
-  - Run the `application`
-* - `lazy.spawncmd()`
-  - Open command prompt on the bar. See prompt widget.
-* - `lazy.reload_config()`
-  - Reload the config.
-* - `lazy.restart()`
-  - Restart Qtile. In X11, it won't close your windows.
-* - `lazy.shutdown()`
-  - Close the whole Qtile
-</code></pre>
-<h2 id="group-functions">Group functions<a class="headerlink" href="#group-functions" title="Permanent link">&para;</a></h2>
-<p>.. list-table::
-    :widths: 20 80
-    :header-rows: 1</p>
-<pre><code>* - function
-  - description
-* - `lazy.next_layout()`
-  - Use next layout on the actual group
-* - `lazy.prev_layout()`
-  - Use previous layout on the actual group
-* - `lazy.screen.next_group()`
-  - Move to the group on the right
-* - `lazy.screen.prev_group()`
-  - Move to the group on the left
-* - `lazy.screen.toggle_group()`
-  - Move to the last visited group
-* - `lazy.group.next_window()`
-  - Switch window focus to next window in group
-* - `lazy.group.prev_window()`
-  - Switch window focus to previous window in group
-* - `lazy.group["group_name"].toscreen()`
-  - Move to the group called `group_name`.
-    Takes an optional `toggle` parameter (defaults to False).
-    If this group is already on the screen, it does nothing by default;
-    to toggle with the last used group instead, use `toggle=True`.
-* - `lazy.layout.increase_ratio()`
-  - Increase the space for master window at the expense of slave windows
-* - `lazy.layout.decrease_ratio()`
-  - Decrease the space for master window in the advantage of slave windows
-</code></pre>
-<h2 id="window-functions">Window functions<a class="headerlink" href="#window-functions" title="Permanent link">&para;</a></h2>
-<p>.. list-table::
-    :widths: 20 80
-    :header-rows: 1</p>
-<pre><code>* - function
-  - description
-* - `lazy.window.kill()`
-  - Close the focused window
-* - `lazy.layout.next()`
-  - Switch window focus to other pane(s) of stack
-* - `lazy.window.togroup("group_name")`
-  - Move focused window to the group called `group_name`
-* - `lazy.window.toggle_floating()`
-  - Put the focused window to/from floating mode
-* - `lazy.window.toggle_fullscreen()`
-  - Put the focused window to/from fullscreen mode
-* - `lazy.window.move_up()`
-  - Move the window above the next window in the stack.
-* - `lazy.window.move_down()`
-  - Move the window below the previous window in the stack.
-* - `lazy.window.move_to_top()`
-  - Move the window above all other windows with similar priority
-    (i.e. a "normal" window will not be moved above a `kept_above` window).
-* - `lazy.window.move_to_bottom()`
-  - Move the window below all other windows with similar priority
-    (i.e. a "normal" window will not be moved below a `kept_below` window).
-* - `lazy.window.keep_above()`
-  - Keep window above other windows.
-* - `lazy.window.keep_below()`
-  - Keep window below other windows.
-* - `lazy.window.bring_to_front()`
-  - Bring window above all other windows. Ignores `kept_above` priority.
-</code></pre>
-<h2 id="screen-functions">Screen functions<a class="headerlink" href="#screen-functions" title="Permanent link">&para;</a></h2>
-<p>.. list-table::
-    :widths: 20 80
-    :header-rows: 1</p>
-<pre><code>* - function
-  - description
-* - `lazy.screen.set_wallpaper(path, mode=None)`
-  - Set the wallpaper to the specificied image. Possible modes: `None` no resizing,
-    `'fill'` centre and resize to fill screen, `'stretch'` stretch to fill screen.
-</code></pre>
-<h2 id="scratchpad-dropdown-functions">ScratchPad DropDown functions<a class="headerlink" href="#scratchpad-dropdown-functions" title="Permanent link">&para;</a></h2>
-<p>.. list-table::
-    :widths: 20 80
-    :header-rows: 1</p>
-<pre><code>* - function
-  - description
-* - `lazy.group["group_name"].dropdown_toggle("name")`
-  - Toggles the visibility of the specified DropDown window.
-    On first use, the configured process is spawned.
-* - `lazy.group["group_name"].hide_all()`
-  - Hides all DropDown windows.
-* - `lazy.group["group_name"].dropdown_reconfigure("name", **configuration)`
-  - Update the configuration of the named DropDown.
-</code></pre>
-<h2 id="user-defined-functions">User-defined functions<a class="headerlink" href="#user-defined-functions" title="Permanent link">&para;</a></h2>
-<p>.. list-table::
-    :widths: 20 80
-    :header-rows: 1</p>
-<pre><code>* - function
-  - description
-* - `lazy.function(func, *args, **kwargs)`
-  - Calls `func(qtile, *args, **kwargs)`. NB. the `qtile` object is
-    automatically passed as the first argument.
-</code></pre>
-<h2 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h2>
+<h3 id="general-functions">General functions<a class="headerlink" href="#general-functions" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>function</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>lazy.spawn("application")</code></td>
+<td>Run the <code>application</code>.</td>
+</tr>
+<tr>
+<td><code>lazy.spawncmd()</code></td>
+<td>Open command prompt on the bar. See prompt widget.</td>
+</tr>
+<tr>
+<td><code>lazy.reload_config()</code></td>
+<td>Reload the config.</td>
+</tr>
+<tr>
+<td><code>lazy.restart()</code></td>
+<td>Restart Qtile. In X11, it won't close your windows.</td>
+</tr>
+<tr>
+<td><code>lazy.shutdown()</code></td>
+<td>Close the whole Qtile.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="group-functions">Group functions<a class="headerlink" href="#group-functions" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>function</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>lazy.next_layout()</code></td>
+<td>Use next layout on the actual group</td>
+</tr>
+<tr>
+<td><code>lazy.prev_layout()</code></td>
+<td>Use previous layout on the actual group</td>
+</tr>
+<tr>
+<td><code>lazy.screen.next_group()</code></td>
+<td>Move to the group on the right</td>
+</tr>
+<tr>
+<td><code>lazy.screen.prev_group()</code></td>
+<td>Move to the group on the left</td>
+</tr>
+<tr>
+<td><code>lazy.screen.toggle_group()</code></td>
+<td>Move to the last visited group</td>
+</tr>
+<tr>
+<td><code>lazy.group.next_window()</code></td>
+<td>Switch window focus to next window in group</td>
+</tr>
+<tr>
+<td><code>lazy.group.prev_window()</code></td>
+<td>Switch window focus to previous window in group</td>
+</tr>
+<tr>
+<td><code>lazy.group["group_name"].toscreen()</code></td>
+<td>Move to the group called <code>group_name</code><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.</td>
+</tr>
+<tr>
+<td><code>lazy.layout.increase_ratio()</code></td>
+<td>Increase the space for master window at the expense of slave windows</td>
+</tr>
+<tr>
+<td><code>lazy.layout.decrease_ratio()</code></td>
+<td>Decrease the space for master window in the advantage of slave windows</td>
+</tr>
+</tbody>
+</table>
+<h3 id="window-functions">Window functions<a class="headerlink" href="#window-functions" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>function</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>lazy.window.kill()</code></td>
+<td>Close the focused window</td>
+</tr>
+<tr>
+<td><code>lazy.layout.next()</code></td>
+<td>Switch window focus to other pane(s) of stack</td>
+</tr>
+<tr>
+<td><code>lazy.window.togroup("group_name")</code></td>
+<td>Move focused window to the group called <code>group_name</code></td>
+</tr>
+<tr>
+<td><code>lazy.window.toggle_floating()</code></td>
+<td>Put the focused window to/from floating mode</td>
+</tr>
+<tr>
+<td><code>lazy.window.toggle_fullscreen()</code></td>
+<td>Put the focused window to/from fullscreen mode</td>
+</tr>
+<tr>
+<td><code>lazy.window.move_up()</code></td>
+<td>Move the window above the next window in the stack.</td>
+</tr>
+<tr>
+<td><code>lazy.window.move_down()</code></td>
+<td>Move the window below the previous window in the stack.</td>
+</tr>
+<tr>
+<td><code>lazy.window.move_to_top()</code></td>
+<td>Move the window above all other windows with similar priority (i.e. a "normal" window will not be moved above a <code>kept_above</code> window).</td>
+</tr>
+<tr>
+<td><code>lazy.window.move_to_bottom()</code></td>
+<td>Move the window below all other windows with similar priority (i.e. a "normal" window will not be moved below a <code>kept_below</code> window).</td>
+</tr>
+<tr>
+<td><code>lazy.window.keep_above()</code></td>
+<td>Keep window above other windows.</td>
+</tr>
+<tr>
+<td><code>lazy.window.keep_below()</code></td>
+<td>Keep window below other windows.</td>
+</tr>
+<tr>
+<td><code>lazy.window.bring_to_front()</code></td>
+<td>Bring window above all other windows. Ignores <code>kept_above</code> priority.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="screen-functions">Screen functions<a class="headerlink" href="#screen-functions" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>function</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>lazy.screen.set_wallpaper(path, mode=None)</code></td>
+<td>Set the wallpaper to the specificied image. Possible modes: <code>None</code> no resizing, <code>'fill'</code> centre and resize to fill screen, <code>'stretch'</code> stretch to fill screen.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="scratchpad-dropdown-functions">ScratchPad DropDown functions<a class="headerlink" href="#scratchpad-dropdown-functions" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>function</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>lazy.group["group_name"].dropdown_toggle("name")</code></td>
+<td>Toggles the visibility of the specified DropDown window. On first use, the configured process is spawned.</td>
+</tr>
+<tr>
+<td><code>lazy.group["group_name"].hide_all()</code></td>
+<td>Hides all DropDown windows.</td>
+</tr>
+<tr>
+<td><code>lazy.group["group_name"].dropdown_reconfigure("name", **configuration)</code></td>
+<td>Update the configuration of the named DropDown.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="user-defined-functions">User-defined functions<a class="headerlink" href="#user-defined-functions" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>function</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>lazy.function(func, *args, **kwargs)</code></td>
+<td>Calls <code>func(qtile, *args, **kwargs)</code>. NB. the <code>qtile</code> object is automatically passed as the first argument.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h3>
 <p><code>lazy.function</code> can also be used as a decorator for functions.</p>
-<p>::</p>
-<pre><code>from libqtile.config import Key
-from libqtile.lazy import lazy
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">libqtile.config</span> <span class="kn">import</span> <span class="n">Key</span>
+<span class="kn">from</span> <span class="nn">libqtile.lazy</span> <span class="kn">import</span> <span class="n">lazy</span>
 
-@lazy.function
-def my_function(qtile):
-    ...
+<span class="nd">@lazy</span><span class="o">.</span><span class="n">function</span>
+<span class="k">def</span> <span class="nf">my_function</span><span class="p">(</span><span class="n">qtile</span><span class="p">):</span>
+    <span class="o">...</span>
 
-keys = [
-    Key(
-        ["mod1"], "k",
-        my_function
-    )
-]
-</code></pre>
+<span class="n">keys</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="n">Key</span><span class="p">(</span>
+        <span class="p">[</span><span class="s2">&quot;mod1&quot;</span><span class="p">],</span> <span class="s2">&quot;k&quot;</span><span class="p">,</span>
+        <span class="n">my_function</span>
+    <span class="p">)</span>
+<span class="p">]</span>
+</code></pre></div>
 <p>Additionally, you can pass arguments to user-defined function in one of two ways:</p>
 <p>1) In-line definition</p>
 <p>Arguments can be added to the <code>lazy.function</code> call.</p>
-<p>::</p>
-<pre><code>from libqtile.config import Key
-from libqtile.lazy import lazy
-from libqtile.log_utils import logger
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">libqtile.config</span> <span class="kn">import</span> <span class="n">Key</span>
+<span class="kn">from</span> <span class="nn">libqtile.lazy</span> <span class="kn">import</span> <span class="n">lazy</span>
+<span class="kn">from</span> <span class="nn">libqtile.log_utils</span> <span class="kn">import</span> <span class="n">logger</span>
 
-def multiply(qtile, value, multiplier=10):
-    logger.warning(f"Multiplication results: {value * multiplier}")
+<span class="k">def</span> <span class="nf">multiply</span><span class="p">(</span><span class="n">qtile</span><span class="p">,</span> <span class="n">value</span><span class="p">,</span> <span class="n">multiplier</span><span class="o">=</span><span class="mi">10</span><span class="p">):</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Multiplication results: </span><span class="si">{</span><span class="n">value</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">multiplier</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 
-keys = [
-    Key(
-        ["mod1"], "k",
-        lazy.function(multiply, 10, multiplier=2)
-    )
-]
-</code></pre>
+<span class="n">keys</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="n">Key</span><span class="p">(</span>
+        <span class="p">[</span><span class="s2">&quot;mod1&quot;</span><span class="p">],</span> <span class="s2">&quot;k&quot;</span><span class="p">,</span>
+        <span class="n">lazy</span><span class="o">.</span><span class="n">function</span><span class="p">(</span><span class="n">multiply</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="n">multiplier</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+    <span class="p">)</span>
+<span class="p">]</span>
+</code></pre></div>
 <p>2) Decorator</p>
 <p>Arguments can also be passed to the decorated function.</p>
-<p>::</p>
-<pre><code>from libqtile.config import Key
-from libqtile.lazy import lazy
-from libqtile.log_utils import logger
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">libqtile.config</span> <span class="kn">import</span> <span class="n">Key</span>
+<span class="kn">from</span> <span class="nn">libqtile.lazy</span> <span class="kn">import</span> <span class="n">lazy</span>
+<span class="kn">from</span> <span class="nn">libqtile.log_utils</span> <span class="kn">import</span> <span class="n">logger</span>
 
-@lazy.function
-def multiply(qtile, value, multiplier=10):
-    logger.warning(f"Multiplication results: {value * multiplier}")
+<span class="nd">@lazy</span><span class="o">.</span><span class="n">function</span>
+<span class="k">def</span> <span class="nf">multiply</span><span class="p">(</span><span class="n">qtile</span><span class="p">,</span> <span class="n">value</span><span class="p">,</span> <span class="n">multiplier</span><span class="o">=</span><span class="mi">10</span><span class="p">):</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Multiplication results: </span><span class="si">{</span><span class="n">value</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">multiplier</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 
-keys = [
-    Key(
-        ["mod1"], "k",
-        multiply(10, multiplier=2)
-    )
-]
-</code></pre>
+<span class="n">keys</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="n">Key</span><span class="p">(</span>
+        <span class="p">[</span><span class="s2">&quot;mod1&quot;</span><span class="p">],</span> <span class="s2">&quot;k&quot;</span><span class="p">,</span>
+        <span class="n">multiply</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="n">multiplier</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+    <span class="p">)</span>
+<span class="p">]</span>
+</code></pre></div>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Takes an optional <code>toggle</code> parameter (defaults to False).
+  If this group is already on the screen, it does nothing by default;
+  to toggle with the last used group instead, use <code>toggle=True</code>.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
 
 
@@ -2022,6 +3220,44 @@ keys = [
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: The configuration file">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                The configuration file
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../groups/" class="md-footer__link md-footer__link--next" aria-label="Next: Groups">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Groups
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">
@@ -2087,7 +3323,7 @@ keys = [
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.sections", "navigation.top", "search.highlight", "search.suggest", "toc.follow"], "search": "../../../assets/javascripts/workers/search.1e90e0fb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "search.highlight", "search.suggest", "toc.follow"], "search": "../../../assets/javascripts/workers/search.1e90e0fb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../../assets/javascripts/bundle.2b189340.min.js"></script>
