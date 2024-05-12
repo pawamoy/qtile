@@ -2,297 +2,302 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://pawamoy.github.io/qtile/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/changelog/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/contributing/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/faq/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/hacking/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/how-to-migrate/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/license/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/stacking/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/troubleshooting/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/wayland/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/commands/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/commands/advanced/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/commands/command_graph/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/commands/interfaces/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/commands/keybindings/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/commands/navigation/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/commands/api/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/commands/api/backend/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/commands/api/bars/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/commands/api/groups/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/commands/api/layouts/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/commands/api/root/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/commands/api/screens/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/commands/api/widgets/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/commands/api/windows/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/commands/shell/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/commands/shell/dqtile-cmd/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/commands/shell/iqshell/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/commands/shell/qtile-cmd/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/commands/shell/qtile-migrate/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/commands/shell/qtile-run/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/commands/shell/qtile-shell/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/commands/shell/qtile-start/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/commands/shell/qtile-top/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/config/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/config/default/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/config/groups/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/config/hooks/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/config/keys/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/config/layouts/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/config/lazy/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://pawamoy.github.io/qtile/manual/config/match/</loc>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/config/mouse/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/config/screens/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/howto/git/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://pawamoy.github.io/qtile/manual/howto/layout/</loc>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/howto/widget/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/install/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/install/arch/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/install/fedora/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/install/freebsd/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/install/funtoo/</loc>
-         <lastmod>2024-02-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://pawamoy.github.io/qtile/manual/install/gnome/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/install/nixos/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/install/slackware/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/install/ubuntu/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/install/without-dm/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/ref/extensions/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/ref/hooks/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/ref/layouts/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pawamoy.github.io/qtile/manual/ref/widgets/</loc>
-         <lastmod>2024-02-13</lastmod>
+         <lastmod>2024-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
