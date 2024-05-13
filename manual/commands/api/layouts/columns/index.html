@@ -3840,27 +3840,27 @@ spliting the column space.  In stacked mode, only a single window is
 presented from the stack of windows.  Columns and windows can be
 resized and windows can be shuffled around.</p>
 <p>This layout can also emulate wmii's default layout via:</p>
-<pre><code>layout.Columns(num_columns=1, insert_position=1)
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="n">layout</span><span class="o">.</span><span class="n">Columns</span><span class="p">(</span><span class="n">num_columns</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">insert_position</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+</code></pre></div>
 <p>Or the "Vertical", and "Max", depending on the default parameters.</p>
-<p>An example key configuration is::</p>
-<pre><code>Key([mod], "j", lazy.layout.down()),
-Key([mod], "k", lazy.layout.up()),
-Key([mod], "h", lazy.layout.left()),
-Key([mod], "l", lazy.layout.right()),
-Key([mod, "shift"], "j", lazy.layout.shuffle_down()),
-Key([mod, "shift"], "k", lazy.layout.shuffle_up()),
-Key([mod, "shift"], "h", lazy.layout.shuffle_left()),
-Key([mod, "shift"], "l", lazy.layout.shuffle_right()),
-Key([mod, "control"], "j", lazy.layout.grow_down()),
-Key([mod, "control"], "k", lazy.layout.grow_up()),
-Key([mod, "control"], "h", lazy.layout.grow_left()),
-Key([mod, "control"], "l", lazy.layout.grow_right()),
-Key([mod, "shift", "control"], "h", lazy.layout.swap_column_left()),
-Key([mod, "shift", "control"], "l", lazy.layout.swap_column_right()),
-Key([mod], "Return", lazy.layout.toggle_split()),
-Key([mod], "n", lazy.layout.normalize()),
-</code></pre>
+<p>An example key configuration is:</p>
+<div class="highlight"><pre><span></span><code><span class="n">Key</span><span class="p">([</span><span class="n">mod</span><span class="p">],</span> <span class="s2">&quot;j&quot;</span><span class="p">,</span> <span class="n">lazy</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">down</span><span class="p">()),</span>
+<span class="n">Key</span><span class="p">([</span><span class="n">mod</span><span class="p">],</span> <span class="s2">&quot;k&quot;</span><span class="p">,</span> <span class="n">lazy</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">up</span><span class="p">()),</span>
+<span class="n">Key</span><span class="p">([</span><span class="n">mod</span><span class="p">],</span> <span class="s2">&quot;h&quot;</span><span class="p">,</span> <span class="n">lazy</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">left</span><span class="p">()),</span>
+<span class="n">Key</span><span class="p">([</span><span class="n">mod</span><span class="p">],</span> <span class="s2">&quot;l&quot;</span><span class="p">,</span> <span class="n">lazy</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">right</span><span class="p">()),</span>
+<span class="n">Key</span><span class="p">([</span><span class="n">mod</span><span class="p">,</span> <span class="s2">&quot;shift&quot;</span><span class="p">],</span> <span class="s2">&quot;j&quot;</span><span class="p">,</span> <span class="n">lazy</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">shuffle_down</span><span class="p">()),</span>
+<span class="n">Key</span><span class="p">([</span><span class="n">mod</span><span class="p">,</span> <span class="s2">&quot;shift&quot;</span><span class="p">],</span> <span class="s2">&quot;k&quot;</span><span class="p">,</span> <span class="n">lazy</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">shuffle_up</span><span class="p">()),</span>
+<span class="n">Key</span><span class="p">([</span><span class="n">mod</span><span class="p">,</span> <span class="s2">&quot;shift&quot;</span><span class="p">],</span> <span class="s2">&quot;h&quot;</span><span class="p">,</span> <span class="n">lazy</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">shuffle_left</span><span class="p">()),</span>
+<span class="n">Key</span><span class="p">([</span><span class="n">mod</span><span class="p">,</span> <span class="s2">&quot;shift&quot;</span><span class="p">],</span> <span class="s2">&quot;l&quot;</span><span class="p">,</span> <span class="n">lazy</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">shuffle_right</span><span class="p">()),</span>
+<span class="n">Key</span><span class="p">([</span><span class="n">mod</span><span class="p">,</span> <span class="s2">&quot;control&quot;</span><span class="p">],</span> <span class="s2">&quot;j&quot;</span><span class="p">,</span> <span class="n">lazy</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">grow_down</span><span class="p">()),</span>
+<span class="n">Key</span><span class="p">([</span><span class="n">mod</span><span class="p">,</span> <span class="s2">&quot;control&quot;</span><span class="p">],</span> <span class="s2">&quot;k&quot;</span><span class="p">,</span> <span class="n">lazy</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">grow_up</span><span class="p">()),</span>
+<span class="n">Key</span><span class="p">([</span><span class="n">mod</span><span class="p">,</span> <span class="s2">&quot;control&quot;</span><span class="p">],</span> <span class="s2">&quot;h&quot;</span><span class="p">,</span> <span class="n">lazy</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">grow_left</span><span class="p">()),</span>
+<span class="n">Key</span><span class="p">([</span><span class="n">mod</span><span class="p">,</span> <span class="s2">&quot;control&quot;</span><span class="p">],</span> <span class="s2">&quot;l&quot;</span><span class="p">,</span> <span class="n">lazy</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">grow_right</span><span class="p">()),</span>
+<span class="n">Key</span><span class="p">([</span><span class="n">mod</span><span class="p">,</span> <span class="s2">&quot;shift&quot;</span><span class="p">,</span> <span class="s2">&quot;control&quot;</span><span class="p">],</span> <span class="s2">&quot;h&quot;</span><span class="p">,</span> <span class="n">lazy</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">swap_column_left</span><span class="p">()),</span>
+<span class="n">Key</span><span class="p">([</span><span class="n">mod</span><span class="p">,</span> <span class="s2">&quot;shift&quot;</span><span class="p">,</span> <span class="s2">&quot;control&quot;</span><span class="p">],</span> <span class="s2">&quot;l&quot;</span><span class="p">,</span> <span class="n">lazy</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">swap_column_right</span><span class="p">()),</span>
+<span class="n">Key</span><span class="p">([</span><span class="n">mod</span><span class="p">],</span> <span class="s2">&quot;Return&quot;</span><span class="p">,</span> <span class="n">lazy</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">toggle_split</span><span class="p">()),</span>
+<span class="n">Key</span><span class="p">([</span><span class="n">mod</span><span class="p">],</span> <span class="s2">&quot;n&quot;</span><span class="p">,</span> <span class="n">lazy</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">normalize</span><span class="p">()),</span>
+</code></pre></div>
 
 
 

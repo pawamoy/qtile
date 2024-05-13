@@ -56898,10 +56898,9 @@ and timers are available to be set up.</p>
 
   
       <p>A widget for monitoring and displaying IdleRPG stats.</p>
-<p>::</p>
-<pre><code># display idlerpg stats for the player 'pants' on freenode's #idlerpg
-widget.IdleRPG(url="http://xethron.lolhosting.net/xml.php?player=pants")
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="c1"># display idlerpg stats for the player &#39;pants&#39; on freenode&#39;s #idlerpg</span>
+<span class="n">widget</span><span class="o">.</span><span class="n">IdleRPG</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="s2">&quot;http://xethron.lolhosting.net/xml.php?player=pants&quot;</span><span class="p">)</span>
+</code></pre></div>
 <p>Widget requirements: <a href="https://pypi.org/project/xmltodict/">xmltodict</a>.</p>
 
 
@@ -58104,19 +58103,24 @@ unseen messages present.  I've configured it to only work with imap with
 ssl. Your password is obtained from the Gnome Keyring.</p>
 <p>Writing your password to the keyring initially is as simple as (changing
 out <userid> and <password> for your userid and password):</p>
-<p>1) create the file ~/.local/share/python_keyring/keyringrc.cfg with the
-   following contents::</p>
-<pre><code>   [backend]
-   default-keyring=keyring.backends.Gnome.Keyring
-   keyring-path=/home/&lt;userid&gt;/.local/share/keyring/
-</code></pre>
-<p>2) Execute the following python shell script once::</p>
-<pre><code>   #!/usr/bin/env python3
-   import keyring
-   user = &lt;userid&gt;
-   password = &lt;password&gt;
-   keyring.set_password('imapwidget', user, password)
-</code></pre>
+<ol>
+<li>
+<p>create the file ~/.local/share/python_keyring/keyringrc.cfg with the following contents:</p>
+<div class="highlight"><pre><span></span><code><span class="k">[backend]</span>
+<span class="na">default-keyring</span><span class="o">=</span><span class="s">keyring.backends.Gnome.Keyring</span>
+<span class="na">keyring-path</span><span class="o">=</span><span class="s">/home/&lt;userid&gt;/.local/share/keyring/</span>
+</code></pre></div>
+</li>
+<li>
+<p>Execute the following python shell script once:</p>
+<div class="highlight"><pre><span></span><code><span class="ch">#!/usr/bin/env python3</span>
+import<span class="w"> </span>keyring
+<span class="nv">user</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>&lt;userid&gt;
+<span class="nv">password</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>&lt;password&gt;
+keyring.set_password<span class="o">(</span><span class="s1">&#39;imapwidget&#39;</span>,<span class="w"> </span>user,<span class="w"> </span>password<span class="o">)</span>
+</code></pre></div>
+</li>
+</ol>
 <p>mbox names must include the path to the mbox (except for the default
 INBOX).  So, for example if your mailroot is <code>~/Maildir</code>, and you want to
 look at the mailbox at HomeMail/fred, the mbox setting would be:
@@ -64063,15 +64067,15 @@ and timers are available to be set up.</p>
       <p>A widget for showing the same widget content in more than one place, for
 instance, on bars across multiple screens.</p>
 <p>You don't need to use it directly; instead, just instantiate your widget
-once and hand it in to multiple bars. For instance::</p>
-<pre><code>cpu = widget.CPUGraph()
-clock = widget.Clock()
+once and hand it in to multiple bars. For instance:</p>
+<div class="highlight"><pre><span></span><code><span class="n">cpu</span> <span class="o">=</span> <span class="n">widget</span><span class="o">.</span><span class="n">CPUGraph</span><span class="p">()</span>
+<span class="n">clock</span> <span class="o">=</span> <span class="n">widget</span><span class="o">.</span><span class="n">Clock</span><span class="p">()</span>
 
-screens = [
-    Screen(top=bar.Bar([widget.GroupBox(), cpu, clock])),
-    Screen(top=bar.Bar([widget.GroupBox(), cpu, clock])),
-]
-</code></pre>
+<span class="n">screens</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="n">Screen</span><span class="p">(</span><span class="n">top</span><span class="o">=</span><span class="n">bar</span><span class="o">.</span><span class="n">Bar</span><span class="p">([</span><span class="n">widget</span><span class="o">.</span><span class="n">GroupBox</span><span class="p">(),</span> <span class="n">cpu</span><span class="p">,</span> <span class="n">clock</span><span class="p">])),</span>
+    <span class="n">Screen</span><span class="p">(</span><span class="n">top</span><span class="o">=</span><span class="n">bar</span><span class="o">.</span><span class="n">Bar</span><span class="p">([</span><span class="n">widget</span><span class="o">.</span><span class="n">GroupBox</span><span class="p">(),</span> <span class="n">cpu</span><span class="p">,</span> <span class="n">clock</span><span class="p">])),</span>
+<span class="p">]</span>
+</code></pre></div>
 <p>Widgets can be passed to more than one bar, so that there don't need to be
 any duplicates executing the same code all the time, and they'll always be
 visually identical.</p>
@@ -76338,15 +76342,14 @@ API key from <a href="https://www.alphavantage.co/support/#api-key">https://www.
 <p>The widget defaults to the TIME_SERIES_INTRADAY API function (i.e. stock
 symbols), but arbitrary Alpha Vantage API queries can be made by passing
 extra arguments to the constructor.</p>
-<p>::</p>
-<pre><code># Display AMZN
-widget.StockTicker(apikey=..., symbol="AMZN")
+<div class="highlight"><pre><span></span><code><span class="c1"># Display AMZN</span>
+<span class="n">widget</span><span class="o">.</span><span class="n">StockTicker</span><span class="p">(</span><span class="n">apikey</span><span class="o">=...</span><span class="p">,</span> <span class="n">symbol</span><span class="o">=</span><span class="s2">&quot;AMZN&quot;</span><span class="p">)</span>
 
-# Display BTC
-widget.StockTicker(
-    apikey=..., function="DIGITAL_CURRENCY_INTRADAY", symbol="BTC", market="USD"
-)
-</code></pre>
+<span class="c1"># Display BTC</span>
+<span class="n">widget</span><span class="o">.</span><span class="n">StockTicker</span><span class="p">(</span>
+    <span class="n">apikey</span><span class="o">=...</span><span class="p">,</span> <span class="n">function</span><span class="o">=</span><span class="s2">&quot;DIGITAL_CURRENCY_INTRADAY&quot;</span><span class="p">,</span> <span class="n">symbol</span><span class="o">=</span><span class="s2">&quot;BTC&quot;</span><span class="p">,</span> <span class="n">market</span><span class="o">=</span><span class="s2">&quot;USD&quot;</span>
+<span class="p">)</span>
+</code></pre></div>
 
 
 
@@ -82382,13 +82385,13 @@ bar.</p>
 work.</p>
 <p>Widgets in the box also remain accessible via command interfaces.</p>
 <p>Widgets can only be added to the box via the configuration file. The widget
-is configured by adding widgets to the "widgets" parameter as follows::</p>
-<pre><code>widget.WidgetBox(widgets=[
-    widget.TextBox(text="This widget is in the box"),
-    widget.Memory()
-    ]
-),
-</code></pre>
+is configured by adding widgets to the "widgets" parameter as follows:</p>
+<div class="highlight"><pre><span></span><code><span class="n">widget</span><span class="o">.</span><span class="n">WidgetBox</span><span class="p">(</span><span class="n">widgets</span><span class="o">=</span><span class="p">[</span>
+    <span class="n">widget</span><span class="o">.</span><span class="n">TextBox</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="s2">&quot;This widget is in the box&quot;</span><span class="p">),</span>
+    <span class="n">widget</span><span class="o">.</span><span class="n">Memory</span><span class="p">()</span>
+    <span class="p">]</span>
+<span class="p">),</span>
+</code></pre></div>
 
 
 

@@ -3795,7 +3795,6 @@ in master- and secondary area. The maximized pane (master pane) gets the
 full height of the master area and the other panes (secondary panes) share
 the remaining space.  The master area (at default 75%) can grow and shrink
 via keybindings.</p>
-<p>::</p>
 <pre><code>-----------------                -----------------  ---
 |               |                |               |   |
 |       1       |  &lt;-- Panes     |               |   |
@@ -3817,7 +3816,6 @@ via keybindings.</p>
 <p>Normal behavior. No              One maximized pane in the master area
 maximized pane. No               and two secondary panes in the
 specific areas.                  secondary area.</p>
-<p>::</p>
 <pre><code>-----------------------------------  In some cases VerticalTile can be
 |                                 |  useful on horizontal mounted
 |                1                |  monitors two.
@@ -3829,16 +3827,15 @@ specific areas.                  secondary area.</p>
 -----------------------------------
 </code></pre>
 <p>Suggested keybindings:</p>
-<p>::</p>
-<pre><code>Key([modkey], 'j', lazy.layout.down()),
-Key([modkey], 'k', lazy.layout.up()),
-Key([modkey], 'Tab', lazy.layout.next()),
-Key([modkey, 'shift'], 'Tab', lazy.layout.next()),
-Key([modkey, 'shift'], 'j', lazy.layout.shuffle_down()),
-Key([modkey, 'shift'], 'k', lazy.layout.shuffle_up()),
-Key([modkey], 'm', lazy.layout.maximize()),
-Key([modkey], 'n', lazy.layout.normalize()),
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="n">Key</span><span class="p">([</span><span class="n">modkey</span><span class="p">],</span> <span class="s1">&#39;j&#39;</span><span class="p">,</span> <span class="n">lazy</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">down</span><span class="p">()),</span>
+<span class="n">Key</span><span class="p">([</span><span class="n">modkey</span><span class="p">],</span> <span class="s1">&#39;k&#39;</span><span class="p">,</span> <span class="n">lazy</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">up</span><span class="p">()),</span>
+<span class="n">Key</span><span class="p">([</span><span class="n">modkey</span><span class="p">],</span> <span class="s1">&#39;Tab&#39;</span><span class="p">,</span> <span class="n">lazy</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">next</span><span class="p">()),</span>
+<span class="n">Key</span><span class="p">([</span><span class="n">modkey</span><span class="p">,</span> <span class="s1">&#39;shift&#39;</span><span class="p">],</span> <span class="s1">&#39;Tab&#39;</span><span class="p">,</span> <span class="n">lazy</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">next</span><span class="p">()),</span>
+<span class="n">Key</span><span class="p">([</span><span class="n">modkey</span><span class="p">,</span> <span class="s1">&#39;shift&#39;</span><span class="p">],</span> <span class="s1">&#39;j&#39;</span><span class="p">,</span> <span class="n">lazy</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">shuffle_down</span><span class="p">()),</span>
+<span class="n">Key</span><span class="p">([</span><span class="n">modkey</span><span class="p">,</span> <span class="s1">&#39;shift&#39;</span><span class="p">],</span> <span class="s1">&#39;k&#39;</span><span class="p">,</span> <span class="n">lazy</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">shuffle_up</span><span class="p">()),</span>
+<span class="n">Key</span><span class="p">([</span><span class="n">modkey</span><span class="p">],</span> <span class="s1">&#39;m&#39;</span><span class="p">,</span> <span class="n">lazy</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">maximize</span><span class="p">()),</span>
+<span class="n">Key</span><span class="p">([</span><span class="n">modkey</span><span class="p">],</span> <span class="s1">&#39;n&#39;</span><span class="p">,</span> <span class="n">lazy</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">normalize</span><span class="p">()),</span>
+</code></pre></div>
 
 
 

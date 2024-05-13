@@ -3317,14 +3317,14 @@ that you want to try out, have a look at the line where it says:</p>
 <code>origin</code>. If you cloned <code>qtile/qtile</code>, <code>git remote show origin</code> will spit
 out the <em>upstream</em> url. If you cloned your fork, <code>origin</code> points to it and you
 probably want to <code>git remote add upstream https://www.github.com/qtile/qtile</code>.
-To try out somebody's work, you can add their fork as a new remote::</p>
+To try out somebody's work, you can add their fork as a new remote:</p>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>remote<span class="w"> </span>add<span class="w"> </span>&lt;user&gt;<span class="w"> </span>https://www.github.com/user/qtile
 </code></pre></div>
 <p>where you fill in the username from the line we asked you to search for before.
 Then you can load data from that remote with <code>git fetch</code> and then ultimately
 check out the branch with <code>git checkout &lt;user&gt;/&lt;branch&gt;</code>.</p>
 <p><strong>Alternatively</strong>, it is also possible to fetch and checkout pull requests
-without needing to add other remotes. The upstream remote is sufficient::</p>
+without needing to add other remotes. The upstream remote is sufficient:</p>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>fetch<span class="w"> </span>upstream<span class="w"> </span>pull/&lt;id&gt;/head:pr&lt;id&gt;
 git<span class="w"> </span>checkout<span class="w"> </span>pr&lt;id&gt;
 </code></pre></div>
@@ -3340,7 +3340,7 @@ install it with <code>pip</code>.</p>
 <p>You can easily change your last commit: After you have done your work,
 <code>git add</code> everything you need and use <code>git commit --amend</code> to change your
 last commit. This causes the git history of your local clone to be diverged from
-your fork on GitHub, so you need to force-push your changes with::</p>
+your fork on GitHub, so you need to force-push your changes with:</p>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>push<span class="w"> </span>-f<span class="w"> </span>&lt;origin&gt;<span class="w"> </span>&lt;feature-branch&gt;
 </code></pre></div>
 <p>where origin might be your user name or <code>origin</code> if you cloned your fork and
@@ -3351,7 +3351,7 @@ and just specify the origin.</p>
 <p>If <em>upstream/master</em> is changed and you happened to change the same files as the
 commits that were added upstream, you should rebase your work onto the most
 recent <em>upstream/master</em>. Checkout your master, pull from <em>upstream</em>, checkout
-your branch again and then rebase it::</p>
+your branch again and then rebase it:</p>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>checkout<span class="w"> </span>master
 git<span class="w"> </span>pull<span class="w"> </span>upstream/master
 git<span class="w"> </span>checkout<span class="w"> </span>&lt;feature-branch&gt;
@@ -3367,7 +3367,7 @@ will find guides elsewhere to fix this problem, ideally by creating a branch and
 resetting your master branch to where it should be.</p>
 <h2 id="i-was-told-to-squash-some-commits">I was told to squash some commits<a class="headerlink" href="#i-was-told-to-squash-some-commits" title="Permanent link">&para;</a></h2>
 <p>If you introduce changes in one commit and replace them in another, you are told
-to squash these changes into one single commit without the intermediate step::</p>
+to squash these changes into one single commit without the intermediate step:</p>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>rebase<span class="w"> </span>-i<span class="w"> </span>master
 </code></pre></div>
 <p>opens a text editor with your commits and a comment block reminding you what you
@@ -3379,7 +3379,7 @@ afterwards.</p>
 <p>Note that interactive rebasing also allows you to split, reorder and edit
 commits.</p>
 <h2 id="i-was-told-to-edit-a-commit-message">I was told to edit a commit message<a class="headerlink" href="#i-was-told-to-edit-a-commit-message" title="Permanent link">&para;</a></h2>
-<p>If you need to edit the commit message of the last commit you did, use::</p>
+<p>If you need to edit the commit message of the last commit you did, use:</p>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>commit<span class="w"> </span>--amend
 </code></pre></div>
 <p>to open an editor giving you the possibility to reword the message. If you want
