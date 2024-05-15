@@ -3591,7 +3591,7 @@ of binding keys to <code>lazy.group[name].toscreen()</code>, use this:</p>
     <span class="n">keys</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">Key</span><span class="p">([</span><span class="n">mod</span><span class="p">],</span> <span class="n">i</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">lazy</span><span class="o">.</span><span class="n">function</span><span class="p">(</span><span class="n">go_to_group</span><span class="p">(</span><span class="n">i</span><span class="o">.</span><span class="n">name</span><span class="p">))))</span>
 </code></pre></div>
 <p>To be able to move windows across these groups which switching groups, a similar function can be used:</p>
-<p><div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">go_to_group_and_move_window</span><span class="p">(</span><span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">go_to_group_and_move_window</span><span class="p">(</span><span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
     <span class="k">def</span> <span class="nf">_inner</span><span class="p">(</span><span class="n">qtile</span><span class="p">):</span>
         <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">qtile</span><span class="o">.</span><span class="n">screens</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
             <span class="n">qtile</span><span class="o">.</span><span class="n">current_window</span><span class="o">.</span><span class="n">togroup</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">switch_group</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -3611,7 +3611,7 @@ of binding keys to <code>lazy.group[name].toscreen()</code>, use this:</p>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">groups</span><span class="p">:</span>
     <span class="n">keys</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">Key</span><span class="p">([</span><span class="n">mod</span><span class="p">,</span> <span class="s2">&quot;shift&quot;</span><span class="p">],</span> <span class="n">i</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">lazy</span><span class="o">.</span><span class="n">function</span><span class="p">(</span><span class="n">go_to_group_and_move_window</span><span class="p">(</span><span class="n">i</span><span class="o">.</span><span class="n">name</span><span class="p">))))</span>
 </code></pre></div>
-If you use the <code>GroupBox</code> widget you can make it reflect this behaviour:</p>
+<p>If you use the <code>GroupBox</code> widget you can make it reflect this behaviour:</p>
 <div class="highlight"><pre><span></span><code><span class="n">groupbox1</span> <span class="o">=</span> <span class="n">widget</span><span class="o">.</span><span class="n">GroupBox</span><span class="p">(</span><span class="n">visible_groups</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;1&#39;</span><span class="p">,</span> <span class="s1">&#39;2&#39;</span><span class="p">,</span> <span class="s1">&#39;3&#39;</span><span class="p">])</span>
 <span class="n">groupbox2</span> <span class="o">=</span> <span class="n">widget</span><span class="o">.</span><span class="n">GroupBox</span><span class="p">(</span><span class="n">visible_groups</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;q&#39;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">,</span> <span class="s1">&#39;e&#39;</span><span class="p">])</span>
 </code></pre></div>
@@ -3693,10 +3693,8 @@ Qtile exited with exitcode: -9
 </ul>
 <p>If it happens, it might be because you're missing fonts on your system.</p>
 <p>On ArchLinux, you can fix this by installing <code>xorg-fonts-misc</code>:</p>
-<pre><code>```bash
-sudo pacman -S xorg-fonts-misc
-```
-</code></pre>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>pacman<span class="w"> </span>-S<span class="w"> </span>xorg-fonts-misc
+</code></pre></div>
 <p>Try to search for "xorg fonts misc" with your distribution name on the internet
 to find how to install them.</p>
 <h2 id="ive-upgraded-and-qtiles-broken-what-do-i-do">I've upgraded and Qtile's broken. What do I do?<a class="headerlink" href="#ive-upgraded-and-qtiles-broken-what-do-i-do" title="Permanent link">&para;</a></h2>
