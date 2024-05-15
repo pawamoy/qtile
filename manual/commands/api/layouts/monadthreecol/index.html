@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://pawamoy.github.io/qtile/manual/commands/api/layouts/stack/">
+        <link rel="canonical" href="https://pawamoy.github.io/qtile/manual/commands/api/layouts/monadthreecol/">
       
       
-        <link rel="prev" href="../spiral/">
+        <link rel="prev" href="../monadtall/">
       
       
-        <link rel="next" href="../tile/">
+        <link rel="next" href="../monadwide/">
       
       
         
@@ -27,7 +27,7 @@
     
     
       
-        <title>Stack - Qtile</title>
+        <title>MonadThreeCol - Qtile</title>
       
     
     
@@ -88,7 +88,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#libqtile.layout.stack.Stack" class="md-skip">
+        <a href="#libqtile.layout.xmonad.MonadThreeCol" class="md-skip">
           Skip to content
         </a>
       
@@ -124,7 +124,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Stack
+              MonadThreeCol
             
           </span>
         </div>
@@ -1699,10 +1699,36 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../monadthreecol/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    
+  
+    MonadThreeCol
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -1717,6 +1743,532 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.group" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-attribute"></code>&nbsp;group
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.add_client" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;add_client
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.add_defaults" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;add_defaults
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.blur" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;blur
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.clone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;clone
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.command" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;command
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;commands
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.configure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;configure
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.doc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;doc
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.eval" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;eval
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.flip" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;flip
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.focus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;focus
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.focus_first" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;focus_first
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.focus_last" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;focus_last
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.focus_next" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;focus_next
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.focus_previous" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;focus_previous
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.function" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;function
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.get_shrink_margin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;get_shrink_margin
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.grow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;grow
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.grow_down_shared" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;grow_down_shared
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.grow_main" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;grow_main
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.grow_up_shared" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;grow_up_shared
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.hide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;hide
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.info" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;info
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.items" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;items
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.left" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;left
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.maximize" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;maximize
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.normalize" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;normalize
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.remove" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;remove
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.reset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;reset
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.right" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;right
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.select" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;select
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.set_ratio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;set_ratio
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.show" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;show
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.shrink" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;shrink
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.shrink_down" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;shrink_down
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.shrink_down_shared" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;shrink_down_shared
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.shrink_main" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;shrink_main
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.shrink_up" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;shrink_up
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.shrink_up_shared" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;shrink_up_shared
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.shuffle_down" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;shuffle_down
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.shuffle_up" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;shuffle_up
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.swap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;swap
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.swap_left" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;swap_left
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.swap_main" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;swap_main
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.swap_right" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;swap_right
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1888,36 +2440,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    
-  
-    Stack
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../stack/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1932,422 +2458,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.group" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-attribute"></code>&nbsp;group
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.add" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;add
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.add_client" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;add_client
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.add_defaults" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;add_defaults
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.blur" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;blur
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.client_to_next" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;client_to_next
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.client_to_previous" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;client_to_previous
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.client_to_stack" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;client_to_stack
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.clone" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;clone
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.command" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;command
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.commands" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;commands
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.configure" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;configure
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.delete" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;delete
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.doc" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;doc
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.down" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;down
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.eval" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;eval
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.focus" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;focus
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.focus_first" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;focus_first
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.focus_last" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;focus_last
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.focus_next" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;focus_next
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.focus_previous" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;focus_previous
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.function" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;function
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.hide" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;hide
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.info" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;info
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.items" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;items
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.next" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;next
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.previous" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;previous
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.remove" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;remove
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.rotate" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;rotate
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.select" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;select
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.show" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;show
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.shuffle_down" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;shuffle_down
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.shuffle_up" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;shuffle_up
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.swap" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;swap
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.toggle_split" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;toggle_split
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.up" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;up
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -3616,7 +3726,7 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.group" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.group" class="md-nav__link">
     <span class="md-ellipsis">
       
         <code class="doc-symbol doc-symbol-toc doc-symbol-attribute"></code>&nbsp;group
@@ -3627,18 +3737,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.add" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;add
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.add_client" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.add_client" class="md-nav__link">
     <span class="md-ellipsis">
       
         <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;add_client
@@ -3649,7 +3748,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.add_defaults" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.add_defaults" class="md-nav__link">
     <span class="md-ellipsis">
       
         <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;add_defaults
@@ -3660,7 +3759,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.blur" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.blur" class="md-nav__link">
     <span class="md-ellipsis">
       
         <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;blur
@@ -3671,40 +3770,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.client_to_next" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;client_to_next
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.client_to_previous" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;client_to_previous
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.client_to_stack" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;client_to_stack
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.clone" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.clone" class="md-nav__link">
     <span class="md-ellipsis">
       
         <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;clone
@@ -3715,7 +3781,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.command" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.command" class="md-nav__link">
     <span class="md-ellipsis">
       
         <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;command
@@ -3726,7 +3792,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.commands" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.commands" class="md-nav__link">
     <span class="md-ellipsis">
       
         <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;commands
@@ -3737,7 +3803,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.configure" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.configure" class="md-nav__link">
     <span class="md-ellipsis">
       
         <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;configure
@@ -3748,18 +3814,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.delete" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;delete
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.doc" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.doc" class="md-nav__link">
     <span class="md-ellipsis">
       
         <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;doc
@@ -3770,18 +3825,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.down" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;down
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.eval" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.eval" class="md-nav__link">
     <span class="md-ellipsis">
       
         <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;eval
@@ -3792,7 +3836,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.focus" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.flip" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;flip
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.focus" class="md-nav__link">
     <span class="md-ellipsis">
       
         <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;focus
@@ -3803,7 +3858,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.focus_first" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.focus_first" class="md-nav__link">
     <span class="md-ellipsis">
       
         <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;focus_first
@@ -3814,7 +3869,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.focus_last" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.focus_last" class="md-nav__link">
     <span class="md-ellipsis">
       
         <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;focus_last
@@ -3825,7 +3880,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.focus_next" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.focus_next" class="md-nav__link">
     <span class="md-ellipsis">
       
         <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;focus_next
@@ -3836,7 +3891,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.focus_previous" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.focus_previous" class="md-nav__link">
     <span class="md-ellipsis">
       
         <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;focus_previous
@@ -3847,7 +3902,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.function" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.function" class="md-nav__link">
     <span class="md-ellipsis">
       
         <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;function
@@ -3858,7 +3913,62 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.hide" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.get_shrink_margin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;get_shrink_margin
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.grow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;grow
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.grow_down_shared" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;grow_down_shared
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.grow_main" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;grow_main
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.grow_up_shared" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;grow_up_shared
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.hide" class="md-nav__link">
     <span class="md-ellipsis">
       
         <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;hide
@@ -3869,7 +3979,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.info" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.info" class="md-nav__link">
     <span class="md-ellipsis">
       
         <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;info
@@ -3880,7 +3990,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.items" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.items" class="md-nav__link">
     <span class="md-ellipsis">
       
         <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;items
@@ -3891,10 +4001,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.next" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.left" class="md-nav__link">
     <span class="md-ellipsis">
       
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;next
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;left
       
     </span>
   </a>
@@ -3902,10 +4012,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.previous" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.maximize" class="md-nav__link">
     <span class="md-ellipsis">
       
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;previous
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;maximize
       
     </span>
   </a>
@@ -3913,7 +4023,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.remove" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.normalize" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;normalize
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.remove" class="md-nav__link">
     <span class="md-ellipsis">
       
         <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;remove
@@ -3924,10 +4045,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.rotate" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.reset" class="md-nav__link">
     <span class="md-ellipsis">
       
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;rotate
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;reset
       
     </span>
   </a>
@@ -3935,7 +4056,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.select" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.right" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;right
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.select" class="md-nav__link">
     <span class="md-ellipsis">
       
         <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;select
@@ -3946,7 +4078,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.show" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.set_ratio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;set_ratio
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.show" class="md-nav__link">
     <span class="md-ellipsis">
       
         <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;show
@@ -3957,7 +4100,73 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.shuffle_down" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.shrink" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;shrink
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.shrink_down" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;shrink_down
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.shrink_down_shared" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;shrink_down_shared
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.shrink_main" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;shrink_main
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.shrink_up" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;shrink_up
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.shrink_up_shared" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;shrink_up_shared
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.shuffle_down" class="md-nav__link">
     <span class="md-ellipsis">
       
         <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;shuffle_down
@@ -3968,7 +4177,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.shuffle_up" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.shuffle_up" class="md-nav__link">
     <span class="md-ellipsis">
       
         <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;shuffle_up
@@ -3979,7 +4188,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.swap" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.swap" class="md-nav__link">
     <span class="md-ellipsis">
       
         <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;swap
@@ -3990,10 +4199,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.toggle_split" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.swap_left" class="md-nav__link">
     <span class="md-ellipsis">
       
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;toggle_split
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;swap_left
       
     </span>
   </a>
@@ -4001,10 +4210,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#libqtile.layout.stack.Stack.up" class="md-nav__link">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.swap_main" class="md-nav__link">
     <span class="md-ellipsis">
       
-        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;up
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;swap_main
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libqtile.layout.xmonad.MonadThreeCol.swap_right" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;swap_right
       
     </span>
   </a>
@@ -4028,7 +4248,7 @@
 
 
   
-    <a href="https://github.com/pawamoy/qtile/edit/master/docs/manual/commands/api/layouts/stack.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/pawamoy/qtile/edit/master/docs/manual/commands/api/layouts/monadthreecol.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -4037,7 +4257,7 @@
     
       
     
-    <a href="https://github.com/pawamoy/qtile/raw/master/docs/manual/commands/api/layouts/stack.md" title="View source of this page" class="md-content__button md-icon">
+    <a href="https://github.com/pawamoy/qtile/raw/master/docs/manual/commands/api/layouts/monadthreecol.md" title="View source of this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.15 8.15 0 0 1-1.23-2Z"/></svg>
     </a>
@@ -4048,26 +4268,66 @@
 
 
 
-<h1 id="libqtile.layout.stack.Stack" class="doc doc-heading">
-<code class="doc-symbol doc-symbol-heading doc-symbol-class"></code>          <span class="doc doc-object-name doc-class-name">Stack</span>
+<h1 id="libqtile.layout.xmonad.MonadThreeCol" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-class"></code>          <span class="doc doc-object-name doc-class-name">MonadThreeCol</span>
 
 
-<a href="#libqtile.layout.stack.Stack" class="headerlink" title="Permanent link">&para;</a></h1>
-<div class="doc-signature highlight"><pre><span></span><code><span class="nf">Stack</span><span class="p">(</span><span class="o">**</span><span class="n">config</span><span class="p">)</span>
+<a href="#libqtile.layout.xmonad.MonadThreeCol" class="headerlink" title="Permanent link">&para;</a></h1>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">MonadThreeCol</span><span class="p">(</span><span class="o">**</span><span class="n">config</span><span class="p">)</span>
 </code></pre></div>
 
   <div class="doc doc-contents first">
           <p class="doc doc-class-bases">
-            Bases: <code><span title="libqtile.layout.base.Layout">Layout</span></code></p>
+            Bases: <code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadTall" href="../monadtall/#libqtile.layout.xmonad.MonadTall">MonadTall</a></code></p>
 
 
   
-      <p>A layout composed of stacks of windows.</p>
-<p>The stack layout divides the screen_rect horizontally into a set of stacks.
-Commands allow you to switch between stacks, to next and previous windows
-within a stack, and to split a stack to show all windows in the stack, or
-unsplit it to show only the current window.</p>
-<p>Unlike the columns layout the number of stacks is fixed.</p>
+      <p>Emulate the behavior of XMonad's ThreeColumns layout.</p>
+<p>A layout similar to tall but with three columns. With an ultra wide display
+this layout can be used for a huge main window - ideally at the center of the
+screen - and up to six reasonable sized secondary windows.</p>
+<p>Main-Pane:</p>
+<p>A main pane that contains a single window takes up a vertical portion of
+the screen_rect based on the ratio setting. This ratio can be adjusted with
+the <code>grow_main</code> and <code>shrink_main</code> or, while the main pane is in
+focus, <code>grow</code> and <code>shrink</code>. The main pane can also be centered.</p>
+<pre><code>---------------------------    ---------------------------
+|           |      |      |    |      |           |      |
+|           |      |      |    |      |           |      |
+|           |      |      |    |      |           |      |
+|           |      |      |    |      |           |      |
+|           |      |      |    |      |           |      |
+|           |      |      |    |      |           |      |
+---------------------------    ---------------------------
+</code></pre>
+<p>Secondary-panes:</p>
+<p>Occupying the rest of the screen_rect are one or more secondary panes.  The
+secondary panes will be divided into two columns and share the vertical space
+of each column. However they can be resized at will with the <code>grow</code> and
+<code>shrink</code> methods. The other secondary panes will adjust their sizes to
+smoothly fill all of the space.</p>
+<pre><code>---------------------------    ---------------------------
+|           |      |      |    |           |______|      |
+|           |______|      |    |           |      |      |
+|           |      |______|    |           |      |______|
+|           |______|      |    |           |      |      |
+|           |      |      |    |           |______|      |
+|           |      |      |    |           |      |      |
+---------------------------    ---------------------------
+</code></pre>
+<p>Panes can be moved with the <code>shuffle_up</code> and <code>shuffle_down</code>
+methods. As mentioned the main pane is considered the top of the stack;
+moving up is counter-clockwise and moving down is clockwise. A secondary
+pane can also be promoted to the main pane with the <code>swap_main</code>
+method.</p>
+<p>Normalizing/Resetting:</p>
+<p>To restore all secondary client windows to their default size ratios
+use the <code>normalize</code> method.</p>
+<p>To reset all client windows to their default sizes, including the primary
+window, use the <code>reset</code> method.</p>
+<p>Maximizing:</p>
+<p>To maximized a client window simply use the <code>maximize</code> on a focused
+client.</p>
 
 
 
@@ -4077,248 +4337,318 @@ unsplit it to show only the current window.</p>
   <p><span class="doc-section-title">Methods:</span></p>
   <ul>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.add" href="#libqtile.layout.stack.Stack.add">add</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.add_client" href="#libqtile.layout.xmonad.MonadThreeCol.add_client">add_client</a></code></b>
           –
           <div class="doc-md-description">
-            <p>Add another stack to the layout.</p>
+            <p>Add client to layout.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.add_client" href="#libqtile.layout.stack.Stack.add_client">add_client</a></code></b>
-          –
-          <div class="doc-md-description">
-            <p>Called whenever a window is added to the group.</p>
-          </div>
-        </li>
-        <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.add_defaults" href="#libqtile.layout.stack.Stack.add_defaults">add_defaults</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.add_defaults" href="#libqtile.layout.xmonad.MonadThreeCol.add_defaults">add_defaults</a></code></b>
           –
           <div class="doc-md-description">
             <p>Add defaults to this object, overwriting any which already exist.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.blur" href="#libqtile.layout.stack.Stack.blur">blur</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.blur" href="#libqtile.layout.xmonad.MonadThreeCol.blur">blur</a></code></b>
           –
           <div class="doc-md-description">
             <p>Called whenever focus is gone from this layout.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.client_to_next" href="#libqtile.layout.stack.Stack.client_to_next">client_to_next</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.clone" href="#libqtile.layout.xmonad.MonadThreeCol.clone">clone</a></code></b>
           –
           <div class="doc-md-description">
-            <p>Send the current client to the next stack.</p>
+            <p>Clone layout for other groups.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.client_to_previous" href="#libqtile.layout.stack.Stack.client_to_previous">client_to_previous</a></code></b>
-          –
-          <div class="doc-md-description">
-            <p>Send the current client to the previous stack.</p>
-          </div>
-        </li>
-        <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.client_to_stack" href="#libqtile.layout.stack.Stack.client_to_stack">client_to_stack</a></code></b>
-          –
-          <div class="doc-md-description">
-            <p>Send the current client to stack n, where n is an integer offset.  If</p>
-          </div>
-        </li>
-        <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.clone" href="#libqtile.layout.stack.Stack.clone">clone</a></code></b>
-          –
-          <div class="doc-md-description">
-            <p>Duplicate a layout.</p>
-          </div>
-        </li>
-        <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.command" href="#libqtile.layout.stack.Stack.command">command</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.command" href="#libqtile.layout.xmonad.MonadThreeCol.command">command</a></code></b>
           –
           <div class="doc-md-description">
             <p>Return the command with the given name.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.commands" href="#libqtile.layout.stack.Stack.commands">commands</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.commands" href="#libqtile.layout.xmonad.MonadThreeCol.commands">commands</a></code></b>
           –
           <div class="doc-md-description">
             <p>Returns a list of possible commands for this object.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.configure" href="#libqtile.layout.stack.Stack.configure">configure</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.configure" href="#libqtile.layout.xmonad.MonadThreeCol.configure">configure</a></code></b>
           –
           <div class="doc-md-description">
-            <p>Configure the layout.</p>
+            <p>Position client based on order and sizes.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.delete" href="#libqtile.layout.stack.Stack.delete">delete</a></code></b>
-          –
-          <div class="doc-md-description">
-            <p>Delete the current stack from the layout.</p>
-          </div>
-        </li>
-        <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.doc" href="#libqtile.layout.stack.Stack.doc">doc</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.doc" href="#libqtile.layout.xmonad.MonadThreeCol.doc">doc</a></code></b>
           –
           <div class="doc-md-description">
             <p>Returns the documentation for a specified command name.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.down" href="#libqtile.layout.stack.Stack.down">down</a></code></b>
-          –
-          <div class="doc-md-description">
-            <p>Switch to the next window in this stack.</p>
-          </div>
-        </li>
-        <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.eval" href="#libqtile.layout.stack.Stack.eval">eval</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.eval" href="#libqtile.layout.xmonad.MonadThreeCol.eval">eval</a></code></b>
           –
           <div class="doc-md-description">
             <p>Evaluates code in the same context as this function.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.focus" href="#libqtile.layout.stack.Stack.focus">focus</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.flip" href="#libqtile.layout.xmonad.MonadThreeCol.flip">flip</a></code></b>
+          –
+          <div class="doc-md-description">
+            <p>Flip the layout horizontally.</p>
+          </div>
+        </li>
+        <li class="doc-section-item field-body">
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.focus" href="#libqtile.layout.xmonad.MonadThreeCol.focus">focus</a></code></b>
           –
           <div class="doc-md-description">
             <p>Called whenever the focus changes.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.focus_first" href="#libqtile.layout.stack.Stack.focus_first">focus_first</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.focus_first" href="#libqtile.layout.xmonad.MonadThreeCol.focus_first">focus_first</a></code></b>
           –
           <div class="doc-md-description">
             <p>Called when the first client in Layout shall be focused.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.focus_last" href="#libqtile.layout.stack.Stack.focus_last">focus_last</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.focus_last" href="#libqtile.layout.xmonad.MonadThreeCol.focus_last">focus_last</a></code></b>
           –
           <div class="doc-md-description">
             <p>Called when the last client in Layout shall be focused.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.focus_next" href="#libqtile.layout.stack.Stack.focus_next">focus_next</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.focus_next" href="#libqtile.layout.xmonad.MonadThreeCol.focus_next">focus_next</a></code></b>
           –
           <div class="doc-md-description">
             <p>Called when the next client in Layout shall be focused.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.focus_previous" href="#libqtile.layout.stack.Stack.focus_previous">focus_previous</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.focus_previous" href="#libqtile.layout.xmonad.MonadThreeCol.focus_previous">focus_previous</a></code></b>
           –
           <div class="doc-md-description">
             <p>Called when the previous client in Layout shall be focused.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.function" href="#libqtile.layout.stack.Stack.function">function</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.function" href="#libqtile.layout.xmonad.MonadThreeCol.function">function</a></code></b>
           –
           <div class="doc-md-description">
             <p>Call a function with current object as argument.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.hide" href="#libqtile.layout.stack.Stack.hide">hide</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.get_shrink_margin" href="#libqtile.layout.xmonad.MonadThreeCol.get_shrink_margin">get_shrink_margin</a></code></b>
+          –
+          <div class="doc-md-description">
+            <p>Return how many remaining pixels a client can shrink.</p>
+          </div>
+        </li>
+        <li class="doc-section-item field-body">
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.grow" href="#libqtile.layout.xmonad.MonadThreeCol.grow">grow</a></code></b>
+          –
+          <div class="doc-md-description">
+            <p>Grow current window.</p>
+          </div>
+        </li>
+        <li class="doc-section-item field-body">
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.grow_down_shared" href="#libqtile.layout.xmonad.MonadThreeCol.grow_down_shared">grow_down_shared</a></code></b>
+          –
+          <div class="doc-md-description">
+            <p>Grow lower secondary clients.</p>
+          </div>
+        </li>
+        <li class="doc-section-item field-body">
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.grow_main" href="#libqtile.layout.xmonad.MonadThreeCol.grow_main">grow_main</a></code></b>
+          –
+          <div class="doc-md-description">
+            <p>Grow main pane.</p>
+          </div>
+        </li>
+        <li class="doc-section-item field-body">
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.grow_up_shared" href="#libqtile.layout.xmonad.MonadThreeCol.grow_up_shared">grow_up_shared</a></code></b>
+          –
+          <div class="doc-md-description">
+            <p>Grow higher secondary clients.</p>
+          </div>
+        </li>
+        <li class="doc-section-item field-body">
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.hide" href="#libqtile.layout.xmonad.MonadThreeCol.hide">hide</a></code></b>
           –
           <div class="doc-md-description">
             <p>Called when layout is being hidden.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.info" href="#libqtile.layout.stack.Stack.info">info</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.info" href="#libqtile.layout.xmonad.MonadThreeCol.info">info</a></code></b>
           –
           <div class="doc-md-description">
             <p>Returns a dictionary of layout information.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.items" href="#libqtile.layout.stack.Stack.items">items</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.items" href="#libqtile.layout.xmonad.MonadThreeCol.items">items</a></code></b>
           –
           <div class="doc-md-description">
             <p>Build a list of contained items for the given item class.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.next" href="#libqtile.layout.stack.Stack.next">next</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.left" href="#libqtile.layout.xmonad.MonadThreeCol.left">left</a></code></b>
           –
           <div class="doc-md-description">
-            <p>Focus next stack.</p>
+            <p>Focus on the closest window to the left of the current window.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.previous" href="#libqtile.layout.stack.Stack.previous">previous</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.maximize" href="#libqtile.layout.xmonad.MonadThreeCol.maximize">maximize</a></code></b>
           –
           <div class="doc-md-description">
-            <p>Focus previous stack.</p>
+            <p>Grow the currently focused client to the max size.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.remove" href="#libqtile.layout.stack.Stack.remove">remove</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.normalize" href="#libqtile.layout.xmonad.MonadThreeCol.normalize">normalize</a></code></b>
           –
           <div class="doc-md-description">
-            <p>Called whenever a window is removed from the group.</p>
+            <p>Evenly distribute screen-space among secondary clients.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.rotate" href="#libqtile.layout.stack.Stack.rotate">rotate</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.remove" href="#libqtile.layout.xmonad.MonadThreeCol.remove">remove</a></code></b>
           –
           <div class="doc-md-description">
-            <p>Rotate order of the stacks.</p>
+            <p>Remove client from layout.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.select" href="#libqtile.layout.stack.Stack.select">select</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.reset" href="#libqtile.layout.xmonad.MonadThreeCol.reset">reset</a></code></b>
+          –
+          <div class="doc-md-description">
+            <p>Reset Layout.</p>
+          </div>
+        </li>
+        <li class="doc-section-item field-body">
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.right" href="#libqtile.layout.xmonad.MonadThreeCol.right">right</a></code></b>
+          –
+          <div class="doc-md-description">
+            <p>Focus on the closest window to the right of the current window.</p>
+          </div>
+        </li>
+        <li class="doc-section-item field-body">
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.select" href="#libqtile.layout.xmonad.MonadThreeCol.select">select</a></code></b>
           –
           <div class="doc-md-description">
             <p>Return a selected object.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.show" href="#libqtile.layout.stack.Stack.show">show</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.set_ratio" href="#libqtile.layout.xmonad.MonadThreeCol.set_ratio">set_ratio</a></code></b>
+          –
+          <div class="doc-md-description">
+            <p>Directly set the main pane ratio.</p>
+          </div>
+        </li>
+        <li class="doc-section-item field-body">
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.show" href="#libqtile.layout.xmonad.MonadThreeCol.show">show</a></code></b>
           –
           <div class="doc-md-description">
             <p>Called when layout is being shown.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.shuffle_down" href="#libqtile.layout.stack.Stack.shuffle_down">shuffle_down</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.shrink" href="#libqtile.layout.xmonad.MonadThreeCol.shrink">shrink</a></code></b>
           –
           <div class="doc-md-description">
-            <p>Shuffle the order of this stack down.</p>
+            <p>Shrink current window.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.shuffle_up" href="#libqtile.layout.stack.Stack.shuffle_up">shuffle_up</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.shrink_down" href="#libqtile.layout.xmonad.MonadThreeCol.shrink_down">shrink_down</a></code></b>
           –
           <div class="doc-md-description">
-            <p>Shuffle the order of this stack up.</p>
+            <p>Shrink current window down.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.swap" href="#libqtile.layout.stack.Stack.swap">swap</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.shrink_down_shared" href="#libqtile.layout.xmonad.MonadThreeCol.shrink_down_shared">shrink_down_shared</a></code></b>
           –
           <div class="doc-md-description">
-            <p>Swap the two given clients c1 and c2.</p>
+            <p>Shrink secondary clients.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.toggle_split" href="#libqtile.layout.stack.Stack.toggle_split">toggle_split</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.shrink_main" href="#libqtile.layout.xmonad.MonadThreeCol.shrink_main">shrink_main</a></code></b>
           –
           <div class="doc-md-description">
-            <p>Toggle vertical split on the current stack.</p>
+            <p>Shrink main pane.</p>
           </div>
         </li>
         <li class="doc-section-item field-body">
-          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.up" href="#libqtile.layout.stack.Stack.up">up</a></code></b>
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.shrink_up" href="#libqtile.layout.xmonad.MonadThreeCol.shrink_up">shrink_up</a></code></b>
           –
           <div class="doc-md-description">
-            <p>Switch to the previous window in this stack.</p>
+            <p>Shrink the window up.</p>
+          </div>
+        </li>
+        <li class="doc-section-item field-body">
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.shrink_up_shared" href="#libqtile.layout.xmonad.MonadThreeCol.shrink_up_shared">shrink_up_shared</a></code></b>
+          –
+          <div class="doc-md-description">
+            <p>Shrink the shared space.</p>
+          </div>
+        </li>
+        <li class="doc-section-item field-body">
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.shuffle_down" href="#libqtile.layout.xmonad.MonadThreeCol.shuffle_down">shuffle_down</a></code></b>
+          –
+          <div class="doc-md-description">
+            <p>Shuffle the client down the stack.</p>
+          </div>
+        </li>
+        <li class="doc-section-item field-body">
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.shuffle_up" href="#libqtile.layout.xmonad.MonadThreeCol.shuffle_up">shuffle_up</a></code></b>
+          –
+          <div class="doc-md-description">
+            <p>Shuffle the client up the stack.</p>
+          </div>
+        </li>
+        <li class="doc-section-item field-body">
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.swap" href="#libqtile.layout.xmonad.MonadThreeCol.swap">swap</a></code></b>
+          –
+          <div class="doc-md-description">
+            <p>Swap two windows.</p>
+          </div>
+        </li>
+        <li class="doc-section-item field-body">
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.swap_left" href="#libqtile.layout.xmonad.MonadThreeCol.swap_left">swap_left</a></code></b>
+          –
+          <div class="doc-md-description">
+            <p>Swap current window with closest window to the left.</p>
+          </div>
+        </li>
+        <li class="doc-section-item field-body">
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.swap_main" href="#libqtile.layout.xmonad.MonadThreeCol.swap_main">swap_main</a></code></b>
+          –
+          <div class="doc-md-description">
+            <p>Swap current window to main pane.</p>
+          </div>
+        </li>
+        <li class="doc-section-item field-body">
+          <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.swap_right" href="#libqtile.layout.xmonad.MonadThreeCol.swap_right">swap_right</a></code></b>
+          –
+          <div class="doc-md-description">
+            <p>Swap current window with closest window to the right.</p>
           </div>
         </li>
   </ul>
@@ -4329,7 +4659,7 @@ unsplit it to show only the current window.</p>
   <p><span class="doc-section-title">Attributes:</span></p>
   <ul>
       <li class="doc-section-item field-body">
-        <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.stack.Stack.group" href="#libqtile.layout.stack.Stack.group">group</a></code></b>
+        <b><code><a class="autorefs autorefs-internal" title="libqtile.layout.xmonad.MonadThreeCol.group" href="#libqtile.layout.xmonad.MonadThreeCol.group">group</a></code></b>
             (<code><span title="libqtile.group._Group">_Group</span></code>)
         –
         <div class="doc-md-description">
@@ -4353,7 +4683,7 @@ unsplit it to show only the current window.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.group" class="doc doc-heading">
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.group" class="doc doc-heading">
 <code class="doc-symbol doc-symbol-heading doc-symbol-attribute"></code>          <span class="doc doc-object-name doc-attribute-name">group</span>
 
   
@@ -4361,7 +4691,7 @@ unsplit it to show only the current window.</p>
       <small class="doc doc-label doc-label-property"><code>property</code></small>
   </span>
 
-<a href="#libqtile.layout.stack.Stack.group" class="headerlink" title="Permanent link">&para;</a></h2>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.group" class="headerlink" title="Permanent link">&para;</a></h2>
 <div class="doc-signature highlight"><pre><span></span><code><span class="n">group</span><span class="p">:</span> <span class="n"><span title="libqtile.group._Group">_Group</span></span>
 </code></pre></div>
 
@@ -4383,41 +4713,17 @@ each layout is cloned for every group.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.add" class="doc doc-heading">
-<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">add</span>
-
-
-<a href="#libqtile.layout.stack.Stack.add" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="doc-signature highlight"><pre><span></span><code><span class="nf">add</span><span class="p">()</span>
-</code></pre></div>
-
-  <div class="doc doc-contents ">
-  
-      <p>Add another stack to the layout.</p>
-
-  </div>
-
-</div>
-
-
-<div class="doc doc-object doc-function">
-
-
-
-<h2 id="libqtile.layout.stack.Stack.add_client" class="doc doc-heading">
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.add_client" class="doc doc-heading">
 <code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">add_client</span>
 
 
-<a href="#libqtile.layout.stack.Stack.add_client" class="headerlink" title="Permanent link">&para;</a></h2>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.add_client" class="headerlink" title="Permanent link">&para;</a></h2>
 <div class="doc-signature highlight"><pre><span></span><code><span class="nf">add_client</span><span class="p">(</span><span class="n">client</span><span class="p">:</span> <span class="n"><span title="libqtile.backend.base.Window">Window</span></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span>
 </code></pre></div>
 
   <div class="doc doc-contents ">
   
-      <p>Called whenever a window is added to the group.</p>
-<p>Called whether the layout is current or not. The layout should just add
-the window to its internal datastructures, without mapping or
-configuring.</p>
+      <p>Add client to layout.</p>
 
   </div>
 
@@ -4428,11 +4734,11 @@ configuring.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.add_defaults" class="doc doc-heading">
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.add_defaults" class="doc doc-heading">
 <code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">add_defaults</span>
 
 
-<a href="#libqtile.layout.stack.Stack.add_defaults" class="headerlink" title="Permanent link">&para;</a></h2>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.add_defaults" class="headerlink" title="Permanent link">&para;</a></h2>
 <div class="doc-signature highlight"><pre><span></span><code><span class="nf">add_defaults</span><span class="p">(</span><span class="n">defaults</span><span class="p">)</span>
 </code></pre></div>
 
@@ -4449,11 +4755,11 @@ configuring.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.blur" class="doc doc-heading">
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.blur" class="doc doc-heading">
 <code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">blur</span>
 
 
-<a href="#libqtile.layout.stack.Stack.blur" class="headerlink" title="Permanent link">&para;</a></h2>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.blur" class="headerlink" title="Permanent link">&para;</a></h2>
 <div class="doc-signature highlight"><pre><span></span><code><span class="nf">blur</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span>
 </code></pre></div>
 
@@ -4470,97 +4776,17 @@ configuring.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.client_to_next" class="doc doc-heading">
-<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">client_to_next</span>
-
-
-<a href="#libqtile.layout.stack.Stack.client_to_next" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="doc-signature highlight"><pre><span></span><code><span class="nf">client_to_next</span><span class="p">()</span>
-</code></pre></div>
-
-  <div class="doc doc-contents ">
-  
-      <p>Send the current client to the next stack.</p>
-
-  </div>
-
-</div>
-
-
-<div class="doc doc-object doc-function">
-
-
-
-<h2 id="libqtile.layout.stack.Stack.client_to_previous" class="doc doc-heading">
-<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">client_to_previous</span>
-
-
-<a href="#libqtile.layout.stack.Stack.client_to_previous" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="doc-signature highlight"><pre><span></span><code><span class="nf">client_to_previous</span><span class="p">()</span>
-</code></pre></div>
-
-  <div class="doc doc-contents ">
-  
-      <p>Send the current client to the previous stack.</p>
-
-  </div>
-
-</div>
-
-
-<div class="doc doc-object doc-function">
-
-
-
-<h2 id="libqtile.layout.stack.Stack.client_to_stack" class="doc doc-heading">
-<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">client_to_stack</span>
-
-
-<a href="#libqtile.layout.stack.Stack.client_to_stack" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="doc-signature highlight"><pre><span></span><code><span class="nf">client_to_stack</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
-</code></pre></div>
-
-  <div class="doc doc-contents ">
-  
-      <p>Send the current client to stack n, where n is an integer offset.  If
-is too large or less than 0, it is wrapped modulo the number of stacks.</p>
-
-  </div>
-
-</div>
-
-
-<div class="doc doc-object doc-function">
-
-
-
-<h2 id="libqtile.layout.stack.Stack.clone" class="doc doc-heading">
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.clone" class="doc doc-heading">
 <code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">clone</span>
 
 
-<a href="#libqtile.layout.stack.Stack.clone" class="headerlink" title="Permanent link">&para;</a></h2>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.clone" class="headerlink" title="Permanent link">&para;</a></h2>
 <div class="doc-signature highlight"><pre><span></span><code><span class="nf">clone</span><span class="p">(</span><span class="n">group</span><span class="p">:</span> <span class="n"><span title="libqtile.group._Group">_Group</span></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" title="typing.Self" href="https://docs.python.org/3/library/typing.html#typing.Self">Self</a></span>
 </code></pre></div>
 
   <div class="doc doc-contents ">
   
-      <p>Duplicate a layout.</p>
-<p>Make a copy of this layout. This is done to provide each group with a
-unique instance of every layout.</p>
-
-
-
-  <p><span class="doc-section-title">Parameters:</span></p>
-  <ul>
-      <li class="doc-section-item field-body">
-          <b><code>group</code></b>
-            (<code><span title="libqtile.group._Group">_Group</span></code>)
-        –
-        <div class="doc-md-description">
-          <p>Group to attach new layout instance to.</p>
-        </div>
-      </li>
-  </ul>
+      <p>Clone layout for other groups.</p>
 
   </div>
 
@@ -4571,11 +4797,11 @@ unique instance of every layout.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.command" class="doc doc-heading">
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.command" class="doc doc-heading">
 <code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">command</span>
 
 
-<a href="#libqtile.layout.stack.Stack.command" class="headerlink" title="Permanent link">&para;</a></h2>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.command" class="headerlink" title="Permanent link">&para;</a></h2>
 <div class="doc-signature highlight"><pre><span></span><code><span class="nf">command</span><span class="p">(</span><span class="n">name</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" title="typing.Callable" href="https://docs.python.org/3/library/typing.html#typing.Callable">Callable</a></span> <span class="o">|</span> <span class="kc">None</span>
 </code></pre></div>
 
@@ -4606,11 +4832,11 @@ unique instance of every layout.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.commands" class="doc doc-heading">
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.commands" class="doc doc-heading">
 <code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">commands</span>
 
 
-<a href="#libqtile.layout.stack.Stack.commands" class="headerlink" title="Permanent link">&para;</a></h2>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.commands" class="headerlink" title="Permanent link">&para;</a></h2>
 <div class="doc-signature highlight"><pre><span></span><code><span class="nf">commands</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#list">list</a></span><span class="p">[</span><span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a></span><span class="p">]</span>
 </code></pre></div>
 
@@ -4628,23 +4854,17 @@ unique instance of every layout.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.configure" class="doc doc-heading">
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.configure" class="doc doc-heading">
 <code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">configure</span>
 
 
-<a href="#libqtile.layout.stack.Stack.configure" class="headerlink" title="Permanent link">&para;</a></h2>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.configure" class="headerlink" title="Permanent link">&para;</a></h2>
 <div class="doc-signature highlight"><pre><span></span><code><span class="nf">configure</span><span class="p">(</span><span class="n">client</span><span class="p">:</span> <span class="n"><span title="libqtile.backend.base.Window">Window</span></span><span class="p">,</span> <span class="n">screen_rect</span><span class="p">:</span> <span class="n"><span title="libqtile.config.ScreenRect">ScreenRect</span></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span>
 </code></pre></div>
 
   <div class="doc doc-contents ">
   
-      <p>Configure the layout.</p>
-<p>This method should:</p>
-<ul>
-<li>Configure the dimensions and borders of a window using the
-    <code>.place()</code> method.</li>
-<li>Call either <code>.hide()</code> or <code>.unhide()</code> on the window.</li>
-</ul>
+      <p>Position client based on order and sizes.</p>
 
   </div>
 
@@ -4655,32 +4875,11 @@ unique instance of every layout.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.delete" class="doc doc-heading">
-<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">delete</span>
-
-
-<a href="#libqtile.layout.stack.Stack.delete" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="doc-signature highlight"><pre><span></span><code><span class="nf">delete</span><span class="p">()</span>
-</code></pre></div>
-
-  <div class="doc doc-contents ">
-  
-      <p>Delete the current stack from the layout.</p>
-
-  </div>
-
-</div>
-
-
-<div class="doc doc-object doc-function">
-
-
-
-<h2 id="libqtile.layout.stack.Stack.doc" class="doc doc-heading">
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.doc" class="doc doc-heading">
 <code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">doc</span>
 
 
-<a href="#libqtile.layout.stack.Stack.doc" class="headerlink" title="Permanent link">&para;</a></h2>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.doc" class="headerlink" title="Permanent link">&para;</a></h2>
 <div class="doc-signature highlight"><pre><span></span><code><span class="nf">doc</span><span class="p">(</span><span class="n">name</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a></span>
 </code></pre></div>
 
@@ -4698,32 +4897,11 @@ unique instance of every layout.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.down" class="doc doc-heading">
-<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">down</span>
-
-
-<a href="#libqtile.layout.stack.Stack.down" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="doc-signature highlight"><pre><span></span><code><span class="nf">down</span><span class="p">()</span>
-</code></pre></div>
-
-  <div class="doc doc-contents ">
-  
-      <p>Switch to the next window in this stack.</p>
-
-  </div>
-
-</div>
-
-
-<div class="doc doc-object doc-function">
-
-
-
-<h2 id="libqtile.layout.stack.Stack.eval" class="doc doc-heading">
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.eval" class="doc doc-heading">
 <code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">eval</span>
 
 
-<a href="#libqtile.layout.stack.Stack.eval" class="headerlink" title="Permanent link">&para;</a></h2>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.eval" class="headerlink" title="Permanent link">&para;</a></h2>
 <div class="doc-signature highlight"><pre><span></span><code><span class="nb">eval</span><span class="p">(</span><span class="nf">code</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#tuple">tuple</a></span><span class="p">[</span><span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#bool">bool</a></span><span class="p">,</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a></span> <span class="o">|</span> <span class="kc">None</span><span class="p">]</span>
 </code></pre></div>
 
@@ -4743,11 +4921,32 @@ exec was used instead.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.focus" class="doc doc-heading">
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.flip" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">flip</span>
+
+
+<a href="#libqtile.layout.xmonad.MonadThreeCol.flip" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">flip</span><span class="p">()</span>
+</code></pre></div>
+
+  <div class="doc doc-contents ">
+  
+      <p>Flip the layout horizontally.</p>
+
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.focus" class="doc doc-heading">
 <code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">focus</span>
 
 
-<a href="#libqtile.layout.stack.Stack.focus" class="headerlink" title="Permanent link">&para;</a></h2>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.focus" class="headerlink" title="Permanent link">&para;</a></h2>
 <div class="doc-signature highlight"><pre><span></span><code><span class="nf">focus</span><span class="p">(</span><span class="n">client</span><span class="p">:</span> <span class="n"><span title="libqtile.backend.base.Window">Window</span></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span>
 </code></pre></div>
 
@@ -4764,11 +4963,11 @@ exec was used instead.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.focus_first" class="doc doc-heading">
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.focus_first" class="doc doc-heading">
 <code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">focus_first</span>
 
 
-<a href="#libqtile.layout.stack.Stack.focus_first" class="headerlink" title="Permanent link">&para;</a></h2>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.focus_first" class="headerlink" title="Permanent link">&para;</a></h2>
 <div class="doc-signature highlight"><pre><span></span><code><span class="nf">focus_first</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n"><span title="libqtile.backend.base.Window">Window</span></span> <span class="o">|</span> <span class="kc">None</span>
 </code></pre></div>
 
@@ -4790,11 +4989,11 @@ exec was used instead.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.focus_last" class="doc doc-heading">
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.focus_last" class="doc doc-heading">
 <code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">focus_last</span>
 
 
-<a href="#libqtile.layout.stack.Stack.focus_last" class="headerlink" title="Permanent link">&para;</a></h2>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.focus_last" class="headerlink" title="Permanent link">&para;</a></h2>
 <div class="doc-signature highlight"><pre><span></span><code><span class="nf">focus_last</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n"><span title="libqtile.backend.base.Window">Window</span></span> <span class="o">|</span> <span class="kc">None</span>
 </code></pre></div>
 
@@ -4816,12 +5015,12 @@ exec was used instead.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.focus_next" class="doc doc-heading">
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.focus_next" class="doc doc-heading">
 <code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">focus_next</span>
 
 
-<a href="#libqtile.layout.stack.Stack.focus_next" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="doc-signature highlight"><pre><span></span><code><span class="nf">focus_next</span><span class="p">(</span><span class="n">client</span><span class="p">:</span> <span class="n"><span title="libqtile.backend.base.Window">Window</span></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><span title="libqtile.backend.base.Window">Window</span></span> <span class="o">|</span> <span class="kc">None</span>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.focus_next" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">focus_next</span><span class="p">(</span><span class="n">window</span><span class="p">:</span> <span class="n"><span title="libqtile.backend.base.Window">Window</span></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><span title="libqtile.backend.base.Window">Window</span></span> <span class="o">|</span> <span class="kc">None</span>
 </code></pre></div>
 
   <div class="doc doc-contents ">
@@ -4860,12 +5059,12 @@ such that Floating clients are included in cycle.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.focus_previous" class="doc doc-heading">
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.focus_previous" class="doc doc-heading">
 <code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">focus_previous</span>
 
 
-<a href="#libqtile.layout.stack.Stack.focus_previous" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="doc-signature highlight"><pre><span></span><code><span class="nf">focus_previous</span><span class="p">(</span><span class="n">client</span><span class="p">:</span> <span class="n"><span title="libqtile.backend.base.Window">Window</span></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><span title="libqtile.backend.base.Window">Window</span></span> <span class="o">|</span> <span class="kc">None</span>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.focus_previous" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">focus_previous</span><span class="p">(</span><span class="n">window</span><span class="p">:</span> <span class="n"><span title="libqtile.backend.base.Window">Window</span></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><span title="libqtile.backend.base.Window">Window</span></span> <span class="o">|</span> <span class="kc">None</span>
 </code></pre></div>
 
   <div class="doc doc-contents ">
@@ -4904,11 +5103,11 @@ such that Floating clients are included in cycle.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.function" class="doc doc-heading">
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.function" class="doc doc-heading">
 <code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">function</span>
 
 
-<a href="#libqtile.layout.stack.Stack.function" class="headerlink" title="Permanent link">&para;</a></h2>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.function" class="headerlink" title="Permanent link">&para;</a></h2>
 <div class="doc-signature highlight"><pre><span></span><code><span class="nf">function</span><span class="p">(</span><span class="n">function</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span>
 </code></pre></div>
 
@@ -4925,11 +5124,125 @@ such that Floating clients are included in cycle.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.hide" class="doc doc-heading">
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.get_shrink_margin" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">get_shrink_margin</span>
+
+
+<a href="#libqtile.layout.xmonad.MonadThreeCol.get_shrink_margin" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">get_shrink_margin</span><span class="p">(</span><span class="n">cidx</span><span class="p">)</span>
+</code></pre></div>
+
+  <div class="doc doc-contents ">
+  
+      <p>Return how many remaining pixels a client can shrink.</p>
+
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.grow" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">grow</span>
+
+
+<a href="#libqtile.layout.xmonad.MonadThreeCol.grow" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">grow</span><span class="p">()</span>
+</code></pre></div>
+
+  <div class="doc doc-contents ">
+  
+      <p>Grow current window.</p>
+<p>Will grow the currently focused client reducing the size of those
+around it. Growing will stop when no other secondary clients can reduce
+their size any further.</p>
+
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.grow_down_shared" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">grow_down_shared</span>
+
+
+<a href="#libqtile.layout.xmonad.MonadThreeCol.grow_down_shared" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">grow_down_shared</span><span class="p">(</span><span class="n">cidx</span><span class="p">,</span> <span class="n">amt</span><span class="p">)</span>
+</code></pre></div>
+
+  <div class="doc doc-contents ">
+  
+      <p>Grow lower secondary clients.</p>
+<p>Will grow all secondary clients below the specified index by an equal
+share of the provided amount.</p>
+
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.grow_main" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">grow_main</span>
+
+
+<a href="#libqtile.layout.xmonad.MonadThreeCol.grow_main" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">grow_main</span><span class="p">()</span>
+</code></pre></div>
+
+  <div class="doc doc-contents ">
+  
+      <p>Grow main pane.</p>
+<p>Will grow the main pane, reducing the size of clients in the secondary
+pane.</p>
+
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.grow_up_shared" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">grow_up_shared</span>
+
+
+<a href="#libqtile.layout.xmonad.MonadThreeCol.grow_up_shared" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">grow_up_shared</span><span class="p">(</span><span class="n">cidx</span><span class="p">,</span> <span class="n">amt</span><span class="p">)</span>
+</code></pre></div>
+
+  <div class="doc doc-contents ">
+  
+      <p>Grow higher secondary clients.</p>
+<p>Will grow all secondary clients above the specified index by an equal
+share of the provided amount.</p>
+
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.hide" class="doc doc-heading">
 <code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">hide</span>
 
 
-<a href="#libqtile.layout.stack.Stack.hide" class="headerlink" title="Permanent link">&para;</a></h2>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.hide" class="headerlink" title="Permanent link">&para;</a></h2>
 <div class="doc-signature highlight"><pre><span></span><code><span class="nf">hide</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span>
 </code></pre></div>
 
@@ -4946,11 +5259,11 @@ such that Floating clients are included in cycle.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.info" class="doc doc-heading">
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.info" class="doc doc-heading">
 <code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">info</span>
 
 
-<a href="#libqtile.layout.stack.Stack.info" class="headerlink" title="Permanent link">&para;</a></h2>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.info" class="headerlink" title="Permanent link">&para;</a></h2>
 <div class="doc-signature highlight"><pre><span></span><code><span class="nf">info</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#dict">dict</a></span><span class="p">[</span><span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a></span><span class="p">,</span> <span class="n"><a class="autorefs autorefs-external" title="typing.Any" href="https://docs.python.org/3/library/typing.html#typing.Any">Any</a></span><span class="p">]</span>
 </code></pre></div>
 
@@ -4967,11 +5280,11 @@ such that Floating clients are included in cycle.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.items" class="doc doc-heading">
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.items" class="doc doc-heading">
 <code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">items</span>
 
 
-<a href="#libqtile.layout.stack.Stack.items" class="headerlink" title="Permanent link">&para;</a></h2>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.items" class="headerlink" title="Permanent link">&para;</a></h2>
 <div class="doc-signature highlight"><pre><span></span><code><span class="nf">items</span><span class="p">(</span><span class="n">name</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#tuple">tuple</a></span><span class="p">[</span><span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#bool">bool</a></span><span class="p">,</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#list">list</a></span><span class="p">[</span><span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a></span> <span class="o">|</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#int">int</a></span><span class="p">]</span> <span class="o">|</span> <span class="kc">None</span><span class="p">]</span>
 </code></pre></div>
 
@@ -4996,17 +5309,17 @@ items: a list of contained items
 
 
 
-<h2 id="libqtile.layout.stack.Stack.next" class="doc doc-heading">
-<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">next</span>
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.left" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">left</span>
 
 
-<a href="#libqtile.layout.stack.Stack.next" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="doc-signature highlight"><pre><span></span><code><span class="nb">next</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.left" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">left</span><span class="p">()</span>
 </code></pre></div>
 
   <div class="doc doc-contents ">
   
-      <p>Focus next stack.</p>
+      <p>Focus on the closest window to the left of the current window.</p>
 
   </div>
 
@@ -5017,17 +5330,17 @@ items: a list of contained items
 
 
 
-<h2 id="libqtile.layout.stack.Stack.previous" class="doc doc-heading">
-<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">previous</span>
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.maximize" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">maximize</span>
 
 
-<a href="#libqtile.layout.stack.Stack.previous" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="doc-signature highlight"><pre><span></span><code><span class="nf">previous</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.maximize" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">maximize</span><span class="p">()</span>
 </code></pre></div>
 
   <div class="doc doc-contents ">
   
-      <p>Focus previous stack.</p>
+      <p>Grow the currently focused client to the max size.</p>
 
   </div>
 
@@ -5038,21 +5351,38 @@ items: a list of contained items
 
 
 
-<h2 id="libqtile.layout.stack.Stack.remove" class="doc doc-heading">
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.normalize" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">normalize</span>
+
+
+<a href="#libqtile.layout.xmonad.MonadThreeCol.normalize" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">normalize</span><span class="p">(</span><span class="n">redraw</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</code></pre></div>
+
+  <div class="doc doc-contents ">
+  
+      <p>Evenly distribute screen-space among secondary clients.</p>
+
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.remove" class="doc doc-heading">
 <code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">remove</span>
 
 
-<a href="#libqtile.layout.stack.Stack.remove" class="headerlink" title="Permanent link">&para;</a></h2>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.remove" class="headerlink" title="Permanent link">&para;</a></h2>
 <div class="doc-signature highlight"><pre><span></span><code><span class="nf">remove</span><span class="p">(</span><span class="n">client</span><span class="p">:</span> <span class="n"><span title="libqtile.backend.base.Window">Window</span></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><span title="libqtile.backend.base.Window">Window</span></span> <span class="o">|</span> <span class="kc">None</span>
 </code></pre></div>
 
   <div class="doc doc-contents ">
   
-      <p>Called whenever a window is removed from the group.</p>
-<p>Called whether the layout is current or not. The layout should just
-de-register the window from its data structures, without unmapping the
-window.</p>
-<p>Returns the "next" window that should gain focus or None.</p>
+      <p>Remove client from layout.</p>
 
   </div>
 
@@ -5063,17 +5393,17 @@ window.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.rotate" class="doc doc-heading">
-<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">rotate</span>
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.reset" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">reset</span>
 
 
-<a href="#libqtile.layout.stack.Stack.rotate" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="doc-signature highlight"><pre><span></span><code><span class="nf">rotate</span><span class="p">()</span>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.reset" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">reset</span><span class="p">(</span><span class="n">ratio</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">redraw</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </code></pre></div>
 
   <div class="doc doc-contents ">
   
-      <p>Rotate order of the stacks.</p>
+      <p>Reset Layout.</p>
 
   </div>
 
@@ -5084,11 +5414,32 @@ window.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.select" class="doc doc-heading">
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.right" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">right</span>
+
+
+<a href="#libqtile.layout.xmonad.MonadThreeCol.right" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">right</span><span class="p">()</span>
+</code></pre></div>
+
+  <div class="doc doc-contents ">
+  
+      <p>Focus on the closest window to the right of the current window.</p>
+
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.select" class="doc doc-heading">
 <code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">select</span>
 
 
-<a href="#libqtile.layout.stack.Stack.select" class="headerlink" title="Permanent link">&para;</a></h2>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.select" class="headerlink" title="Permanent link">&para;</a></h2>
 <div class="doc-signature highlight"><pre><span></span><code><span class="nf">select</span><span class="p">(</span><span class="n">selectors</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#list">list</a></span><span class="p">[</span><span class="n"><span title="libqtile.command.graph.SelectorType">SelectorType</span></span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n"><span title="libqtile.command.base.CommandObject">CommandObject</span></span>
 </code></pre></div>
 
@@ -5108,11 +5459,32 @@ items.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.show" class="doc doc-heading">
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.set_ratio" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">set_ratio</span>
+
+
+<a href="#libqtile.layout.xmonad.MonadThreeCol.set_ratio" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">set_ratio</span><span class="p">(</span><span class="n">ratio</span><span class="p">)</span>
+</code></pre></div>
+
+  <div class="doc doc-contents ">
+  
+      <p>Directly set the main pane ratio.</p>
+
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.show" class="doc doc-heading">
 <code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">show</span>
 
 
-<a href="#libqtile.layout.stack.Stack.show" class="headerlink" title="Permanent link">&para;</a></h2>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.show" class="headerlink" title="Permanent link">&para;</a></h2>
 <div class="doc-signature highlight"><pre><span></span><code><span class="nf">show</span><span class="p">(</span><span class="n">screen_rect</span><span class="p">:</span> <span class="n"><span title="libqtile.config.ScreenRect">ScreenRect</span></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span>
 </code></pre></div>
 
@@ -5129,17 +5501,166 @@ items.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.shuffle_down" class="doc doc-heading">
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.shrink" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">shrink</span>
+
+
+<a href="#libqtile.layout.xmonad.MonadThreeCol.shrink" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">shrink</span><span class="p">()</span>
+</code></pre></div>
+
+  <div class="doc doc-contents ">
+  
+      <p>Shrink current window.</p>
+<p>Will shrink the currently focused client reducing the size of those
+around it. Shrinking will stop when the client has reached the minimum
+size.</p>
+
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.shrink_down" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">shrink_down</span>
+
+
+<a href="#libqtile.layout.xmonad.MonadThreeCol.shrink_down" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">shrink_down</span><span class="p">(</span><span class="n">cidx</span><span class="p">,</span> <span class="n">amt</span><span class="p">)</span>
+</code></pre></div>
+
+  <div class="doc doc-contents ">
+  
+      <p>Shrink current window down.</p>
+<p>Will shrink all secondary clients below the specified index in order.
+Each client will attempt to shrink as much as it is able before the
+next client is resized.</p>
+<p>Any amount that was unable to be applied to the clients is returned.</p>
+
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.shrink_down_shared" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">shrink_down_shared</span>
+
+
+<a href="#libqtile.layout.xmonad.MonadThreeCol.shrink_down_shared" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">shrink_down_shared</span><span class="p">(</span><span class="n">cidx</span><span class="p">,</span> <span class="n">amt</span><span class="p">)</span>
+</code></pre></div>
+
+  <div class="doc doc-contents ">
+  
+      <p>Shrink secondary clients.</p>
+<p>Will shrink all secondary clients below the specified index by an equal
+share of the provided amount. After applying the shared amount to all
+affected clients, any amount left over will be applied in a non-equal
+manner with <code>shrink_down</code>.</p>
+<p>Any amount that was unable to be applied to the clients is returned.</p>
+
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.shrink_main" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">shrink_main</span>
+
+
+<a href="#libqtile.layout.xmonad.MonadThreeCol.shrink_main" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">shrink_main</span><span class="p">()</span>
+</code></pre></div>
+
+  <div class="doc doc-contents ">
+  
+      <p>Shrink main pane.</p>
+<p>Will shrink the main pane, increasing the size of clients in the
+secondary pane.</p>
+
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.shrink_up" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">shrink_up</span>
+
+
+<a href="#libqtile.layout.xmonad.MonadThreeCol.shrink_up" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">shrink_up</span><span class="p">(</span><span class="n">cidx</span><span class="p">,</span> <span class="n">amt</span><span class="p">)</span>
+</code></pre></div>
+
+  <div class="doc doc-contents ">
+  
+      <p>Shrink the window up.</p>
+<p>Will shrink all secondary clients above the specified index in order.
+Each client will attempt to shrink as much as it is able before the
+next client is resized.</p>
+<p>Any amount that was unable to be applied to the clients is returned.</p>
+
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.shrink_up_shared" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">shrink_up_shared</span>
+
+
+<a href="#libqtile.layout.xmonad.MonadThreeCol.shrink_up_shared" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">shrink_up_shared</span><span class="p">(</span><span class="n">cidx</span><span class="p">,</span> <span class="n">amt</span><span class="p">)</span>
+</code></pre></div>
+
+  <div class="doc doc-contents ">
+  
+      <p>Shrink the shared space.</p>
+<p>Will shrink all secondary clients above the specified index by an equal
+share of the provided amount. After applying the shared amount to all
+affected clients, any amount left over will be applied in a non-equal
+manner with <code>shrink_up</code>.</p>
+<p>Any amount that was unable to be applied to the clients is returned.</p>
+
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.shuffle_down" class="doc doc-heading">
 <code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">shuffle_down</span>
 
 
-<a href="#libqtile.layout.stack.Stack.shuffle_down" class="headerlink" title="Permanent link">&para;</a></h2>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.shuffle_down" class="headerlink" title="Permanent link">&para;</a></h2>
 <div class="doc-signature highlight"><pre><span></span><code><span class="nf">shuffle_down</span><span class="p">()</span>
 </code></pre></div>
 
   <div class="doc doc-contents ">
   
-      <p>Shuffle the order of this stack down.</p>
+      <p>Shuffle the client down the stack.</p>
 
   </div>
 
@@ -5150,17 +5671,17 @@ items.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.shuffle_up" class="doc doc-heading">
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.shuffle_up" class="doc doc-heading">
 <code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">shuffle_up</span>
 
 
-<a href="#libqtile.layout.stack.Stack.shuffle_up" class="headerlink" title="Permanent link">&para;</a></h2>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.shuffle_up" class="headerlink" title="Permanent link">&para;</a></h2>
 <div class="doc-signature highlight"><pre><span></span><code><span class="nf">shuffle_up</span><span class="p">()</span>
 </code></pre></div>
 
   <div class="doc doc-contents ">
   
-      <p>Shuffle the order of this stack up.</p>
+      <p>Shuffle the client up the stack.</p>
 
   </div>
 
@@ -5171,17 +5692,17 @@ items.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.swap" class="doc doc-heading">
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.swap" class="doc doc-heading">
 <code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">swap</span>
 
 
-<a href="#libqtile.layout.stack.Stack.swap" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="doc-signature highlight"><pre><span></span><code><span class="nf">swap</span><span class="p">(</span><span class="n">c1</span><span class="p">:</span> <span class="n"><span title="libqtile.backend.base.Window">Window</span></span><span class="p">,</span> <span class="n">c2</span><span class="p">:</span> <span class="n"><span title="libqtile.backend.base.Window">Window</span></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.swap" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">swap</span><span class="p">(</span><span class="n">window1</span><span class="p">:</span> <span class="n"><span title="libqtile.backend.base.Window">Window</span></span><span class="p">,</span> <span class="n">window2</span><span class="p">:</span> <span class="n"><span title="libqtile.backend.base.Window">Window</span></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span>
 </code></pre></div>
 
   <div class="doc doc-contents ">
   
-      <p>Swap the two given clients c1 and c2.</p>
+      <p>Swap two windows.</p>
 
   </div>
 
@@ -5192,17 +5713,17 @@ items.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.toggle_split" class="doc doc-heading">
-<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">toggle_split</span>
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.swap_left" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">swap_left</span>
 
 
-<a href="#libqtile.layout.stack.Stack.toggle_split" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="doc-signature highlight"><pre><span></span><code><span class="nf">toggle_split</span><span class="p">()</span>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.swap_left" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">swap_left</span><span class="p">()</span>
 </code></pre></div>
 
   <div class="doc doc-contents ">
   
-      <p>Toggle vertical split on the current stack.</p>
+      <p>Swap current window with closest window to the left.</p>
 
   </div>
 
@@ -5213,17 +5734,38 @@ items.</p>
 
 
 
-<h2 id="libqtile.layout.stack.Stack.up" class="doc doc-heading">
-<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">up</span>
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.swap_main" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">swap_main</span>
 
 
-<a href="#libqtile.layout.stack.Stack.up" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="doc-signature highlight"><pre><span></span><code><span class="nf">up</span><span class="p">()</span>
+<a href="#libqtile.layout.xmonad.MonadThreeCol.swap_main" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">swap_main</span><span class="p">()</span>
 </code></pre></div>
 
   <div class="doc doc-contents ">
   
-      <p>Switch to the previous window in this stack.</p>
+      <p>Swap current window to main pane.</p>
+
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="libqtile.layout.xmonad.MonadThreeCol.swap_right" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>          <span class="doc doc-object-name doc-function-name">swap_right</span>
+
+
+<a href="#libqtile.layout.xmonad.MonadThreeCol.swap_right" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">swap_right</span><span class="p">()</span>
+</code></pre></div>
+
+  <div class="doc doc-contents ">
+  
+      <p>Swap current window with closest window to the right.</p>
 
   </div>
 
@@ -5272,7 +5814,7 @@ items.</p>
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../spiral/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Spiral">
+          <a href="../monadtall/" class="md-footer__link md-footer__link--prev" aria-label="Previous: MonadTall">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -5282,20 +5824,20 @@ items.</p>
                 Previous
               </span>
               <div class="md-ellipsis">
-                Spiral
+                MonadTall
               </div>
             </div>
           </a>
         
         
           
-          <a href="../tile/" class="md-footer__link md-footer__link--next" aria-label="Next: Tile">
+          <a href="../monadwide/" class="md-footer__link md-footer__link--next" aria-label="Next: MonadWide">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Tile
+                MonadWide
               </div>
             </div>
             <div class="md-footer__button md-icon">
